@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react';
+import "./Header.css"
 import { FaAngleDown } from "react-icons/fa6";
 import { IoMenuSharp } from "react-icons/io5";
 const Header = () => {
+  const [fix,setFix]=useState(false);
+
+  const setFixed=()=>{
+    if(window.scrollY>=100){
+        setFix(true);
+    }else{
+        setFix(false);
+    }
+}
+
+window.addEventListener('scroll',setFixed)
+
   return (
-    <section className='w-full justify-center flex py-5'>
+    <section className={`${fix?'navbar fixed':'navbar'} bg-transparent w-full justify-center flex py-5`}>
       <nav className='flex w-[90%] justify-between'>
         <h1 className='text-2xl font-bold'>Metax</h1>
 

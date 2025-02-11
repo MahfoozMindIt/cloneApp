@@ -1,0 +1,6 @@
+.navbar.fixed{
+    background: #060C1C;
+    transition: all 0.5s;
+    z-index: 100000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
+}
