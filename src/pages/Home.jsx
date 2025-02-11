@@ -16,14 +16,14 @@ const Home = () => {
       <main className='md:w-[90%] w-[95%] z-30 flex items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
-        <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 xl:pt-48'>
+        <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 xl:pt-44'>
         <div className='w-fit items-center  gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
             <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link className='text-v4'>Learn more</Link></p>
         </div>
         <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10 pt-10'>
             <h1 className='xl:text-7xl md:text-5xl text-4xl text-center font-bold'>
-            What can <span className='text-btnBg'>Skyli</span><span className='text-v3'>ne of</span><span className='text-v4'>fer you?</span>
+            What can <span className='text-btnBg'>Met</span><span className='text-v3'>ax of</span><span className='text-v4'>fer you?</span>
             </h1>
             <p className='text-center md:text-[19px] text-[17px]'>A Non-Custodial Solution Opening the Doors of TradFi for <br className='hidden md:block'/> Web3 Businesses and Founders.</p>
             <button className='w-[180px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Join now</button>
