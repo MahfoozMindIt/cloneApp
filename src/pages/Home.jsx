@@ -97,7 +97,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7 lg:w-[450px] md:w-fit rounded-2xl border-[#1D212A] border-[1px] flex flex-col gap-5' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7   rounded-2xl border-[#1D212A] border-[1px] flex flex-col gap-5' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><IoIosCard className='text-2xl'/></div>
@@ -133,7 +133,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7 py-10 lg:w-[430px] w-fit rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7 py-10  rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlinePrivacyTip className='text-2xl'/></div>
