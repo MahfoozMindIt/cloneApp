@@ -9,6 +9,9 @@ import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from "reac
 import { IoIosCard } from 'react-icons/io';
 import { GiTwoCoins } from 'react-icons/gi';
 import { FaFileInvoiceDollar } from 'react-icons/fa6';
+import gateway1 from '../assets/gateway1.svg'
+import gateway2 from '../assets/gateway2.svg'
+import gateway3 from '../assets/gateway3.svg'
 
 const Home = () => {
   return (
@@ -139,6 +142,38 @@ const Home = () => {
      
              </section>
              {/* card section ends  now........... */}
+
+
+
+             {/* ......................... Enhanced Functionality    section   starts ................. */}
+<section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
+
+<div className='lg:w-[48%] w-full'>
+        <h2 className='lg:text-6xl text-5xl font-semibold leading-18'>
+                Enhanced <br className='hidden lg:block '/> Functionality
+        </h2>
+        <div className='flex gap-5 items-center flex-wrap py-10'>
+                <img src={gateway1} alt="" />
+                <img src={gateway2} alt="" />
+                <img src={gateway3} alt="" />
+        </div>
+<h3 className='text-4xl font-semibold pt-3 pb-7'>
+<span className='text-btnBg leading-18'>Eas</span><span className='text-v3'>y integra</span><span className='text-v4'>tion with</span> <br className='hidden lg:block '/> different wallets
+</h3>
+<p className='text-[grey] text-lg'>
+Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidden lg:block '/> WalletConnect with Skyline to unlock a world of effortless transactions.
+</p>
+</div>
+
+
+<div className='lg:w-[48%] w-full'>
+<div className='bg-[#0B101B] w-full h-[500px] rounded-2xl border-[#181F2F] border-[1px]'>
+
+</div>
+</div>
+
+</section>
+{/* ......................... Enhanced Functionality    section   ends ................. */}
         </section>
 
       </main>
