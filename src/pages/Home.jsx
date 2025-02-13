@@ -236,7 +236,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 </main>
 
 </div>
-<div className=' md:w-[90%] xl:w-[85%] w-[95%]  h-96 mt-[400px] mb-[3200px] md:mb-[3000px] lg:mb-[1950px]'>
+<div className=' md:w-[90%] xl:w-[85%] w-[95%]  h-96 mt-[400px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
@@ -320,7 +320,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 {/* .............integrating with any crypto invoices section ends .............. */}
 
 {/* ......... Check latest news section start .......... */}
-<section className='flex bg-[#0C101A] w-full rounded-t-4xl py-2 border-border border-[1px] justify-between relative mb-5'>
+<section className=' md:flex hidden bg-[#0C101A] w-full rounded-t-4xl py-2 border-border border-[1px] justify-between relative mb-5'>
 <div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 w-[50%] lg:w-full justify-center'>
         <h2 className='xl:text-6xl lg:text-4xl md:text-xl font font-semibold'>Check latest news</h2>
         <p className='md:text-sm text-[13px] lg:text-normal'>
@@ -333,7 +333,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 <button className='bg-btnBg hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 rounded lg:rounded-full text-sm md:text-lg md:font-medium absolute lg:top-26 md:top-10 top-5 right-5 md:right-14'>See our blog</button>
          
 </section>
-<section className='flex w-full rounded-b-4xl border-border border-[1px] justify-between relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
+<section className=' md:flex hidden w-full rounded-b-4xl border-border border-[1px] justify-between relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
 <div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 lg:w-full w-[50%] justify-center'>
         <h2 className='xl:text-6xl lg:text-4xl md:text-xl font font-semibold'>Have any questions?</h2>
         <p className='md:text-sm text-[13px] lg:text-normal'>
@@ -348,7 +348,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 </section>
 {/* ......... Check latest news section end .......... */}
 </div>
-<main className='w-full text-white'>
+<main className='w-full text-white pt-10 pb-28'>
 <Slider/>
 
 </main>

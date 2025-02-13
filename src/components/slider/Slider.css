@@ -1,13 +1,12 @@
 .slider {
     overflow: hidden;
     width: 100%;
-    border: 1px solid #ccc; /* for debugging */
   }
   
   .slider-track {
     display: flex;
     width: max-content; /* shrink-wrap the content */
-    animation: scrollTrack 30s linear infinite;
+    animation: scrollTrack 13s linear infinite;
   }
   
   @keyframes scrollTrack {
@@ -22,8 +21,8 @@
   
   .item {
     flex: 0 0 auto;
-    padding: 0 2rem;
-    font-size: 4rem; /* or your Tailwind class equivalent */
+    padding: 0 1rem;
+    margin-bottom: 10px;
     white-space: nowrap;
   }
   
