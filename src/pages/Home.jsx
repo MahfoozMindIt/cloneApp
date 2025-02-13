@@ -47,7 +47,7 @@ const Home = () => {
         
         {/* flex 1 */}
         <section className='flex gap-10 flex-col'>
-        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><AiOutlineGlobal className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Crypto to Fiat Payments
@@ -82,14 +82,14 @@ const Home = () => {
         {/* flex 2 */}
         <section className='flex gap-10 xl:mt-10 mt-0 flex-col'>
         <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><BsPersonFill className='text-3xl'/></div>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><BsPersonFill className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Virtual Accounts
      </h2>
      <p className='text-[grey] font-semibold'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
      
              </div>
-             <div className='p-7 pb-10 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7 pb-10 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlineCompareArrows className='text-3xl'/></div>
      <h2 className='text-2xl font-bold'>
      OTC Trades
@@ -98,7 +98,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7 pb-10 xl:h-[240px]  rounded-2xl border-[#1D212A] border-[1px] flex flex-col gap-3' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7 pb-10 xl:h-[240px]  rounded-2xl border-[#1A2436] border-[1px] flex flex-col gap-3' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><IoIosCard className='text-2xl'/></div>
@@ -126,7 +126,7 @@ const Home = () => {
      
              </div>
              <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><FaFileInvoiceDollar className='text-3xl'/></div>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><FaFileInvoiceDollar className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Payables & Invoice Me
      </h2>
