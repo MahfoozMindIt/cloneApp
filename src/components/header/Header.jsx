@@ -41,22 +41,22 @@ window.addEventListener('scroll',setFixed)
 
                   <div className='grid grid-cols-2 gap-3 pb-3'>
                     <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
-                      <div className='flex items-center gap-3 font-semibold'>
+                      <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
                       <h2>Ultra High Net Worth Individual</h2>
                       </div>
-                      <p className='text-[grey] text-sm'>
+                      <p className='text-[grey] text-sm font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>
                     <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
-                      <div className='flex items-center gap-3 font-semibold'>
+                      <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
                       <h2>Ultra High Net Worth Individual</h2>
                       </div>
-                      <p className='text-[grey] text-sm'>
+                      <p className='text-[grey] text-sm font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>
@@ -64,32 +64,32 @@ window.addEventListener('scroll',setFixed)
                   </div>
                   <div className='grid grid-cols-3 gap-3 pb-3'>
                   <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
-                      <div className='flex items-center gap-3 font-semibold'>
+                      <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
                       <h2>Ultra High Net Worth Individual</h2>
                       </div>
-                      <p className='text-[grey] text-sm'>
+                      <p className='text-[grey] text-sm font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>
                     <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
-                      <div className='flex items-center gap-3 font-semibold'>
+                      <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
                       <h2>Ultra High Net Worth Individual</h2>
                       </div>
-                      <p className='text-[grey] text-sm'>
+                      <p className='text-[grey] text-sm font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>
                     <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
-                      <div className='flex items-center gap-3 font-semibold'>
+                      <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
                       <h2>Ultra High Net Worth Individual</h2>
                       </div>
-                      <p className='text-[grey] text-sm'>
+                      <p className='text-[grey] text-sm font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>
