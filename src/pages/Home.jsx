@@ -46,14 +46,14 @@ const Home = () => {
 <section className=' grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10'>
         
         {/* flex 1 */}
-        <section className='flex gap-10 flex-col'>
+        <section className='flex gap-10 flex-col cards'>
         <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><AiOutlineGlobal className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Crypto to Fiat Payments
      </h2>
      <p className='text-[grey] font-semibold'>
-     Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin. <br className='hidden xl:block'/>
+     Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin.
      Or use our <span className='font-semibold text-white'>On-ramp feature</span> to convert fiat currencies into crypto.</p>
      
              </div>
@@ -80,7 +80,7 @@ const Home = () => {
         </section>
      
         {/* flex 2 */}
-        <section className='flex gap-10 xl:mt-10 mt-0 flex-col'>
+        <section className='flex gap-10 xl:mt-10 mt-0 flex-col cards'>
         <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><BsPersonFill className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
@@ -116,7 +116,7 @@ const Home = () => {
         </section>
      
         {/* flex-3   */}
-        <section className='flex gap-10 flex-col'>
+        <section className='flex gap-10 flex-col cards'>
         <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><RiSecurePaymentLine className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>

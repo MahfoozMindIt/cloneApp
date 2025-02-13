@@ -1,4 +1,9 @@
 
+.cards p{
+    font-weight: 400;
+}
+
+
 @media screen and (max-width:2000px) {
     .width{
         width: 75%;
