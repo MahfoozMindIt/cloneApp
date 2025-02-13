@@ -20,12 +20,13 @@ import line from '../assets/curveline.svg';
 import side from '../assets/side.svg';
 import first from '../assets/first.svg';
 import second from '../assets/second.svg';
+import Slider from '../components/slider/Slider';
 
 const Home = () => {
         
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
-      <main className='md:w-[90%] w-[95%] z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
+      <main className='md:w-[90%] w-[95%] width z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
         <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 xl:pt-44'>
@@ -228,14 +229,14 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 <div className='w-full flex justify-center flex-col items-center relative'>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
-<main className='md:w-[90%] w-[95%] absolute md:top-40 top-20 lg:top-50 z-30 '>
+<main className='md:w-[90%] w-[95%] width absolute md:top-40 top-20 lg:top-50 z-30 '>
 <h1 className='text-6xl font-semibold text-center  z-30'>Level up with <span className='text-btnBg'>Met</span><span className='text-v3'>ax Di</span><span className='text-v4'>gital</span></h1>
 <p className='text-[grey] text-lg text-center py-10'>A hassle-free solution that sends your transactions to banking partners, and <br className='hidden lg:block'/> connects you to the TradFi world and network liquidity providers.</p>
 <div className='text-center'><button className='w-[220px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer text-center'>Join our Platform</button></div>
 </main>
 
 </div>
-<div className=' w-[95%] h-96 mt-[400px] mb-[3200px] md:mb-[3000px] lg:mb-[1950px] md:w-[90%]'>
+<div className=' w-[95%] h-96 mt-[400px] mb-[3200px] md:mb-[3000px] lg:mb-[1950px] width md:w-[90%]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
@@ -347,8 +348,8 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 </section>
 {/* ......... Check latest news section end .......... */}
 </div>
-<main className='py-10 text-white'>
-
+<main className='w-full text-white'>
+<Slider/>
 
 </main>
 
