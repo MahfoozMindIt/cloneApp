@@ -26,7 +26,7 @@ const Home = () => {
         
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
-      <main className='md:w-[90%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
+      <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
         <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 xl:pt-44'>
@@ -47,17 +47,17 @@ const Home = () => {
         
         {/* flex 1 */}
         <section className='flex gap-10 flex-col'>
-        <div className='p-7 rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><AiOutlineGlobal className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Crypto to Fiat Payments
      </h2>
      <p className='text-[grey] font-semibold'>
-     Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin.
+     Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin. <br className='hidden xl:block'/>
      Or use our <span className='font-semibold text-white'>On-ramp feature</span> to convert fiat currencies into crypto.</p>
      
              </div>
-             <div className='p-7 rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdAccountTree className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Crypto Payments
@@ -66,7 +66,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7 rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+             <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><GiTwoCoins className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Loans
@@ -81,7 +81,7 @@ const Home = () => {
      
         {/* flex 2 */}
         <section className='flex gap-10 xl:mt-10 mt-0 flex-col'>
-        <div className='p-7 py-10 rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><BsPersonFill className='text-3xl'/></div>
      <h2 className='text-2xl font-bold'>
      Virtual Accounts
@@ -89,7 +89,7 @@ const Home = () => {
      <p className='text-[grey] font-semibold'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
      
              </div>
-             <div className='p-7 py-14 rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7 pb-10 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlineCompareArrows className='text-3xl'/></div>
      <h2 className='text-2xl font-bold'>
      OTC Trades
@@ -98,7 +98,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7   rounded-2xl border-[#1D212A] border-[1px] flex flex-col gap-5' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7 pb-10 xl:h-[240px]  rounded-2xl border-[#1D212A] border-[1px] flex flex-col gap-3' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><IoIosCard className='text-2xl'/></div>
@@ -117,7 +117,7 @@ const Home = () => {
      
         {/* flex-3   */}
         <section className='flex gap-10 flex-col'>
-        <div className='p-7 rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><RiSecurePaymentLine className='text-2xl'/></div>
      <h2 className='text-2xl font-bold'>
      Tokenised Securities
@@ -125,7 +125,7 @@ const Home = () => {
      <p className='text-[grey] font-semibold'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
      
              </div>
-             <div className='p-7 rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><FaFileInvoiceDollar className='text-3xl'/></div>
      <h2 className='text-2xl font-bold'>
      Payables & Invoice Me
@@ -134,10 +134,10 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7 py-10  rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7 xl:h-[240px]  rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlinePrivacyTip className='text-2xl'/></div>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlinePrivacyTip className='text-3xl'/></div>
      <p className='text-v3 text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '>Comin<span className='text-v4'>g soon</span></p>
                  </div>
      <h2 className='text-2xl font-bold'>
@@ -229,14 +229,14 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 <div className='w-full flex justify-center flex-col items-center relative'>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
-<main className='md:w-[90%] w-[95%]  absolute md:top-40 top-20 lg:top-50 z-30 '>
+<main className='md:w-[90%] xl:w-[85%] w-[95%]   absolute md:top-40 top-20 lg:top-50 z-30 '>
 <h1 className='text-6xl font-semibold text-center  z-30'>Level up with <span className='text-btnBg'>Met</span><span className='text-v3'>ax Di</span><span className='text-v4'>gital</span></h1>
 <p className='text-[grey] text-lg text-center py-10'>A hassle-free solution that sends your transactions to banking partners, and <br className='hidden lg:block'/> connects you to the TradFi world and network liquidity providers.</p>
 <div className='text-center'><button className='w-[220px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer text-center'>Join our Platform</button></div>
 </main>
 
 </div>
-<div className=' w-[95%] h-96 mt-[400px] mb-[3200px] md:mb-[3000px] lg:mb-[1950px] md:w-[90%]'>
+<div className=' md:w-[90%] xl:w-[85%] w-[95%]  h-96 mt-[400px] mb-[3200px] md:mb-[3000px] lg:mb-[1950px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 

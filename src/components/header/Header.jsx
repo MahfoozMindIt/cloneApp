@@ -20,7 +20,7 @@ window.addEventListener('scroll',setFixed)
 
   return (
     <section className={`${fix?'navbar fixed':'navbar'} bg-transparent w-full justify-center flex flex-col items-center py-5`}>
-      <nav className='flex w-[90%]  justify-between'>
+      <nav className='flex w-[90%] xl:w-[85%]  justify-between'>
         <img src={logo} alt="" className='w-48 object-contain'/>
 
         <div className=' gap-10 hidden lg:flex items-center'>
