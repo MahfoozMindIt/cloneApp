@@ -4,7 +4,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { IoMenuSharp, IoPerson } from "react-icons/io5";
 import { GoArrowUpRight } from 'react-icons/go';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/metaxDigital.png'
+import logo from '../../assets/logoFinal.png'
 const Header = () => {
   const [fix,setFix]=useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -20,8 +20,8 @@ window.addEventListener('scroll',setFixed)
 
   return (
     <section className={`${fix?'navbar fixed':'navbar'} bg-transparent w-full justify-center flex flex-col items-center py-5`}>
-      <nav className='flex w-[90%] width justify-between'>
-        <img src={logo} alt="" className='w-32 object-contain'/>
+      <nav className='flex w-[90%]  justify-between'>
+        <img src={logo} alt="" className='w-48 object-contain'/>
 
         <div className=' gap-10 hidden lg:flex items-center'>
         <ul className='flex gap-10 font-semibold text-[15px]'>
