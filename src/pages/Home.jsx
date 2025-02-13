@@ -236,12 +236,12 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 </main>
 
 </div>
-<div className=' md:w-[90%] xl:w-[85%] w-[95%]  h-96 mt-[400px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px]'>
+<div className=' md:w-[90%] xl:w-[85%] w-[95%]  h-96 mt-[400px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px] xl:mb-[1870px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
 <div className='lg:w-[46%] w-full'>
-        <h2 className='lg:text-6xl text-5xl font-semibold leading-18'>
+        <h2 className='xl:text-6xl text-5xl font-semibold leading-18'>
         Transaction Flat <br className='hidden lg:block '/> Fee Pricing
         </h2>
 
@@ -296,7 +296,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20 mb-10'>
 
 <div className='lg:w-[45%] w-full'>
-        <h2 className='lg:text-6xl text-4xl font-semibold lg:leading-18 leading-14'>Integrating with <br className='hidden lg:block '/> <span className='text-btnBg'>any cryp</span><span className='text-v3'>to</span> <br className='hidden lg:block '/> <span className='text-v4'>
+        <h2 className='xl:text-6xl text-4xl font-semibold xl:leading-18 leading-12'>Integrating with <br className='hidden lg:block '/> <span className='text-btnBg'>any cryp</span><span className='text-v3'>to</span> <br className='hidden lg:block '/> <span className='text-v4'>
         invoicing</span> and <br className='hidden lg:block '/> <span className='text-btnBg'>Payme</span><span className='text-v4'>nt system</span>
         </h2>
 
@@ -322,7 +322,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 {/* ......... Check latest news section start .......... */}
 <section className=' md:flex hidden bg-[#0C101A] w-full rounded-t-4xl py-2 border-border border-[1px] justify-between relative mb-5'>
 <div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 w-[50%] lg:w-full justify-center'>
-        <h2 className='xl:text-6xl lg:text-4xl md:text-xl font font-semibold'>Check latest news</h2>
+        <h2 className='xl:text-5xl lg:text-4xl md:text-xl font font-semibold'>Check latest news</h2>
         <p className='md:text-sm text-[13px] lg:text-normal'>
         Stay informed with the newest updates and news.
         </p>
@@ -335,7 +335,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 </section>
 <section className=' md:flex hidden w-full rounded-b-4xl border-border border-[1px] justify-between relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
 <div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 lg:w-full w-[50%] justify-center'>
-        <h2 className='xl:text-6xl lg:text-4xl md:text-xl font font-semibold'>Have any questions?</h2>
+        <h2 className='xl:text-5xl lg:text-4xl md:text-xl font font-semibold'>Have any questions?</h2>
         <p className='md:text-sm text-[13px] lg:text-normal'>
         Feel free to reach out to us anytime. We are here to help you!
         </p>
