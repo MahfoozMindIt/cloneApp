@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaTelegramPlane } from "react-icons/fa";
-import logo from '../assets/lastFinal.png';
+import logo from '../assets/newFinal.png';
 import glo from '../assets/footerLogo.png'
 import { FaFacebookF, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 import { RiInstagramFill } from 'react-icons/ri';
