@@ -35,7 +35,7 @@ const Home = () => {
             <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link className='text-v4'>Learn more</Link></p>
         </div>
         <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10 pt-10'>
-            <h1 className='xl:text-7xl md:text-5xl text-4xl text-center font-semibold'>
+            <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-semibold'>
             What can <span className='text-btnBg'>Met</span><span className='text-v3'>ax of</span><span className='text-v4'>fer you?</span>
             </h1>
             <p className='text-center md:text-[19px] text-[17px]'>A Non-Custodial Solution Opening the Doors of TradFi for <br className='hidden md:block'/> Web3 Businesses and Founders.</p>

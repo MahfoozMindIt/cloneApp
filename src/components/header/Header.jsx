@@ -21,7 +21,8 @@ window.addEventListener('scroll',setFixed)
   return (
     <section className={`${fix?'navbar fixed':'navbar'} bg-transparent w-full justify-center flex flex-col items-center py-5`}>
       <nav className='flex w-[90%] xl:w-[85%]  justify-between'>
-        <img src={logo} alt="" className='w-56 object-contain'/>
+        <Link to='/'>
+        <img src={logo} alt="" className='w-56 object-contain'/></Link>
 
         <div className=' gap-10 hidden lg:flex items-center'>
         <ul className='flex gap-10 font-semibold text-[15px]'>
@@ -40,7 +41,7 @@ window.addEventListener('scroll',setFixed)
                   <p className='text-[silver] text-sm pb-5'>Our Use Cases</p>
 
                   <div className='grid grid-cols-2 gap-3 pb-3'>
-                    <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
+                   <Link to='/ultra-high-net-worth-individual'> <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
@@ -49,7 +50,7 @@ window.addEventListener('scroll',setFixed)
                       <p className='text-[grey] text-sm font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
-                    </div>
+                    </div></Link>
                     <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
