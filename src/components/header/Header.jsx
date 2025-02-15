@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Header.css"
-import { FaAngleDown, FaPeopleGroup } from "react-icons/fa6";
+import { FaAngleDown, FaBagShopping, FaPeopleGroup } from "react-icons/fa6";
 import { IoMenuSharp, IoPerson } from "react-icons/io5";
 import { GoArrowUpRight } from 'react-icons/go';
 import { Link } from 'react-router-dom';
@@ -47,7 +47,7 @@ window.addEventListener('scroll',setFixed)
                       <IoPerson/>
                       <h2>Ultra High Net Worth Individual</h2>
                       </div>
-                      <p className='text-[grey] text-sm font-light'>
+                      <p className='text-[grey] text-[13px] font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div></Link>
@@ -58,7 +58,7 @@ window.addEventListener('scroll',setFixed)
                       <FaPeopleGroup/>
                       <h2>DAO's & Organizaitons</h2>
                       </div>
-                      <p className='text-[grey] text-sm font-light'>
+                      <p className='text-[grey] text-[13px] font-light'>
                         Allow companies and DAOs to pay for Goods Services, Contractors, and more
                       </p>
                     </div></Link>
@@ -66,13 +66,23 @@ window.addEventListener('scroll',setFixed)
 
                   </div>
                   <div className='grid grid-cols-3 gap-3 pb-3'>
-                  <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
+                  <Link to='/institutional'><div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
+                      <div className='flex items-center gap-3 font-medium'>
+                        
+                      <FaBagShopping/>
+                      <h2>Institutional</h2>
+                      </div>
+                      <p className='text-[grey] text-[13px] font-light'>
+                        Help institutions redefine the landscape of challenges and opportunities
+                      </p>
+                    </div></Link>
+                    <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
-                      <h2>Ultra High Net Worth Individual</h2>
+                      <h2>Real Estate</h2>
                       </div>
-                      <p className='text-[grey] text-sm font-light'>
+                      <p className='text-[grey] text-[13px] font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>
@@ -80,19 +90,9 @@ window.addEventListener('scroll',setFixed)
                       <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
-                      <h2>Ultra High Net Worth Individual</h2>
+                      <h2>Platform</h2>
                       </div>
-                      <p className='text-[grey] text-sm font-light'>
-                        Manage their assets in a unique platform with Swiss banking-style service.
-                      </p>
-                    </div>
-                    <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
-                      <div className='flex items-center gap-3 font-medium'>
-                        
-                      <IoPerson/>
-                      <h2>Ultra High Net Worth Individual</h2>
-                      </div>
-                      <p className='text-[grey] text-sm font-light'>
+                      <p className='text-[grey] text-[13px] font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>

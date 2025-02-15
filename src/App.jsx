@@ -10,6 +10,7 @@ const Contact=lazy(()=>import('./pages/Contact'));
 const Home=lazy(()=>import('./pages/Home'));
 const UltraHigh=lazy(()=>import('./pages/UltraHigh'));
 const DAO=lazy(()=>import('./pages/DAO'));
+const Institutional=lazy(()=>import('./pages/Institutional'));
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/ultra-high-net-worth-individual' element={<UltraHigh/>}/>
         <Route path='/daos-and-organizations' element={<DAO/>}/>
+        <Route path='/institutional' element={<Institutional/>}/>
        
         </Route>
       </Routes></ScrollToTop>
