@@ -39,14 +39,14 @@ const Footer = () => {
 
 {/* 2nd mainDiv */}
 
-<div className='lg:w-[50%] w-full flex gap-14 md:gap-0 md:justify-between'>
+<div className='lg:w-[50%] w-full flex gap-10 md:gap-0 md:justify-between'>
 
 
 {/* 2nd div */}
 <div className='flex flex-col gap-7'>
   <h6 className='font-medium text-[15px]'>Company info</h6>
   
-<ul className='text-[silver] gap-4 flex flex-col'>
+<ul className='text-[silver] gap-4 flex flex-col text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'>Homepage</li>
   <li className='cursor-pointer hover:text-[grey]'>Our Blog</li>
   <li className='cursor-pointer hover:text-[grey]'>Platform</li>
@@ -59,7 +59,7 @@ const Footer = () => {
 <div className='flex flex-col gap-7'>
   <h6 className='font-medium text-[15px]'>Use cases</h6>
   
-<ul className='text-[silver] gap-4 flex flex-col '>
+<ul className='text-[silver] gap-4 flex flex-col text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'>U/HNWI</li>
   <li className='cursor-pointer hover:text-[grey]'>
 DAOs & Organizations</li>
@@ -79,7 +79,7 @@ Platforms</li>
 <div className='flex flex-col gap-7'>
   <h6 className='font-medium text-[15px]'>Legal Information</h6>
   
-<ul className='text-[silver] gap-4 flex flex-col '>
+<ul className='text-[silver] gap-4 flex flex-col text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'>
 Risk Disclosure</li>
   <li className='cursor-pointer hover:text-[grey]'>

@@ -6,22 +6,8 @@ import section2 from '../assets/section2.svg'
 import section4 from '../assets/section4.svg'
 import section3 from '../assets/section3.png'
 import section5 from '../assets/section5.svg'
-import { IoIosArrowDown, IoIosCard, IoMdCheckmark } from 'react-icons/io';
-import { GiTwoCoins } from 'react-icons/gi';
-import { FaFileInvoiceDollar } from 'react-icons/fa6';
-import gateway1 from '../assets/gateway1.svg'
-import gateway2 from '../assets/gateway2.svg'
-import gateway3 from '../assets/gateway3.svg'
-import grid1 from '../assets/grid1.svg';
-import grid2 from '../assets/grid2.svg';
-import grid3 from '../assets/grid3.png';
-import grid4 from '../assets/grid4.svg';
+import { IoIosArrowDown } from 'react-icons/io';
 import line from '../assets/curveline.svg';
-import side from '../assets/side.svg';
-import first from '../assets/first.svg';
-import second from '../assets/second.svg';
-import Slider from '../components/slider/Slider';
-
 const UltraHigh = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>

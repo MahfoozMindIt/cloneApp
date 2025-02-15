@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Header.css"
-import { FaAngleDown } from "react-icons/fa6";
+import { FaAngleDown, FaPeopleGroup } from "react-icons/fa6";
 import { IoMenuSharp, IoPerson } from "react-icons/io5";
 import { GoArrowUpRight } from 'react-icons/go';
 import { Link } from 'react-router-dom';
@@ -51,16 +51,18 @@ window.addEventListener('scroll',setFixed)
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div></Link>
-                    <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
+
+                    <Link to='/daos-and-organizations'><div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
-                      <IoPerson/>
-                      <h2>Ultra High Net Worth Individual</h2>
+                      <FaPeopleGroup/>
+                      <h2>DAO's & Organizaitons</h2>
                       </div>
                       <p className='text-[grey] text-sm font-light'>
-                        Manage their assets in a unique platform with Swiss banking-style service.
+                        Allow companies and DAOs to pay for Goods Services, Contractors, and more
                       </p>
-                    </div>
+                    </div></Link>
+                    
 
                   </div>
                   <div className='grid grid-cols-3 gap-3 pb-3'>

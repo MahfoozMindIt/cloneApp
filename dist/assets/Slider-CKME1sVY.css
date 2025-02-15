@@ -1,1 +1,0 @@
-.cards p{font-weight:400}@media screen and (max-width:2000px){.width{width:75%}}.slider{overflow:hidden;width:100%}.slider-track{display:flex;width:max-content;animation:scrollTrack 13s linear infinite}@keyframes scrollTrack{0%{transform:translate(0)}to{transform:translate(-50%)}}.item{flex:0 0 auto;padding:0 1rem;margin-bottom:10px;white-space:nowrap}
