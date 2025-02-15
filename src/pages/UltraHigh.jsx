@@ -19,7 +19,7 @@ const UltraHigh = () => {
         <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10 pt-10'>
             <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-medium'>Bridging Traditional <br /> Finance & Crypto
             </h1>
-            <p className='text-center md:text-[17px] text-[15px]'>Skyline Digital offers a solution that allows Ultra and High Net-Worth Individuals to manage <br className='hidden md:block'/> their assets in a unique platform with Swiss banking-style service</p>
+            <p className='text-center md:text-[17px] text-[15px]'>Metax Digital offers a solution that allows Ultra and High Net-Worth Individuals to manage <br className='hidden md:block'/> their assets in a unique platform with Swiss banking-style service</p>
             <button className='w-[180px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Join now</button>
         </div>
         <div className='xl:pt-16 pt-10 text-md animate-ping '>
@@ -116,7 +116,7 @@ Access Tokenised securities within our platform, <br className='hidden lg:block'
 
         </h2>
 
-<p className='text-[silver] pt-5'>Skyline Digital is focused on ensuring all security measures are in place to safeguard your financial well-being. We work with many types of wallets and on-chain security tools. <br className='hidden lg:block '/>
+<p className='text-[silver] pt-5'>Metax Digital is focused on ensuring all security measures are in place to safeguard your financial well-being. We work with many types of wallets and on-chain security tools. <br className='hidden lg:block '/>
 </p>
   </div>
 </div>
@@ -138,21 +138,21 @@ Elevate your financial game! Buy cars, invest in real estate, and cover legal fe
 <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 pt-20'>
         <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
                 
-                <h1 className='text-xl font-semibold py-5'>Buy your assets with Skyline Digital
+                <h1 className='text-xl font-semibold py-5'>Buy your assets with Metax Digital
                 </h1>
-                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Did you know you can buy virtually anything with our platform? One of our recent success stories involves a client who purchased a Tesla using Skyline Digital!</p>
+                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Did you know you can buy virtually anything with our platform? One of our recent success stories involves a client who purchased a Tesla using Metax Digital!</p>
                 
         </div>
         <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
                 
-                <h1 className='text-xl font-semibold py-5'>Explore crypto investment opportunities on Skyline Digital’s platform</h1>
+                <h1 className='text-xl font-semibold py-5'>Explore crypto investment opportunities on Metax Digital’s platform</h1>
                 <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Do you enjoy the freedom of investing with crypto? Choose from a variety of business investments and seamlessly apply them through our platform.</p>
                 
         </div>
         <div className= 'p-7 xl:h-[240px]  border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
                 
-                <h1 className='text-xl font-semibold py-5'>Diversify your investments with Skyline Digital</h1>
-                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Are you looking to diversify your investment portfolio? Skyline Digital offers a wide range of investment options, including Treasury bills for HNWI or Glo Dollar swaps to employ your money on a good cause: ending extreme poverty.
+                <h1 className='text-xl font-semibold py-5'>Diversify your investments with Metax Digital</h1>
+                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Are you looking to diversify your investment portfolio? Metax Digital offers a wide range of investment options, including Treasury bills for HNWI or Glo Dollar swaps to employ your money on a good cause: ending extreme poverty.
 
 </p>
                 

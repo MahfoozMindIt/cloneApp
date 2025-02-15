@@ -26,7 +26,7 @@ const UltraHigh = () => {
         <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10 pt-10'>
             <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-medium'>Supercharging Crypto <br /> Companies and DAO’s
             </h1>
-            <p className='text-center md:text-[17px] text-[15px]'>Pay for Goods, Services, Contractors and much more with Skyline Digital</p>
+            <p className='text-center md:text-[17px] text-[15px]'>Pay for Goods, Services, Contractors and much more with Metax Digital</p>
             <button className='w-[180px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Join now</button>
         </div>
         <div className='xl:pt-16 pt-10 text-md animate-ping '>
@@ -77,7 +77,7 @@ const UltraHigh = () => {
         <div className= 'p-7 px-5 pt-5 '>
                 
                 <h1 className='text-xl font-semibold py-5'>Transparent Pricing</h1>
-                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Simplified fees and accounting within Skyline Digital platform allow you to reconcile one on-chain transaction with many payments for goods and services.
+                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Simplified fees and accounting within Metax Digital platform allow you to reconcile one on-chain transaction with many payments for goods and services.
 
 
 
@@ -124,8 +124,8 @@ const UltraHigh = () => {
 
 {/* ........Create your (Ultra) High Net-Worth account now ................... */}
 <section className='py-20 w-full'>
-<h1 className='xl:text-6xl md:text-5xl text-4xl text-center font-medium md:leading-18 leading-10'>Empower Your Crypto <br className='hidden md:block'/> Vision with Skyline Digital</h1>
-<p className='text-[grey] text-center pt-5 lg:pt-10'>Skyline Digital is the first regulated company licensed to process financial transactions on behalf of unincorporated DAOs</p>
+<h1 className='xl:text-6xl md:text-5xl text-4xl text-center font-medium md:leading-18 leading-10'>Empower Your Crypto <br className='hidden md:block'/> Vision with Metax Digital</h1>
+<p className='text-[grey] text-center pt-5 lg:pt-10'>Metax Digital is the first regulated company licensed to process financial transactions on behalf of unincorporated DAOs</p>
 <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 pt-20'>
 <div className= 'p-7 bg-card border-border border-[1px] px-5 pt-3 rounded-2xl xl:h-[560px] lg:col-span-1'>
                 
@@ -178,20 +178,20 @@ Pay invoices for goods and services, raise capital from traditional investors, a
 <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 pt-20'>
         <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
                 
-                <h1 className='text-xl font-semibold py-5'>Pay invoices for services and goods with Skyline Digital
+                <h1 className='text-xl font-semibold py-5'>Pay invoices for services and goods with Metax Digital
                 </h1>
-                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Simplify your business transactions by paying for goods, services, contractors, and all other expenses through Skyline Digital’s platform</p>
+                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Simplify your business transactions by paying for goods, services, contractors, and all other expenses through Metax Digital’s platform</p>
                 
         </div>
         <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
                 
                 <h1 className='text-xl font-semibold py-5'>Raise capital from traditional investors</h1>
-                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Receive investments in fiat and convert them to crypto on Skyline Digital´s platform, ensuring a direct transfer to your self-custodial wallet.</p>
+                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Receive investments in fiat and convert them to crypto on Metax Digital´s platform, ensuring a direct transfer to your self-custodial wallet.</p>
                 
         </div>
         <div className= 'p-7 xl:h-[240px]  border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
                 
-                <h1 className='text-xl font-semibold py-5'>Streamline payroll with Skyline Digital</h1>
+                <h1 className='text-xl font-semibold py-5'>Streamline payroll with Metax Digital</h1>
                 <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Use our Crypto to Fiat feature to ensure your employees are paid in their preferred currency, or apply a crypto to crypto transaction if that’s their choice.
 
 </p>
@@ -213,7 +213,7 @@ Pay invoices for goods and services, raise capital from traditional investors, a
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
 <main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40 top-20 lg:top-50 z-30 '>
-<h1 className=' md:text-5xl text-4xl font-semibold text-center  z-30'>Level up with Skyline Digital</h1>
+<h1 className=' md:text-5xl text-4xl font-semibold text-center  z-30'>Level up with Metax Digital</h1>
 <div className='w-full flex justify-center'>
     
 <p className='text-[grey] text-lg text-center py-10 md:w-[60%]'> Experience borderless banking that sends your transactions to banking partners <br className='hidden xl:block'/> and connects you to the Tradfi world and network liquidity providers.
