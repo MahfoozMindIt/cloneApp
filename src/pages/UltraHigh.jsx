@@ -63,11 +63,11 @@ Extend your financial horizon with traditional banking services such as <br clas
   <div>
     <span className='text-btnBg text-md md:text-2xl leading-18'>Cryp</span><span className='text-v3 text-md md:text-2xl '>to ac</span><span className='text-v4 text-md md:text-2xl'>cessibility</span></div> 
         <h2 className='lg:text-6xl md:text-5xl text-4xl font-medium md:leading-18 leading-10'>
-        Skyline offers <br className='hidden lg:block '/>freedom of choice
+        Metax offers <br className='hidden lg:block '/>freedom of choice
 
         </h2>
 
-<p className='text-[silver] pt-5'>Manage your crypto assets portfolio with no constraints! Our platform allows you to integrate with new technologies and DeFi tools while <br className='hidden lg:block '/>maintaining flexibility to liquidate, swap, or use your assets within the Skyline universe of banking top-notch features.
+<p className='text-[silver] pt-5'>Manage your crypto assets portfolio with no constraints! Our platform allows you to integrate with new technologies and DeFi tools while <br className='hidden lg:block '/>maintaining flexibility to liquidate, swap, or use your assets within the Metax universe of banking top-notch features.
 </p>
   </div>
 </div>
