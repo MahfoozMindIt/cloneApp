@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Home.css"
 import "../styles/RealEstate.css"
-import rea from '../assets/rea1.avif'
+import rea from '../assets/rea2.png'
 import bg1 from '../assets/realbg1.svg'
 import r1 from '../assets/r1.svg'
 import r2 from '../assets/r2.svg'
