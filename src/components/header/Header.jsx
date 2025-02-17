@@ -9,7 +9,7 @@ const Header = () => {
   const [fix,setFix]=useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const setFixed=()=>{
-    if(window.scrollY>=100){
+    if(window.scrollY>=90){
         setFix(true);
     }else{
         setFix(false);
@@ -19,7 +19,7 @@ const Header = () => {
 window.addEventListener('scroll',setFixed)
 
   return (
-    <section className={`${fix?'navbar fixed':'navbar'} bg-transparent w-full justify-center flex flex-col items-center py-5`}>
+    <section className={`${fix?'navbar fixed':'navbar'} bg w-full justify-center z-50 flex flex-col items-center py-5`}>
       <nav className='flex w-[90%] xl:w-[85%]  justify-between'>
         <Link to='/'>
         <img src={logo} alt="" className='w-56 object-contain'/></Link>
@@ -76,7 +76,8 @@ window.addEventListener('scroll',setFixed)
                         Help institutions redefine the landscape of challenges and opportunities
                       </p>
                     </div></Link>
-                    <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
+                   <Link to='/real-estate'>
+                   <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
                       <IoPerson/>
@@ -86,6 +87,7 @@ window.addEventListener('scroll',setFixed)
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
                     </div>
+                   </Link>
                     <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
