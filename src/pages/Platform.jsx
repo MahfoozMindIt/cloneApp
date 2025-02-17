@@ -139,7 +139,7 @@ const Platform = () => {
    
          </main>
          
-   <div className='w-full flex justify-center flex-col xl:mb-[400px] mb-[500px] items-center relative'>
+   <div className='w-full flex justify-center flex-col mb-[100px] items-center relative'>
    <img src={line} alt="" className='w-full z-30'/>
    <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
    <main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40 top-20 lg:top-50 z-30 '>
@@ -160,7 +160,7 @@ const Platform = () => {
 
    
    </main>
-   <main className='md:w-[90%] xl:w-[85%] w-[95%] mt-[500px]'>
+   <main className='md:w-[90%] xl:w-[85%] w-[95%] mt-[650px]'>
       
    {/* ........Create your (Ultra) High Net-Worth account now ................... */}
    <section className='py-20 w-full'>
