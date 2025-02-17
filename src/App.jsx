@@ -12,6 +12,7 @@ const UltraHigh=lazy(()=>import('./pages/UltraHigh'));
 const DAO=lazy(()=>import('./pages/DAO'));
 const Institutional=lazy(()=>import('./pages/Institutional'));
 const RealEstate=lazy(()=>import('./pages/RealEstate'));
+const Platform=lazy(()=>import('./pages/Platform'));
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/daos-and-organizations' element={<DAO/>}/>
         <Route path='/institutional' element={<Institutional/>}/>
         <Route path='/real-estate' element={<RealEstate/>}/>
+        <Route path='/platform' element={<Platform/>}/>
        
         </Route>
       </Routes></ScrollToTop>

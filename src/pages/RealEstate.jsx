@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Home.css"
 import "../styles/RealEstate.css"
-import rea from '../assets/rea.avif'
+import rea from '../assets/rea1.avif'
 import bg1 from '../assets/realbg1.svg'
 import r1 from '../assets/r1.svg'
 import r2 from '../assets/r2.svg'
@@ -183,9 +183,9 @@ This feature is ideal for businesses and individuals looking to leverage liquidi
 </div>
 
 
-<div className='lg:w-[48%] w-full'>
-<div className=' w-full h-[700px] '>
-<img src={rea} alt="" className='object-cover w-full h-full rounded-l-2xl border-l-[#181F2F] border-[1px] border-r-0 border-b-0 border-t-0'/>
+<div className='lg:w-[50%] w-full'>
+<div>
+<img src={rea} alt="" className=''/>
 </div>
 </div>
 

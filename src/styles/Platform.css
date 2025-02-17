@@ -1,0 +1,9 @@
+.Grid1{
+    background-image: url(../assets/g1.svg), linear-gradient(165deg, #161e3a 20%, #2241ac 57%, #3473cd 80%, #4fc0ff);
+    background-position: 100%, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: auto 100%, auto;
+    border: 1px solid #2c3036;
+    border-radius: 24px;
+    position: relative;
+}

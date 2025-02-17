@@ -5,6 +5,8 @@ import { IoMenuSharp, IoPerson } from "react-icons/io5";
 import { GoArrowUpRight } from 'react-icons/go';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/newFinal.png'
+import { MdHome } from 'react-icons/md';
+import { TbDeviceDesktopFilled } from 'react-icons/tb';
 const Header = () => {
   const [fix,setFix]=useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -80,7 +82,7 @@ window.addEventListener('scroll',setFixed)
                    <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
-                      <IoPerson/>
+                      <MdHome/>
                       <h2>Real Estate</h2>
                       </div>
                       <p className='text-[grey] text-[13px] font-light'>
@@ -88,16 +90,16 @@ window.addEventListener('scroll',setFixed)
                       </p>
                     </div>
                    </Link>
-                    <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
+                   <Link to='/platform'> <div className='bg-[#02050D] hover:bg-[#393D4A] rounded-2xl p-5  flex flex-col gap-3'>
                       <div className='flex items-center gap-3 font-medium'>
                         
-                      <IoPerson/>
+                      <TbDeviceDesktopFilled/>
                       <h2>Platform</h2>
                       </div>
                       <p className='text-[grey] text-[13px] font-light'>
                         Manage their assets in a unique platform with Swiss banking-style service.
                       </p>
-                    </div>
+                    </div></Link>
 
                   </div>
 
