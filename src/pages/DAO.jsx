@@ -41,7 +41,7 @@ const UltraHigh = () => {
 
 
 {/* ........Create your (Ultra) High Net-Worth account now ................... */}
-<section className='pb-20 pt-64 w-full'>
+<section className='pb-20 pt-80 w-full'>
 <h1 className='xl:text-6xl  md:text-4xl text-4xl text-center font-medium xl:leading-18 md:leading-14 leading-10'>The ultimate solution for<br className='hidden md:block'/>the decentralized world</h1>
 
 
@@ -49,7 +49,7 @@ const UltraHigh = () => {
     
 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20'>
         <main className='xl:h-[420px]  border-border border-[1px] bg-card rounded-2xl'>
-            <img src={n1} alt="" />
+            <img src={n1} alt="" className='w-full'/>
         <div className= 'p-7   px-5 pt-5'>
                 
                 <h1 className='text-xl font-semibold py-5'>Full-Spectrum of Crypto Services
@@ -62,7 +62,7 @@ const UltraHigh = () => {
         </main>
         <main className='xl:h-[420px] border-border border-[1px] bg-card  rounded-2xl'>
             
-            <img src={n2} alt="" />
+            <img src={n2} alt="" className='w-full'/>
         <div className= 'p-7  px-5 pt-5'>
                 
                 <h1 className='text-xl font-semibold py-5'>Innovative Payment Solutions
@@ -73,7 +73,7 @@ const UltraHigh = () => {
         </main>
         <main className='xl:h-[420px] border-border border-[1px] bg-card rounded-2xl'>
             
-            <img src={n3} alt="" />
+            <img src={n3} alt="" className='w-full' />
         <div className= 'p-7 px-5 pt-5 '>
                 
                 <h1 className='text-xl font-semibold py-5'>Transparent Pricing</h1>
@@ -90,7 +90,7 @@ const UltraHigh = () => {
 <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
 <main className='xl:h-[420px] border-border border-[1px] bg-card  rounded-2xl'>
             
-            <img src={n4} alt="" />
+            <img src={n4} alt="" className='w-full'/>
         <div className= 'p-7  px-5 pt-5'>
                 
                 <h1 className='text-xl font-semibold py-5'>Invoicing and Accounts Payables</h1>
@@ -102,7 +102,7 @@ const UltraHigh = () => {
         </main>
         <main className='xl:h-[420px] border-border border-[1px] bg-card rounded-2xl'>
             
-            <img src={n5} alt="" />
+            <img src={n5} alt="" className='w-full'/>
         <div className= 'p-7 px-5 pt-5 '>
                 
                 <h1 className='text-xl font-semibold py-5'>OTC Custom Service
