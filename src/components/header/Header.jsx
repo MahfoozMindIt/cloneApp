@@ -7,8 +7,10 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/newFinal.png'
 import { MdHome } from 'react-icons/md';
 import { TbDeviceDesktopFilled } from 'react-icons/tb';
+import Nav from './Nav';
 const Header = () => {
   const [fix,setFix]=useState(false);
+  const [myNav,setMyNav]=useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const setFixed=()=>{
     if(window.scrollY>=90){
@@ -18,10 +20,15 @@ const Header = () => {
     }
 }
 
+const nav=()=>{
+  setMyNav(!myNav)
+}
+
 window.addEventListener('scroll',setFixed)
 
   return (
-    <section className={`${fix?'navbar fixed':'navbar'} bg w-full justify-center z-50 flex flex-col items-center py-5`}>
+   <main>
+     <section className={`${fix?'navbar fixed':'navbar'} bg w-full  justify-center z-50 flex flex-col items-center py-5`}>
       <nav className='flex w-[90%] xl:w-[85%]  justify-between'>
         <Link to='/'>
         <img src={logo} alt="" className='w-56 object-contain'/></Link>
@@ -121,13 +128,20 @@ window.addEventListener('scroll',setFixed)
 <button className='bg-btnBg py-2 px-5 rounded-full'>Sign in</button>
         </div>
         </div>
-        <div className='p-3 rounded-full bg-white text-black lg:hidden'>
+        <button onClick={nav} className='p-3 text-xl rounded-full bg-white text-black lg:hidden'>
 <IoMenuSharp/>
-        </div>
+        </button>
       </nav>
     
-      
     </section>
+    <section className={`${fix?'navbar2 fixed':'navbar2'} w-full`}>
+    {
+      myNav && 
+      <Nav/>
+    }
+      </section>
+    
+   </main>
   )
 }
 
