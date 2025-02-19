@@ -1,0 +1,8 @@
+.banner{
+    background-image: url(../assets/bgImg.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
