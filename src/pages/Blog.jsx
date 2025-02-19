@@ -44,7 +44,7 @@ const Blog = () => {
   return (
       <div className='w-full flex justify-center '>
        <main className='md:w-[90%] xl:w-[85%] w-[95%] flex justify-center flex-col items-center'>
-       <div className='w-full  py-20 banner'><h1 className='lg:text-6xl xl:text-7xl md:text-5xl text-4xl font-semibold text-center  z-30'>Discover the latest news</h1>
+       <div className='w-full  py-20 banner'><h1 className='lg:text-6xl xl:text-7xl md:text-5xl text-4xl font-semibold text-center  z-30 pt-10'>Discover the latest news</h1>
        <p className='text-[grey] text-center lg:text-lg py-10'>Learn about Metax Digital and how we are changing <br /> the money markets for digital assets.</p></div>
 
 {/* Blogs */}
