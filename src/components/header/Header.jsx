@@ -8,6 +8,7 @@ import logo from '../../assets/newFinal.png'
 import { MdHome } from 'react-icons/md';
 import { TbDeviceDesktopFilled } from 'react-icons/tb';
 import Nav from './Nav';
+import { RxCross2 } from 'react-icons/rx';
 const Header = () => {
   const [fix,setFix]=useState(false);
   const [myNav,setMyNav]=useState(false);
@@ -129,7 +130,7 @@ window.addEventListener('scroll',setFixed)
         </div>
         </div>
         <button onClick={nav} className='p-3 text-xl rounded-full bg-white text-black lg:hidden'>
-<IoMenuSharp/>
+{myNav?<RxCross2 />:<IoMenuSharp/>}
         </button>
       </nav>
     
