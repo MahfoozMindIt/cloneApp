@@ -147,12 +147,12 @@ const Platform = () => {
    <h2 className=' md:text-4xl text-2xl font-medium text-center  z-30 pt-5'>Now allowing 3rd Party Payments directly from your platform</h2>
    <div className='w-full flex flex-col items-center justify-center'>
        
-   <p className='text-[grey] text-center py-10 md:w-[60%]'> With comprehensive support for payments, receivers, and bank accounts. Provide your customers with an all-in-one<br className='hidden xl:block'/> retail experience, seamlessly combining Offramping and 3rd Party Payments within a single platform.
+   <p className='text-[grey] text-center py-7 pt-10 md:w-[60%]'> With comprehensive support for payments, receivers, and bank accounts. Provide your customers with an all-in-one retail experience, seamlessly combining Offramping and 3rd Party Payments within a single platform.
 
 
    
    </p>
-   <p className='text-[grey] text-center py-3 pb-10 md:w-[60%]'>
+   <p className='text-[grey] text-center pt-3 pb-7 pb-10 md:w-[60%]'>
    <span className='font-semibold'>Only with Metax Digital</span> can you allow your customers to pay anyone, anywhere in the world.
    </p>
    </div>
