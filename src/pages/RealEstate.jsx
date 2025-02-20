@@ -46,7 +46,7 @@ const RealEstate = () => {
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
 <div className='lg:w-[48%] w-full'>
-      <h2 className='lg:text-6xl text-5xl font-semibold leading-18'>
+      <h2 className='text-4xl md:text-5xl font-semibold md:leading-16'>
       Buy real estate in +30 <br className='hidden lg:block '/> countries
       </h2>
    
