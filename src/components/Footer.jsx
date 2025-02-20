@@ -4,6 +4,7 @@ import logo from '../assets/newFinal.png';
 import glo from '../assets/footerLogo.png'
 import { FaFacebookF, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 import { RiInstagramFill } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <section>
@@ -47,11 +48,11 @@ const Footer = () => {
   <h6 className='font-medium text-[15px]'>Company info</h6>
   
 <ul className='text-[silver] gap-4 flex flex-col text-sm md:text-[16px]'>
-  <li className='cursor-pointer hover:text-[grey]'>Homepage</li>
-  <li className='cursor-pointer hover:text-[grey]'>Our Blog</li>
-  <li className='cursor-pointer hover:text-[grey]'>Platform</li>
-  <li className='cursor-pointer hover:text-[grey]'>Contact us</li>
-  <li className='cursor-pointer hover:text-[grey]'>API Docs</li>
+  <li className='cursor-pointer hover:text-[grey]'><Link to='/'>Homepage</Link></li>
+  <li className='cursor-pointer hover:text-[grey]'><Link to='/blog'>Our Blog</Link></li>
+  <li className='cursor-pointer hover:text-[grey]'><Link to='/platform'>Platform</Link></li>
+  <li className='cursor-pointer hover:text-[grey]'><Link to='/contact'>Contact us</Link></li>
+  <li className='cursor-pointer hover:text-[grey]'><Link to='/platform'>API Docs</Link></li>
 
 </ul>
 </div>
@@ -60,18 +61,18 @@ const Footer = () => {
   <h6 className='font-medium text-[15px]'>Use cases</h6>
   
 <ul className='text-[silver] gap-4 flex flex-col text-sm md:text-[16px]'>
-  <li className='cursor-pointer hover:text-[grey]'>U/HNWI</li>
+  <li className='cursor-pointer hover:text-[grey]'><Link to='/ultra-high-net-worth-individual'>U/HNWI</Link></li>
   <li className='cursor-pointer hover:text-[grey]'>
-DAOs & Organizations</li>
-  <li className='cursor-pointer hover:text-[grey]'>
-
-Institutional</li>
+<Link to='/daos-and-organizations'>DAOs & Organizations</Link></li>
   <li className='cursor-pointer hover:text-[grey]'>
 
-Real Estate</li>
+<Link to='/institutional'>Institutional</Link></li>
   <li className='cursor-pointer hover:text-[grey]'>
 
-Platforms</li>
+<Link to='/real-estate'>Real Estate</Link></li>
+  <li className='cursor-pointer hover:text-[grey]'>
+
+<Link to='/platform'>Platforms</Link></li>
 
 </ul>
 </div>
@@ -81,13 +82,14 @@ Platforms</li>
   
 <ul className='text-[silver] gap-4 flex flex-col text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'>
-Risk Disclosure</li>
+<Link to='/cookies'>Cookies</Link></li>
   <li className='cursor-pointer hover:text-[grey]'>
+<Link to='/privacy-policy'>Privacy Policy</Link>
 
-Privacy Policy
 </li>
   <li className='cursor-pointer hover:text-[grey]'>
-  Terms of Use</li>
+    <Link to='/terms-of-use'>Terms of Use</Link>
+  </li>
 </ul>
 </div>
 
@@ -104,11 +106,14 @@ Privacy Policy
   <div  className='w-full flex justify-between items-center py-10'>
     <h3 className='text-[grey] text-[13px] md:text-[16px]'>Copyright © Metax Digital AG</h3>
     <div className='flex gap-5'>
-  
-<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'><FaFacebookF /></div>
-<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'><RiInstagramFill /></div>
-<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'><FaXTwitter /></div>
-<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'><FaLinkedinIn /></div>
+<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'>
+<a href="https://www.facebook.com/MetaXPayments" target='_blank'><FaFacebookF /></a></div>
+<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'>
+<a href="https://www.instagram.com/metaxpayments/" target='_blank'><RiInstagramFill /></a></div>
+<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'>
+<a href="https://x.com/@MetaXPayments?mx=2" target='_blank'><FaXTwitter /></a></div>
+<div className='bg-[#131B2C] p-1 text-xl rounded-md border-[1px] border-border'>
+<a href="https://www.linkedin.com/company/metaxpayments" target='_blank'><FaLinkedinIn /></a></div>
 </div>
   </div>
 

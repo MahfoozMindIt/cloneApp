@@ -13,6 +13,9 @@ const DAO=lazy(()=>import('./pages/DAO'));
 const Institutional=lazy(()=>import('./pages/Institutional'));
 const RealEstate=lazy(()=>import('./pages/RealEstate'));
 const Platform=lazy(()=>import('./pages/Platform'));
+const Cookies=lazy(()=>import('./pages/Cookies'));
+const Terms=lazy(()=>import('./pages/Terms'));
+const PrivacyPolicy=lazy(()=>import('./pages/PrivacyPolicy'));
 
 
 function App() {
@@ -31,6 +34,9 @@ function App() {
         <Route path='/institutional' element={<Institutional/>}/>
         <Route path='/real-estate' element={<RealEstate/>}/>
         <Route path='/platform' element={<Platform/>}/>
+        <Route path='/cookies' element={<Cookies/>}/>
+        <Route path='/terms-of-use' element={<Terms/>}/>
+        <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
        
         </Route>
       </Routes></ScrollToTop>
