@@ -21,7 +21,7 @@ const Footer = () => {
 <div className='bg-card p-5 text-4xl rounded-2xl border-[1px] border-border'><FaTelegramPlane /></div>
 <div className='flex flex-col gap-3 justify-center items-center md:justify-start md:items-start'>
   <h3 className='text-xl font-medium'>Join our awesome community</h3>
-<p className='font-light text-center md:text-start text-[grey] md:text-[13px] lg:text-[16px] md:w-[80%] lg:w-[90%] xl:w-full'>Stay updated with the latest news, events, and product features of Skyline Digital!</p>
+<p className='font-light text-center md:text-start text-[grey] md:text-[13px] lg:text-[16px] md:w-[80%] lg:w-[90%] xl:w-full'>Stay updated with the latest news, events, and product features of Metax Digital!</p>
 </div>
 </div>
 <div>

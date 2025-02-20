@@ -330,7 +330,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 
 </div>
 <img src={first} alt="" className='lg:w-full md:w-[50%] w-[38%] object-contain' />
-<button className='bg-btnBg hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 rounded lg:rounded-full text-sm md:text-lg md:font-medium absolute lg:top-26 md:top-10 top-5 right-5 md:right-14'>See our blog</button>
+<Link to='/blog' className='bg-btnBg hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 rounded lg:rounded-full text-sm md:text-lg md:font-medium absolute lg:top-26 md:top-10 flex justify-center items-center top-5 right-5 md:right-14'>See our blog</Link>
          
 </section>
 <section className=' md:flex hidden w-full rounded-b-4xl border-border border-[1px] justify-between relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
@@ -343,7 +343,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 
 </div>
 <img src={second} alt="" className='lg:w-full w-[50%]'/>
-<button className='bg-white text-btnBg hover:text-white hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 lg:rounded-full rounded md:text-lg text-sm md:font-medium absolute lg:top-26 md:top-10 top-5 right-5 md:right-14'>Contact us</button>
+<Link to='/contact' className='bg-white text-btnBg hover:text-white hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 lg:rounded-full rounded md:text-lg text-sm md:font-medium absolute flex justify-center items-center lg:top-26 md:top-10 top-5 right-5 md:right-14'>Contact us</Link>
          
 </section>
 {/* ......... Check latest news section end .......... */}

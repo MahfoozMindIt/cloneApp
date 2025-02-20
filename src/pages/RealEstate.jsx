@@ -23,7 +23,7 @@ const RealEstate = () => {
           with 
           <span className='text-btnBg'> Cry</span><span className='text-v3'>pto</span>
           </h1>
-          <p className='text-center md:text-[19px] text-[17px] pt-10'>Invest in real estate using Skyline Digital's crypto payments platform
+          <p className='text-center md:text-[19px] text-[17px] pt-10'>Invest in real estate using Metax Digital's crypto payments platform
           </p>
       <div className='flex justify-center gap-5 pt-10'>
       <button className='w-[180px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Join now</button>
@@ -71,7 +71,7 @@ Additionally, countries like Spain and Greece offer attractive Golden Visa progr
 
 {/* ........ A solution for different cases section starts ................... */}
 <section className='py-20 w-full'>
-<h1 className='text-center md:text-6xl text-5xl font-semibold'>Why choose Skyline Digital</h1>
+<h1 className='text-center md:text-6xl text-5xl font-semibold'>Why choose Metax Digital</h1>
 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 pt-20'>
 
 
@@ -84,7 +84,7 @@ Additionally, countries like Spain and Greece offer attractive Golden Visa progr
       <div>
                 
                 <h1 className='text-2xl font-semibold py-5'>State of the Art platform</h1>
-                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Our platform allows you to integrate with new technologies and DeFi tools while maintaining flexibility to hold, liquidate, swap, or employ your assets for real-world purchases within the Skyline universe of top-notch features.</p>
+                <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Our platform allows you to integrate with new technologies and DeFi tools while maintaining flexibility to hold, liquidate, swap, or employ your assets for real-world purchases within the Metax universe of top-notch features.</p>
                 
         </div>
       </div>
@@ -175,7 +175,7 @@ Additionally, countries like Spain and Greece offer attractive Golden Visa progr
       </h2>
    
 
-<p className='text-[grey]  xl:w-[80%] py-10'>Obtain aggregated DeFi loans through Skyline's platform. Our streamlined KYC/KYB simplifies access to DeFi lending protocols, such as Aave and Spark.
+<p className='text-[grey]  xl:w-[80%] py-10'>Obtain aggregated DeFi loans through Metax's platform. Our streamlined KYC/KYB simplifies access to DeFi lending protocols, such as Aave and Spark.
 </p>
 <p className='text-[grey] xl:w-[80%]'>
 This feature is ideal for businesses and individuals looking to leverage liquidity without having to spend their crypto. Benefit from lower interest rates, flexible terms and no intermediaries as you will directly interact with the DeFi protocols
@@ -233,9 +233,9 @@ This feature is ideal for businesses and individuals looking to leverage liquidi
 <section className='  w-full py-28'>
 <div className='grid grid-cols-1 lg:grid-cols-2 w-full gap-16 pt-20'>
       <div className='rounded-2xl border-[1px] border-border p-10 md:p-20 grid1'>
-           <h2 className='text-5xl'>Level up with Skyline Digital</h2>
+           <h2 className='text-5xl'>Level up with Metax Digital</h2>
 <p className='py-10'>
-Join Skyline Digital's all-in-one solution, which empowers underbanked Web3 Businesses, Founders, and DAOs to access third-party fiat payments, OTC trades, tokenized securities, vIBANs, on/off-ramping, and loans.
+Join Metax Digital's all-in-one solution, which empowers underbanked Web3 Businesses, Founders, and DAOs to access third-party fiat payments, OTC trades, tokenized securities, vIBANs, on/off-ramping, and loans.
 </p>
 <div className='flex gap-5'>
       <button className='w-[180px] py-3 rounded-full bg-white text-btnBg  hover:bg-hoverBg hover:text-white cursor-pointer'>Book a call</button>
@@ -258,7 +258,7 @@ Join Skyline Digital's all-in-one solution, which empowers underbanked Web3 Busi
 </div>
 <div className='flex items-center gap-5'>
       <span className='bg-white text-[#0c101aa6]  rounded-full font-semibold h-6 w-6 flex justify-center items-center'>3</span>
-      <p className='text-[14px] text-[grey]'>Start using Skyline Digital!</p>
+      <p className='text-[14px] text-[grey]'>Start using Metax Digital!</p>
 </div>
 </section>
 <button className='w-[180px] py-3 rounded-full bg-white text-btnBg  hover:bg-hoverBg hover:text-white cursor-pointer'>Sign Up</button>

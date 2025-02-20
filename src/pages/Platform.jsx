@@ -32,7 +32,7 @@ const Platform = () => {
            <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10 pt-10'>
                <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-medium'>Access new features<br /> for your Platform
                </h1>
-               <p className='text-center md:text-[17px] text-[15px]'>Add more value to your customers through Skyline’s crypto to fiat payments</p>
+               <p className='text-center md:text-[17px] text-[15px]'>Add more value to your customers through Metax’s crypto to fiat payments</p>
                <button className='w-[180px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Learn more</button>
            </div>
            <div className='xl:pt-16 pt-10 text-md animate-ping '>
@@ -194,7 +194,7 @@ const Platform = () => {
                     
                    <h1 className='text-2xl font-semibold py-5'>Transaction flow</h1>
                    </div>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Initiate transactions via API within your website or app or, alternatively, direct your customers to the Skyline Digital platform.
+                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Initiate transactions via API within your website or app or, alternatively, direct your customers to the Metax Digital platform.
    
    </p>
                    
