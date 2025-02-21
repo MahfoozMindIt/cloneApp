@@ -32,7 +32,7 @@ const Nav = () => {
                   <h1 className="font-semibold text-md pb-2">DAO,s & Organizations</h1>
                   <p className="text-sm text-[grey]">
                     
-                  Manage their assets in a unique platform with Swiss banking-style service.
+                  Allow companies and DAOs to pay for Goods Services, Contractors, and more
                   </p>
                 </div>
 
@@ -44,7 +44,7 @@ const Nav = () => {
                   <h1 className="font-semibold text-md pb-2">Institutional</h1>
                   <p className="text-sm text-[grey]">
                     
-                  Manage their assets in a unique platform with Swiss banking-style service.
+                  Help institutions redefine the landscape of challenges and opportunities
                   </p>
                 </div>
 
@@ -56,7 +56,8 @@ const Nav = () => {
                   <h1 className="font-semibold text-md pb-2">Real Estate</h1>
                   <p className="text-sm text-[grey]">
                     
-                  Manage their assets in a unique platform with Swiss banking-style service.
+                 
+                  Invest in real estate using Metax Digital's crypto payments platform
                   </p>
                 </div>
 
@@ -67,7 +68,7 @@ const Nav = () => {
                   <h1 className="font-semibold text-md pb-2">Platform</h1>
                   <p className="text-sm text-[grey]">
                     
-                  Manage their assets in a unique platform with Swiss banking-style service.
+                  Access more features and add more value to your customers
                   </p>
                 </div>
 

@@ -94,7 +94,7 @@ window.addEventListener('scroll',setFixed)
                       <h2>Real Estate</h2>
                       </div>
                       <p className='text-[grey] text-[13px] font-light'>
-                        Manage their assets in a unique platform with Swiss banking-style service.
+                      Invest in real estate using Metax Digital's crypto payments platform
                       </p>
                     </div>
                    </Link>
@@ -105,7 +105,7 @@ window.addEventListener('scroll',setFixed)
                       <h2>Platform</h2>
                       </div>
                       <p className='text-[grey] text-[13px] font-light'>
-                        Manage their assets in a unique platform with Swiss banking-style service.
+                      Access more features and add more value to your customers
                       </p>
                     </div></Link>
 
