@@ -49,7 +49,7 @@ const UltraHigh = () => {
 <main className='grid grid-cols-1 gap-10'>
     
 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20'>
-        <main className='xl:h-[420px]  border-border border-[1px] bg-card rounded-2xl'>
+        <main className='xl:h-[400px]  border-border border-[1px] bg-card rounded-2xl'>
             <img src={n1} alt="" className='w-full'/>
         <div className= 'p-7   px-5 pt-5'>
                 
@@ -61,7 +61,7 @@ const UltraHigh = () => {
                 
         </div>
         </main>
-        <main className='xl:h-[420px] border-border border-[1px] bg-card  rounded-2xl'>
+        <main className='xl:h-[400px] border-border border-[1px] bg-card  rounded-2xl'>
             
             <img src={n2} alt="" className='w-full'/>
         <div className= 'p-7  px-5 pt-5'>
@@ -72,7 +72,7 @@ const UltraHigh = () => {
                 
         </div>
         </main>
-        <main className='xl:h-[420px] border-border border-[1px] bg-card rounded-2xl'>
+        <main className='xl:h-[400px] border-border border-[1px] bg-card rounded-2xl'>
             
             <img src={n3} alt="" className='w-full' />
         <div className= 'p-7 px-5 pt-5 '>
@@ -89,7 +89,7 @@ const UltraHigh = () => {
 
 </div>
 <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-<main className='xl:h-[420px] border-border border-[1px] bg-card  rounded-2xl'>
+<main className='xl:h-[350px] border-border border-[1px] bg-card  rounded-2xl'>
             
             <img src={n4} alt="" className='w-full'/>
         <div className= 'p-7  px-5 pt-5'>
@@ -101,7 +101,7 @@ const UltraHigh = () => {
                 
         </div>
         </main>
-        <main className='xl:h-[420px] border-border border-[1px] bg-card rounded-2xl'>
+        <main className='xl:h-[350px] border-border border-[1px] bg-card rounded-2xl'>
             
             <img src={dao} alt="" className='w-full'/>
         <div className= 'p-7 px-5 pt-5 '>
