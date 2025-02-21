@@ -7,6 +7,7 @@ import section3 from '../assets/instSec2.png'
 import section4 from '../assets/instSection3.svg'
 import section5 from '../assets/instSec4.svg'
 import first from '../assets/first.svg';
+import ins from "../assets/ins.png"
 import second from '../assets/second.svg';
 import { IoIosArrowDown } from 'react-icons/io';
 
@@ -56,7 +57,7 @@ const Institutional = () => {
                <section className='flex flex-col gap-20 lg:flex-row justify-between items-center w-full py-20 pt-20'>
   
                <div className='lg:w-[48%]  w-full'>
-  <img src={section3} alt="" />
+  <img src={ins} alt="" />
   </div>
   
   <div className='lg:w-[48%] flex flex-col lg:items-end w-full'>

@@ -34,7 +34,7 @@ const UltraHigh = () => {
 <div className='lg:w-[48%] w-full'>
 <span className='text-btnBg text-md md:text-2xl leading-18'>Banking an</span><span className='text-v3 text-md md:text-2xl '>d Paym</span><span className='text-v4 text-md md:text-2xl'>ent Solutions</span> 
         <h2 className='lg:text-7xl md:text-5xl text-4xl font-medium md:leading-18 leading-10'>
-        TradFi and DeFi in <br className='hidden lg:block '/> one place
+        TradFi and DeFi <br className='hidden lg:block '/>  in one  place
 
         </h2>
 

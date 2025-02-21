@@ -5,6 +5,7 @@ import n1 from '../assets/n1.svg'
 import n2 from '../assets/n2.svg'
 import n3 from '../assets/n3.svg'
 import n4 from '../assets/n4.svg'
+import dao from "../assets/dao.png"
 import n5 from '../assets/n5.svg'
 import { IoIosArrowDown, IoIosCard } from 'react-icons/io';
 import line from '../assets/curveline.svg';
@@ -102,7 +103,7 @@ const UltraHigh = () => {
         </main>
         <main className='xl:h-[420px] border-border border-[1px] bg-card rounded-2xl'>
             
-            <img src={n5} alt="" className='w-full'/>
+            <img src={dao} alt="" className='w-full'/>
         <div className= 'p-7 px-5 pt-5 '>
                 
                 <h1 className='text-xl font-semibold py-5'>OTC Custom Service
