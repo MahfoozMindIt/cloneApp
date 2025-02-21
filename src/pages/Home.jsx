@@ -29,7 +29,7 @@ const Home = () => {
       <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
-        <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 xl:pt-44'>
+        <section className=' flex w-full justify-center flex-col items-center z-30 pt-10 xl:pt-44'>
         <div className='w-fit items-center  gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
             <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
