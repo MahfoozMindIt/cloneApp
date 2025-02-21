@@ -29,7 +29,7 @@ window.addEventListener('scroll',setFixed)
 
   return (
    <main>
-     <section className={`${fix?'navbar fixed':'navbar'} bg w-full  justify-center z-50 flex flex-col items-center py-5`}>
+     <section className={`${fix?'navbar fixed':'navbar'} z-[100] bg w-full  justify-center flex flex-col items-center py-5`}>
       <nav className='flex w-[90%] xl:w-[85%]  justify-between'>
         <Link to='/'>
         <img src={logo} alt="" className='w-56 object-contain'/></Link>

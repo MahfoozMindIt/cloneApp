@@ -1,0 +1,7 @@
+.bannerBg {
+    background-image: url(../assets/blogBg.svg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}

@@ -15,7 +15,7 @@ import { GrCompliance } from 'react-icons/gr'
 const RealEstate = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center relative'>
-      <img src={bg1} alt="" className='h-screen w-[100%] absolute -top-[120px] z-10'/>
+      <img src={bg1} alt="" className=' bgState absolute -top-[120px] z-[-1]'/>
           <div className=' w-full h-screen flex justify-center flex-col items-center realEstateBanner z-30'>
           <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-semibold'>
           Buy your <span className='text-btnBg'>Next Pr</span><span className='text-v3'>operty</span>
@@ -269,7 +269,7 @@ Join Metax Digital's all-in-one solution, which empowers underbanked Web3 Busine
   style={{ backgroundImage: "linear-gradient(to right, #316BC7, #4FC0FF)" }} 
 />
 <h3 className='text-2xl pt-5 pb-3'>As an Partner</h3>
-<main className='flex md:flex-row flex-col gap-5 justify-between items-center pb-10'>
+<main className='flex  flex-col gap-5 justify-between items-center pb-10'>
 <section className='flex flex-col gap-3'>
 <div className='flex items-center gap-5'>
       <span className='bg-white text-[#0c101aa6]  rounded-full font-semibold h-6 px-2 flex justify-center items-center'>1</span>

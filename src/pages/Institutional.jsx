@@ -157,7 +157,7 @@ const Institutional = () => {
 
 </div>
 <img src={second} alt="" className='lg:w-full w-[50%]'/>
-<button className='bg-white text-btnBg hover:text-white hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 lg:rounded-full rounded md:text-lg text-sm md:font-medium absolute lg:top-26 md:top-10 top-5 right-5 md:right-14'>Contact us</button>
+<Link to='/contact' className='bg-white text-btnBg hover:text-white hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 lg:rounded-full rounded flex justify-center items-center md:text-lg text-sm md:font-medium absolute lg:top-26 md:top-10 top-5 right-5 md:right-14'>Contact us</Link>
          
 </section>
 </main>
