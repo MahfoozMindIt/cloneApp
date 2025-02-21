@@ -69,31 +69,31 @@ export default function TemplateDemo() {
       <section className='flex flex-col md:flex-row md:justify-between w-full gap-10 md:gap-0'>
         <main className='md:w-[48%]'>
             
-      <h2 className='pb-5'>Your Name :</h2><div className='border-border border-[1px] rounded p-3 px-6'>
+      <h2 className='pb-5 ml-1'>Name :</h2><div className='border-border border-[1px] rounded p-3 px-6'>
        
        <input type="text" name='from_name'
    value={formData.from_name}
-   onChange={handleChange} placeholder='Your Name' id="" className=' w-full placeholder:text-sm  outline-none font-roboto '/>
+   onChange={handleChange} placeholder='Enter Your Name' id="" className=' w-full placeholder:text-sm  outline-none font-roboto '/>
    </div>
   
         </main><main className='md:w-[48%]'>
-        <h2 className='pb-5'>Phone No :</h2> <div  className='border-border border-[1px]  rounded p-3 px-6'>
-                <input type="text" name="from_phone" id="" placeholder='Phone No'
+        <h2 className='pb-5 ml-1'>Phone No :</h2> <div  className='border-border border-[1px]  rounded p-3 px-6'>
+                <input type="text" name="from_phone" id="" placeholder='Enter Your Phone No'
             value={formData.from_phone}
             onChange={handleChange} className=' w-full placeholder:text-sm  outline-none font-roboto ' />
             </div>
            </main></section>
           <main>
-          <h2 className='pb-5'>Enter Email :</h2>
+          <h2 className='pb-5 ml-1'>Email :</h2>
             <div  className='border-border border-[1px] rounded p-3 px-6'>
-                <input type="text" name="from_email" placeholder='Your Email' 
+                <input type="text" name="from_email" placeholder='Enter Your Email address' 
             value={formData.from_email}
             onChange={handleChange} id="" className=' w-full placeholder:text-sm  outline-none font-roboto ' />
             </div>
           </main>
           
      <main>
-     <h2 className='pb-5'>Message :</h2>
+     <h2 className='pb-5 ml-1'>Message :</h2>
             <div  className='border-border border-[1px] rounded p-3 px-6'>
                 <textarea type="text" placeholder='Please enter message'  name="message" value={formData.message} onChange={handleChange} id="" className=' w-full placeholder:text-sm h-[200px]  outline-none font-roboto'/>
             </div>

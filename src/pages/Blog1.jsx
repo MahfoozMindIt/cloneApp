@@ -62,10 +62,10 @@ Having self-executing rules, a DAO does not need intermediaries to fulfill its p
 
 <div className='w-full'>
     <div className='w-full flex justify-between items-center pb-10'><h4 className='font-medium text-2xl md:text-3xl'>Related posts</h4>
-    <button className='md:w-[180px] w-[200px] py-3 rounded-full bg-btnBg md:font-semibold text-sm hover:bg-hoverBg cursor-pointer'>Browse All Articles</button></div>
+    <Link to='/blog' className='md:w-[180px] w-[200px] py-3 flex justify-center items-center rounded-full bg-btnBg md:font-semibold text-sm hover:bg-hoverBg cursor-pointer'>Browse All Articles</Link></div>
 
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full'>
-    <Link to=''>
+    <Link to='/how-to-manage-a-fully-decentralized-operation'>
 <img src={blog2} alt="" className='border-[1px] border-border rounded-2xl mb-5'/>
 <div className='bg-[#09122E] px-5 py-1 w-fit rounded-md border-[1px] border-btnBg'><p className='text-[13px] font-medium'>ARTICLES</p></div>
 <h2 className='py-5 text-2xl  font-medium'>10 luxury items you can buy with crypto</h2>
@@ -74,7 +74,7 @@ Having self-executing rules, a DAO does not need intermediaries to fulfill its p
 <div className='flex gap-3 items-center text-[grey]'><span className='text-xl'><CiCalendar/>
 </span><p>January 20, 2024</p></div>
 </Link>
-<Link to=''>
+<Link to='/how-to-manage-a-fully-decentralized-operation'>
 <img src={blog2} alt="" className='border-[1px] border-border rounded-2xl mb-5'/>
 <div className='bg-[#09122E] px-5 py-1 w-fit rounded-md border-[1px] border-btnBg'><p className='text-[13px] font-medium'>ARTICLES</p></div>
 <h2 className='py-5 text-2xl  font-medium'>10 luxury items you can buy with crypto</h2>
