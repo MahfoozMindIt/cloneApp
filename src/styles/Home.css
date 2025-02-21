@@ -2,7 +2,14 @@
 .cards p{
     font-weight: 400;
 }
-
+.box{box-shadow: #0E1529 5px 5px ;
+padding: 8px 23px;
+font-size:13px
+}
+.box1{box-shadow: #727071 5px 5px ;
+    padding: 8px 23px;
+    font-size:13px
+    }
 
 @media screen and (max-width:2000px) {
     .width{
