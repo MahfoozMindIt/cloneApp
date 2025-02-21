@@ -189,34 +189,34 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or <br className='hidde
 <section className='py-20 w-full'>
 <h1 className='text-center md:text-6xl text-5xl font-semibold'>A solution for different cases</h1>
 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 pt-20'>
-        <div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
+        <Link to='/ultra-high-net-worth-individual' className='hover:scale-[1.01] transition-all duration-500'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
                 <span className='bg-[#1A2032] py-2 px-5 rounded-xl text-sm font-semibold'><span className='text-btnBg'>UH</span><span className='text-v3'>NWI</span> </span>
                 <h1 className='text-2xl font-semibold py-5'>For Ultra High Net-Worth Individuals</h1>
                 <p className='text-[rgba(243,243,243,0.7)] text-[16px] pb-3'>Metax Digital offers a solution that allows Ultra and High Net-Worth Individuals to manage their assets in a unique platform with Swiss banking-style service.</p>
                 <span className='font-semibold'>View more</span>
                 <img src={grid1} alt="" className='w-full object-cover pt-8'/>
-        </div>
-        <div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-[#1A2032] py-2 px-5 rounded-xl text-sm font-semibold'><span className='text-btnBg'>UH</span><span className='text-v3'>NWI</span> </span>
+        </div></Link>
+        <Link className='hover:scale-[1.01] transition-all duration-500' to='/daos-and-organizations'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
+                <span className='bg-[#1A2032] py-2 px-5 rounded-xl text-sm font-semibold'><span className='text-btnBg'>Organizat</span><span className='text-v3'>ions + DAOs</span> </span>
                 <h1 className='text-2xl font-semibold py-5'>For Organizations and DAOs</h1>
                 <p className='text-[rgba(243,243,243,0.7)] text-[16px] pb-3'>Our platform allows companies and DAOs to pay for Goods, Services, Contractors, and much more.</p>
-                <span className='font-semibold'>View more</span>
-                <img src={grid2} alt="" className='w-full object-cover pt-8'/>
-        </div>
-        <div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-[#1A2032] py-2 px-5 rounded-xl text-sm font-semibold'><span className='text-btnBg'>UH</span><span className='text-v3'>NWI</span> </span>
+                <span className='font-semibold '>View more</span>
+                <img src={grid2} alt="" className='w-full object-cover pt-14'/>
+        </div></Link>
+        <Link className='hover:scale-[1.01] transition-all duration-500' to='/institutional'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
+                <span className='bg-[#1A2032] py-2 px-5 rounded-xl text-sm font-semibold'><span className='text-btnBg'>Institu</span><span className='text-v3'>tionals</span> </span>
                 <h1 className='text-2xl font-semibold py-5'>For Institutional Entities</h1>
                 <p className='text-[rgba(243,243,243,0.7)] text-[16px] pb-3'>Metax Digital can help institutions redefine the landscape of challenges and opportunities in the dynamic Web3 payment world.</p>
                 <span className='font-semibold'>View more</span>
                 <img src={grid3} alt="" className='w-full object-cover pt-8'/>
-        </div>
-        <div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-[#1A2032] py-2 px-5 rounded-xl text-sm font-semibold'><span className='text-btnBg'>UH</span><span className='text-v3'>NWI</span> </span>
+        </div></Link>
+        <Link className='hover:scale-[1.01] transition-all duration-500' to='/platform'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
+                <span className='bg-[#1A2032] py-2 px-5 rounded-xl text-sm font-semibold'><span className='text-btnBg'>Platf</span><span className='text-v3'>orms</span> </span>
                 <h1 className='text-2xl font-semibold py-5'>For Platform Services</h1>
                 <p className='text-[rgba(243,243,243,0.7)] text-[16px] pb-3'>Access more features and add more value to your customers through Metax Digital’s crypto to fiat and crypto to crypto payments.</p>
                 <span className='font-semibold'>View more</span>
                 <img src={grid4} alt="" className='w-full object-cover pt-8'/>
-        </div>
+        </div></Link>
 
 </div>
 </section>
