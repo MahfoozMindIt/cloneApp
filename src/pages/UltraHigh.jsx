@@ -7,7 +7,7 @@ import section4 from '../assets/section4.svg'
 import section3 from '../assets/section3.png'
 import section5 from '../assets/section5.svg'
 import { IoIosArrowDown } from 'react-icons/io';
-import line from '../assets/curveline.svg';
+import line from '../assets/download1.svg';
 const UltraHigh = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>
@@ -202,7 +202,7 @@ Elevate your financial game! Buy cars, invest in real estate, and cover legal fe
 
       </main>
       
-<div className='w-full flex justify-center flex-col xl:mb-[500px] lg:mb-[600px] md:mb-[800px] mb-[600px] items-center relative'>
+<div className='w-full flex justify-center flex-col xl:mb-[650px] lg:mb-[600px] md:mb-[800px] mb-[600px] items-center relative'>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
 <main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40 top-20 lg:top-50 z-30 '>

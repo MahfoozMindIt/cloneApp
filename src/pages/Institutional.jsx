@@ -7,7 +7,7 @@ import section3 from '../assets/instSec2.png'
 import section4 from '../assets/instSection3.svg'
 import section5 from '../assets/instSec4.svg'
 import first from '../assets/first.svg';
-import ins from "../assets/ins.png"
+import ins from "../assets/image2.png"
 import second from '../assets/second.svg';
 import { IoIosArrowDown } from 'react-icons/io';
 

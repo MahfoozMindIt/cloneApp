@@ -8,7 +8,7 @@ import n4 from '../assets/n4.svg'
 import dao from "../assets/dao.png"
 import n5 from '../assets/n5.svg'
 import { IoIosArrowDown, IoIosCard } from 'react-icons/io';
-import line from '../assets/curveline.svg';
+import line from '../assets/download1.svg';
 import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from 'react-icons/md'
 import { FaFileInvoiceDollar } from 'react-icons/fa6'
 import { RiSecurePaymentLine } from 'react-icons/ri'

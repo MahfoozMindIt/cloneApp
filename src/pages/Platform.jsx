@@ -13,7 +13,7 @@ import a3 from '../assets/a3.svg'
 import a4 from '../assets/a4.svg'
 import a5 from '../assets/a5.svg'
 import { IoIosArrowDown, IoIosCard } from 'react-icons/io';
-import line from '../assets/curveline.svg';
+import line from '../assets/download1.svg';
 import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from 'react-icons/md'
 import { FaFileInvoiceDollar } from 'react-icons/fa6'
 import { RiSecurePaymentLine } from 'react-icons/ri'
@@ -23,7 +23,7 @@ import { AiOutlineGlobal } from 'react-icons/ai'
 
 const Platform = () => {
   return (
-    <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>
+    <div className=' w-full flex flex-col items-center justify-center' >
          <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
            {/* banner section..... */}
    <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />

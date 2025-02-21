@@ -16,7 +16,7 @@ import grid1 from '../assets/grid1.svg';
 import grid2 from '../assets/grid2.svg';
 import grid3 from '../assets/grid3.png';
 import grid4 from '../assets/grid4.svg';
-import line from '../assets/curveline.svg';
+import line from '../assets/download1.svg';
 import side from '../assets/side.svg';
 import first from '../assets/first.svg';
 import second from '../assets/second.svg';
