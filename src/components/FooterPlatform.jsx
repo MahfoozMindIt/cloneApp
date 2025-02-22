@@ -19,11 +19,11 @@ const Footer = () => {
 <div className='bg-card p-5 text-4xl rounded-2xl border-[1px] text-white border-border'><FaTelegramPlane /></div>
 <div className='flex flex-col gap-3 justify-center items-center md:justify-start md:items-start'>
   <h3 className='text-xl text-white font-medium'>Join our awesome community</h3>
-<p className='font-light text-center md:text-start text-[grey] md:text-[13px] lg:text-[16px] md:w-[80%] lg:w-[90%] xl:w-full'>Stay updated with the latest news, events, and product features of Metax Digital!</p>
+<p className='font-light text-center md:text-start opacity-[0.7] text-white  md:text-[13px] lg:text-[16px] md:w-[80%] lg:w-[90%] xl:w-full'>Stay updated with the latest news, events, and product features of Metax Digital!</p>
 </div>
 </div>
 <div>
-<button className='lg:w-[180px] w-[140px] py-3 rounded-full text-[14px] lg:text-[16px] text-white bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Join now</button>
+<button className='lg:w-[180px] w-[140px] py-3 rounded-full text-[14px] lg:text-[16px] text-white bg-btnBg  hover:bg-hoverBg cursor-pointer'>Join now</button>
 </div>
         </div>
 {/* 2nd section starts here */}

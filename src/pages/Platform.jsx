@@ -167,7 +167,9 @@ const Platform = () => {
        <p className=' pb-5 text-xl'><span className='text-btnBg'>Nex</span><span className='text-v3 '>t ste</span> 
        <span className='text-v4'>ps</span></p>
    <h1 className='xl:text-6xl  md:text-4xl text-4xl  font-medium xl:leading-18 md:leading-14 leading-10'>How can you integrate our API?</h1>
-   <p className='text-[grey] pt-5 lg:pt-10'>Pay invoices for goods and services, raise capital from traditional investors, and streamline payroll. With our Crypto to Fiat feature, ensure smooth employee payments in their preferred currency or facilitate crypto to crypto transactions.</p>
+   <p className='text-[grey] pt-5 lg:pt-10 pb-10'>Pay invoices for goods and services, raise capital from traditional investors, and streamline payroll. With our Crypto to Fiat feature, ensure smooth employee payments in their preferred currency or facilitate crypto to crypto transactions.</p>
+   
+<button className='lg:w-[140px] w-[140px] py-3 rounded-full text-[14px] lg:text-[16px] text-white bg-btnBg  hover:bg-hoverBg cursor-pointer'>API docs</button>
    <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 pt-20'>
            <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl bg-[whitesmoke]' >
                    
