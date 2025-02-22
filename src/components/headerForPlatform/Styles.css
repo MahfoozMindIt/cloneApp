@@ -1,0 +1,31 @@
+.navbarPlatform{
+    z-index: 1000000;
+}
+.navbarPlatform.fixed{
+    background: white;
+    transition: all 0.5s;
+    z-index: 100000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+@media screen and (max-width:2560px) {
+    .width{
+        width: 80%;
+    }
+}
+.bg{
+    background-color: white;
+}
+.navbarPlatform2.fixed{
+    width: 100%;
+    background: #060C1C;
+    transition: all 0.5s;
+    z-index: 100000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    transition: all 1s ease-in-out;
+    transition-duration: 0.4s;
+}
+.flow{
+    overflow-y: scroll;
+}

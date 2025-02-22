@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { AiOutlineGlobal } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { RiSecurePaymentLine } from "react-icons/ri";
+import animation from "../assets/animation1.mp4"
 import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from "react-icons/md";
 import { IoIosCard, IoMdCheckmark } from 'react-icons/io';
 import { GiTwoCoins } from 'react-icons/gi';
@@ -281,8 +282,19 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 
 
 <div className='lg:w-[48%] w-full'>
-<div className='bg-[#0B101B] w-full h-[500px] rounded-2xl border-[#181F2F] border-[1px]'>
+<div className='w-full h-[550px]'>
 
+<video 
+  width="100%" 
+  height="100%" 
+   
+  autoPlay 
+  muted 
+  loop
+>
+  <source src={animation} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 </div>
 </div>
 
@@ -305,7 +317,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
                 <h1 className='text-2xl font-medium py-5 pt-8'>For Organizations and DAOs</h1>
                 <p className='opacity-[0.8]  font-light text-sm pb-3'>Our platform allows companies and DAOs to pay for Goods, Services, Contractors, and much more.</p>
                 <span className='font-medium text-sm'>View more</span>
-                <img src={grid2} alt="" className='w-full object-cover pt-14'/>
+                <img src={grid2} alt="" className='w-full object-cover pt-8'/>
         </div></Link>
         <Link className='hover:scale-[1.01] transition-all duration-500' to='/institutional'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
                 <span className='bg-[#1A2032] box rounded-xl font-medium'><span className='text-v3'>Institu</span><span className='text-v4'>tional</span> </span>

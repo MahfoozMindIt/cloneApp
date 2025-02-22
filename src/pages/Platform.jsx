@@ -23,7 +23,7 @@ import { AiOutlineGlobal } from 'react-icons/ai'
 
 const Platform = () => {
   return (
-    <div className=' w-full flex flex-col items-center justify-center' >
+    <div className=' w-full flex flex-col bg-white text-black items-center justify-center' >
          <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
            {/* banner section..... */}
    <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
@@ -33,7 +33,7 @@ const Platform = () => {
                <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-medium'>Access new features<br /> for your Platform
                </h1>
                <p className='text-center md:text-[17px] text-[15px]'>Add more value to your customers through Metax’s crypto to fiat payments</p>
-               <button className='w-[180px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Learn more</button>
+               <button className='w-[180px] py-3 rounded-full bg-btnBg text-white font-semibold hover:bg-hoverBg cursor-pointer'>Learn more</button>
            </div>
            <div className='xl:pt-16 pt-10 text-md animate-ping '>
                <IoIosArrowDown />
@@ -54,26 +54,26 @@ const Platform = () => {
    <main className='grid grid-cols-1 gap-10 pt-20'>
    
    <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-   <main className='xl:h-[420px] border-border border-[1px] bg-card  rounded-4xl'>
+   <main className='xl:h-[420px] border-border border-[1px] bg-[whitesmoke]  rounded-4xl'>
                
                <img src={a1} alt="" className='w-full'/>
            <div className= 'p-7  px-5 pt-5'>
                    
                    <h1 className='text-xl font-semibold py-5'>Invoicing and Accounts Payables</h1>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Streamline your financial operations with our professional invoices, and accounts payables solution by tracking and managing your payments within one platform.
+                   <p className='opacity-[0.8] text-[14px] pb-3'>Streamline your financial operations with our professional invoices, and accounts payables solution by tracking and managing your payments within one platform.
    
    </p>
                    
            </div>
            </main>
-           <main className='xl:h-[420px] border-border border-[1px] bg-card rounded-4xl'>
+           <main className='xl:h-[420px] border-border border-[1px] bg-[whitesmoke] rounded-4xl'>
                
                <img src={a2} alt="" className='w-full'/>
            <div className= 'p-7 px-5 pt-5 '>
                    
                    <h1 className='text-xl font-semibold py-5'>OTC Custom Service
                    </h1>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Your organization can access end-to-end white glove and private solutions for any needs you may have - “you find a problem, we fix it”.
+                   <p className='opacity-[0.8] text-[14px] pb-3'>Your organization can access end-to-end white glove and private solutions for any needs you may have - “you find a problem, we fix it”.
    
    </p>
                    
@@ -82,26 +82,26 @@ const Platform = () => {
    </div>
        
    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 '>
-           <main className='xl:h-[420px]  border-border border-[1px] bg-card rounded-4xl'>
+           <main className='xl:h-[420px]  border-border border-[1px] bg-[whitesmoke] rounded-4xl'>
                <img src={a3} alt="" className='w-full'/>
            <div className= 'p-7   px-5 pt-5'>
                    
                    <h1 className='text-xl font-semibold py-5'>Full-Spectrum of Crypto Services
                    </h1>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>From secure wallet integrations to efficient crypto accounting, experience comprehensive support for all your transactions and business needs.
+                   <p className='opacity-[0.8] text-[14px] pb-3'>From secure wallet integrations to efficient crypto accounting, experience comprehensive support for all your transactions and business needs.
    
    </p>
                    
            </div>
            </main>
-           <main className='xl:h-[420px] border-border border-[1px] bg-card  rounded-4xl'>
+           <main className='xl:h-[420px] border-border border-[1px] bg-[whitesmoke]  rounded-4xl'>
                
                <img src={a5} alt="" className='w-full'/>
            <div className= 'p-7  px-5 pt-5'>
                    
                    <h1 className='text-xl font-semibold py-5'>Innovative Payment Solutions
                    </h1>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Upgrade your operations with our cutting-edge payment rails and processing solutions that allow you to execute payments worldwide in fiat currencies with any major stablecoin.</p>
+                   <p className='opacity-[0.8] text-[14px] pb-3'>Upgrade your operations with our cutting-edge payment rails and processing solutions that allow you to execute payments worldwide in fiat currencies with any major stablecoin.</p>
                    
            </div>
            </main>
@@ -109,13 +109,13 @@ const Platform = () => {
                
            <div className= 'p-7 px-5 pt-5'>
                    
-                   <h1 className='text-2xl font-semibold py-5'>Integrate the API!</h1>
+                   <h1 className='text-2xl font-semibold text-white py-5'>Integrate the API!</h1>
                    <p className='text-[rgba(243,243,243,0.7)] text-[14px]  pb-14'>Integrate our API to enable seamless worldwide offramping on your platform. Empower users to efficiently process transactions and access funds globally.
    
    
    
    </p>
-   <button className='w-[180px] py-3 rounded-full bg-white text-btnBg hover:text-white hover:bg-hoverBg cursor-pointer'>Integrate now</button>
+   <button className='w-[180px] py-3 rounded-full bg-white text-btnBg  hover:text-white hover:bg-hoverBg cursor-pointer'>Integrate now</button>
           
                    
            </div>
@@ -152,11 +152,11 @@ const Platform = () => {
 
    
    </p>
-   <p className='text-[grey] text-center pt-3 pb-7 pb-10 md:w-[60%]'>
+   <p className='text-[grey] text-center pt-3  pb-10 md:w-[60%]'>
    <span className='font-semibold'>Only with Metax Digital</span> can you allow your customers to pay anyone, anywhere in the world.
    </p>
    </div>
-   <div className='text-center'><button className='w-[220px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer text-center'>Join our Platform</button></div>
+   <div className='text-center'><button className='w-[220px] text-white py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer text-center'>Join our Platform</button></div>
 
    
    </main>
@@ -169,32 +169,29 @@ const Platform = () => {
    <h1 className='xl:text-6xl  md:text-4xl text-4xl  font-medium xl:leading-18 md:leading-14 leading-10'>How can you integrate our API?</h1>
    <p className='text-[grey] pt-5 lg:pt-10'>Pay invoices for goods and services, raise capital from traditional investors, and streamline payroll. With our Crypto to Fiat feature, ensure smooth employee payments in their preferred currency or facilitate crypto to crypto transactions.</p>
    <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 pt-20'>
-           <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+           <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl bg-[whitesmoke]' >
                    
            <div className='flex items-center gap-5'>
-                    <div className='text-black bg-white h-5 w-5 rounded-full flex justify-center items-center font-semibold'>1</div>
                     
                    <h1 className='text-2xl font-semibold py-5'>Signup/Onboard</h1>
                    </div>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Choose how you want to onboard: Use our iframe on your website or app, or contact us for a custom solution tailored to your needs.</p>
+                   <p className='opacity-[0.8] text-[14px] pb-3'>Choose how you want to onboard: Use our iframe on your website or app, or contact us for a custom solution tailored to your needs.</p>
                    
            </div>
-           <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+           <div className= 'p-7 xl:h-[240px] border-border border-[1px] px-5 pt-5 rounded-2xl bg-[whitesmoke]' >
            <div className='flex items-center gap-5'>
-                    <div className='text-black bg-white h-5 w-5 rounded-full flex justify-center items-center font-semibold'>2</div>
                     
                    <h1 className='text-2xl font-semibold py-5'>Obtain your API key</h1>
                    </div>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Once onboarded, receive your API key easily through our platform or via API.</p>
+                   <p className='opacity-[0.8] text-[14px] pb-3'>Once onboarded, receive your API key easily through our platform or via API.</p>
                    
            </div>
-           <div className= 'p-7 xl:h-[240px]  border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+           <div className= 'p-7 xl:h-[240px]  border-border border-[1px] px-5 pt-5 rounded-2xl bg-[whitesmoke]' >
                    <div className='flex items-center gap-5'>
-                    <div className='text-black bg-white h-5 w-5 rounded-full flex justify-center items-center font-semibold'>3</div>
                     
                    <h1 className='text-2xl font-semibold py-5'>Transaction flow</h1>
                    </div>
-                   <p className='text-[rgba(243,243,243,0.7)] text-[14px] pb-3'>Initiate transactions via API within your website or app or, alternatively, direct your customers to the Metax Digital platform.
+                   <p className='opacity-[0.8] text-[14px] pb-3'>Initiate transactions via API within your website or app or, alternatively, direct your customers to the Metax Digital platform.
    
    </p>
                    
