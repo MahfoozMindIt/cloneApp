@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaTelegramPlane } from "react-icons/fa";
-import logo from '../assets/newFinal.png';
+import logo from '../assets/logoPlatform.png';
 import glo from '../assets/footerLogo.png'
 import { FaFacebookF, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 import { RiInstagramFill } from 'react-icons/ri';
@@ -10,7 +10,7 @@ const Footer = () => {
     <section className='bg-white'>
      
 
-      <div className='w-full h-[900px] flex justify-center  bg-white text-black border-t-[1px] border-t-[grey]' style={{borderRadius:"70px 70px 0 0"}}>
+      <div className='w-full flex justify-center  bg-white text-black border-t-[1px] border-t-[grey]' style={{borderRadius:"70px 70px 0 0"}}>
       
       <footer className='xl:w-[85%] md:w-[90%]  w-[95%] pt-24'>
 {/* 1st section starts */}

@@ -4,7 +4,7 @@ import { FaAngleDown, FaBagShopping, FaPeopleGroup } from "react-icons/fa6";
 import { IoMenuSharp, IoPerson } from "react-icons/io5";
 import { GoArrowUpRight } from 'react-icons/go';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/newFinal.png'
+import logo from '../../assets/logoPlatform.png'
 import { MdHome } from 'react-icons/md';
 import { TbDeviceDesktopFilled } from 'react-icons/tb';
 import NavPlatform from './NavPlatform';

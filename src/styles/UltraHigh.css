@@ -1,0 +1,27 @@
+.backHero{
+    background-image: url("../assets/bgImg.svg");
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    width:100% ;
+}
+.gradientText{
+    background: linear-gradient(150deg,#213EA5 ,#2241AC, #4FC0FF,#4FC0FF );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.lastGrid{
+    background-image: url(../assets/g1.svg), linear-gradient(165deg, #161e3a 20%, #2241ac 57%, #3473cd 80%, #4fc0ff);
+    background-position: 100%, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: auto 150%, auto;
+    border: 1px solid #2c3036;
+    border-radius: 24px;
+    position: relative;
+}
+.gradientText1{
+    background: linear-gradient(20deg,#213EA5 , #4FC0FF,#4FC0FF );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

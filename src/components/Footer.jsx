@@ -12,7 +12,7 @@ const Footer = () => {
 
 </div>
 
-      <div className='w-full h-[900px] flex justify-center relative top-0 bg-card' style={{borderRadius:"70px 70px 0 0"}}>
+      <div className='w-full flex justify-center relative top-0 bg-card' style={{borderRadius:"70px 70px 0 0"}}>
       
       <footer className='xl:w-[85%] md:w-[90%]  w-[95%] pt-24'>
 {/* 1st section starts */}
