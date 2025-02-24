@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Home.css"
+import "../styles/UltraHigh.css"
 import BgImg from '../assets/bgImg.svg'
 import { Link } from 'react-router-dom'
 import gateway1 from '../assets/gateway1.svg'
@@ -18,8 +19,8 @@ const Terms = () => {
       <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 '>
     
       <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10'>
-          <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-semibold'>
-          Terms <span className='text-btnBg'>o</span><span className='text-v3'>f u</span><span className='text-v4'>se</span>
+          <h1 className='lg:text-7xl md:text-5xl text-4xl gradientText text-center font-semibold'>
+          Terms of use
           </h1>
           <p className='text-[grey] text-center'>Welcome to MetaX Digital! Before you proceed, it's essential to carefully read and understand the following Terms & Conditions ("Terms") as they establish an agreement between MetaX and yourself. These Terms govern your use of the website ("Site"). By accessing or utilizing any aspect of the Site, you are confirming your acceptance of these Terms. If you do not agree with any part of these terms, we kindly ask that you refrain from accessing or using the Site.</p>
       </div>
@@ -28,7 +29,7 @@ const Terms = () => {
 
            {/* ......................... Enhanced Functionality    section   starts ................. */}
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>Disc</span><span className='text-v3'>laimer</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientText'>Disclaimer</span> </span>
             
 <p className='text-[grey]'>The information provided on this website is intended for general informational purposes only. Nothing on this website or in its contents should be construed as legal, data protection compliance, or other professional advice. We do not assume responsibility for any loss that may result from relying on the information or materials published on this website.</p>
 
@@ -41,7 +42,7 @@ To the extent permitted by applicable laws, we are not liable for any matter rel
 
 {/* ........ A solution for different cases section starts ................... */}
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>Reverse Solic</span><span className='text-v3'>itation Disclaimer</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientText'>Reverse Solicitation Disclaimer</span> </span>
             
 <p className='text-[grey]'>MetaX Payments does not actively solicit, market, or promote its services in the United Kingdom or any other jurisdiction where it is not licensed or authorized to operate. By accessing this website and/or engaging with our services, you explicitly acknowledge and confirm that: You have approached MetaX Payments entirely on your own initiative, without any prior solicitation, direct marketing, or targeted advertisement from MetaX or its representatives. Any inquiries, requests, or transactions with MetaX are made at your own sole discretion and at your exclusive request, without any encouragement, promotion, or influence from our company. The content on this website is strictly for informational purposes only and does not constitute an offer, invitation, or solicitation to buy, sell, or provide any financial services in jurisdictions where such an offer would be unlawful. MetaX Payments does not offer services to UK residents, businesses, or financial institutions unless they have contacted us independently and without any prior solicitation from our company. You are fully responsible for ensuring that your engagement with MetaX complies with the laws and regulations of your jurisdiction.</p>
 
@@ -51,7 +52,7 @@ To the extent permitted by applicable laws, we are not liable for any matter rel
 {/* ........ A solution for different cases section ends ...................  */}
 
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>UK Residents an</span><span className='text-v3'>d Financial Regulations</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientText'>UK Residents and Financial Regulations</span> </span>
             
 <p className='text-[grey]'>MetaX Payments Ltd is not licensed by the UK Financial Conduct Authority (FCA) and does not provide services within the UK on a solicited basis. Any UK-based individual or business using our services has done so through their own initiative, and MetaX accepts no liability for any regulatory consequences arising from their use of our platform. For any compliance-related inquiries or if you require further clarification regarding regulatory matters, please contact our Legal & Compliance Team at <a href="mailto:support@metaxpayments.com" className='text-btnBg'>support@metaxpayments.com</a> .</p>
 

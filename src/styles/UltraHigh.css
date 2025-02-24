@@ -25,3 +25,9 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.show{
+    z-index: 100000;
+}
+.hide{
+    z-index: 5;
+}

@@ -33,7 +33,7 @@ const UltraHigh = () => {
 <section className='flex flex-col gap-20 lg:flex-row justify-between pt-52 items-center w-full'>
 
 <div className='lg:w-[48%] w-full md:w-[70%] flex flex-col justify-center lg:justify-start'>
-<span className='lg:gradientText1 gradientText text-xl md:text-2xl text-center lg:text-start font-medium  leading-18'>Banking and Payment Solutions</span> 
+<span className='lg:gradientText1 gradientText text-[22px] md:text-2xl text-center lg:text-start font-medium  leading-18'>Banking and Payment Solutions</span> 
         <h2 className='lg:text-[55px] lg:w-[70%] md:text-5xl  text-center text-[45px] lg:text-start font-medium md:leading-18 leading-16'>
         TradFi and DeFi in one  place
 
@@ -62,13 +62,13 @@ Extend your financial horizon with traditional banking services such as <br clas
 <div className='lg:w-[35%] md:w-[70%] flex flex-col lg:items-end w-full'>
   <div>
   <div className='text-center lg:text-start'>
-    <span className='text-btnBg text-center lg:text-[23px] lg:text-start text-md md:text-xl gradientText font-medium leading-18'>Crypto accessbility</span></div> 
-        <h2 className='lg:text-6xl text-center lg:text-start md:text-5xl text-4xl font-medium md:leading-16 leading-10'>
+    <span className='text-btnBg text-center text-[23px] lg:text-[23px] lg:text-start text-md md:text-xl gradientText font-medium leading-18'>Crypto accessbility</span></div> 
+        <h2 className='lg:text-6xl text-center lg:text-start text-5xl font-medium leading-16'>
         Metax offers freedom of choice
 
         </h2>
 
-<p className='opacity-[0.7] font-light md:leading-7 lg:text-start text-center pt-5'>Manage your crypto assets portfolio with no constraints! Our platform allows you to integrate with new technologies and DeFi tools while maintaining flexibility to liquidate, swap, or use your assets within the Skyline universe of banking top-notch features.
+<p className='opacity-[0.7] font-light md:leading-7 lg:text-start leading-8 text-center pt-5'>Manage your crypto assets portfolio with no constraints! Our platform allows you to integrate with new technologies and DeFi tools while maintaining flexibility to liquidate, swap, or use your assets within the Skyline universe of banking top-notch features.
 </p>
   </div>
 </div>
@@ -81,12 +81,12 @@ Extend your financial horizon with traditional banking services such as <br clas
         <section className='flex flex-col gap-20 lg:flex-row justify-between items-center w-full py-20 pt-20'>
 
 <div className='lg:w-[48%] md:w-[70%] flex flex-col items-center lg:items-start w-full'>
-<span className='text-btnBg text-md md:text-2xl gradientText leading-18'>Tokenised securities</span> 
-        <h2 className='lg:text-6xl md:text-5xl text-4xl font-medium md:leading-18 leading-10'>
+<span className='text-btnBg text-md md:text-2xl gradientText text-[23px] leading-18'>Tokenised securities</span> 
+        <h2 className='lg:text-6xl text-5xl font-medium leading-18'>
         Asset Diversification
         </h2>
 
-<p className='opacity-[0.7] font-light md:leading-7 lg:w-[75%] text-center lg:text-start pt-5'>Access Tokenised securities within our platform, granting you a more diverse asset holding.Increase your liquidity and your digital trading options, and solidify your presence in the company exchange market.
+<p className='opacity-[0.7] font-light md:leading-7 lg:w-[75%] leading-8 w-[90%] md:w-full text-center lg:text-start pt-5'>Access Tokenised securities within our platform, granting you a more diverse asset holding.Increase your liquidity and your digital trading options, and solidify your presence in the company exchange market.
 </p>
 </div>
 
@@ -102,22 +102,24 @@ Extend your financial horizon with traditional banking services such as <br clas
              {/* ......................... Enhanced Functionality    section   starts ................. */}
              <section className='flex flex-col gap-20 lg:flex-row lg:gap-32 items-center w-full py-20 pt-20'>
 
-             <div className='lg:w-[50%] md:w-[70%] lg:flex lg:justify-center  w-full'>
+             <div className='lg:w-[50%] md:w-[70%] flex justify-center  w-full'>
 <img src={section5} alt="" />
 </div>
 
 <div className='lg:w-[35%] md:w-[70%] flex flex-col lg:items-end w-full'>
   <div>
   <div className='text-center lg:text-start'>
-    <span className='text-btnBg text-md md:text-2xl gradientText lg:font-medium leading-18'>Safety First</span></div> 
-        <h2 className='lg:text-[55px] md:text-5xl lg:text-start text-center text-4xl font-medium md:leading-18 leading-10'>
+    <span className='text-btnBg text-md md:text-2xl text-[23px] gradientText font-medium leading-18'>Safety First</span></div> 
+        <h2 className='lg:text-[55px] text-5xl lg:text-start text-center font-medium leading-18'>
         Privacy and safety for all users
 
 
         </h2>
-
-<p className='opacity-[0.7] font-light md:leading-7 text-center lg:text-start pt-5'>Metax Digital is focused on ensuring all security measures are in place to safeguard your financial well-being. We work with many types of wallets and on-chain security tools.
+<div className='w-full flex justify-center'>
+        
+<p className='opacity-[0.7] font-light md:leading-7 text-center lg:text-start leading-8 w-[95%] pt-5'>Metax Digital is focused on ensuring all security measures are in place to safeguard your financial well-being. We work with many types of wallets and on-chain security tools.
 </p>
+</div>
   </div>
 </div>
 
@@ -133,15 +135,15 @@ Extend your financial horizon with traditional banking services such as <br clas
 
     <p className='text-center pb-5 text-[23px] font-medium'><span className='gradientText'>Use cases - Unlock Financial Freedom</span></p>
 <div className='w-full flex justify-center'>
-<h1 className='lg:text-[55px] md:text-5xl text-4xl text-center lg:w-[65%] font-medium md:leading-18 leading-10'>Crypto Transactions made simple: Real world assets, Real estate, Legal fees </h1>
+<h1 className='lg:text-[55px] text-5xl text-center lg:w-[65%] font-medium leading-18'>Crypto Transactions made simple: Real world assets, Real estate, Legal fees </h1>
 
 </div>
 <div className='w-full flex justify-center'>
-<p className='opacity-[0.7] lg:w-[60%] font-light md:leading-7 text-center pt-5 lg:pt-10'>
+<p className='opacity-[0.7] lg:w-[60%] font-light md:w-[90%]  md:leading-7 leading-8 w-[95%] text-center pt-5 lg:pt-10'>
 Elevate your financial game! Buy cars, invest in real estate, and cover legal fees-all with cryptocurrency. Experience the ease of digital transactions and step into a future of financial freedom</p>
 
 </div>
-<div className='grid grid-cols-1 lg:grid-cols-3 gap-10 pt-20'>
+<div className=' md:grid-cols-1 hidden md:grid lg:grid-cols-3 gap-10 pt-20'>
         <div className= 'p-7 xl:h-[260px] md:h-[190px] border-border border-[1px] px-5 pt-5 rounded-2xl' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
                 
                 <h1 className='text-2xl font-medium py-5'>Buy your assets with Metax Digital
@@ -174,12 +176,12 @@ Elevate your financial game! Buy cars, invest in real estate, and cover legal fe
 <section className='py-20 w-full'>
 
 <div className='flex justify-center w-full'>
-<h1 className='lg:text-6xl md:text-5xl text-4xl text-center font-medium md:leading-16 lg:w-[65%] leading-10'>Create your <span className='gradientText'>(Ultra) High Net-Worth </span>account now  </h1>
+<h1 className='lg:text-6xl text-5xl text-center font-medium leading-16 w-[95%] lg:w-[65%] '>Create your <span className='gradientText'>(Ultra) High Net-Worth </span>account now  </h1>
 
 </div>
 
-<p className='opacity-[0.7] font-light tracking-wide text-center pt-10'>Welcome to a world where financial excellence meets unparalleled opportunities!</p>
-<div className='grid grid-cols-1 lg:grid-cols-5 gap-10 pt-20'>
+<p className='opacity-[0.7] font-light tracking-wide text-center leading-8 pt-10'>Welcome to a world where financial excellence meets unparalleled opportunities!</p>
+<div className='md:grid hidden md:grid-cols-1 lg:grid-cols-5 gap-10 pt-20'>
         <div className= 'p-7 xl:h-[240px] md:h-[280px] bg-card border-[#2E333B] border-[1px] px-5 pt-5 rounded-2xl lg:col-span-3'>
                 
                 <h1 className='text-2xl font-semibold py-5'>Full banking services</h1>
@@ -231,14 +233,14 @@ Elevate your financial game! Buy cars, invest in real estate, and cover legal fe
 <div className='w-full flex justify-center flex-col xl:mb-[650px] lg:mb-[600px] md:mb-[800px] mb-[600px] items-center relative'>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
-<main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40 top-20 lg:top-50 z-30 '>
-<p className='text-center pb-5 text-xl'><span className='gradientText font-medium md:font-semibold'>Enter the world of crypto markets</span></p>
+<main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40  top-20 lg:top-50 z-30 '>
+<p className='text-center pb-5 text-xl'><span className='gradientText text-[23px] font-semibold'>Enter the world of crypto markets</span></p>
 <div className='flex justify-center'>
-<h1 className=' md:text-5xl text-4xl lg:text-[55px] lg:w-[65%] font-medium text-center md:leading-18  z-30'>Tailored introduction to new possibilities</h1>
+<h1 className=' text-5xl  lg:text-[55px] lg:w-[65%] font-medium text-center  leading-18  z-30'>Tailored introduction to new possibilities</h1>
 
 </div>
 <div className='w-full flex justify-center'>
-<p className='opacity-[0.7] font-light leading-7 w-[90%] lg:w-[60%] text-center py-10 '> Navigate the realms of traditional banking and crypto markets with expert and personalized guidance while ensuring your privacy. Whether you’re a seasoned investor or just starting to discover the financial possibilities of the Crypto world, you can get insights and full support from our experienced team. </p>
+<p className='opacity-[0.7] font-light leading-8 w-[90%]  lg:w-[60%] text-center py-10 '> Navigate the realms of traditional banking and crypto markets with expert and personalized guidance while ensuring your privacy. Whether you’re a seasoned investor or just starting to discover the financial possibilities of the Crypto world, you can get insights and full support from our experienced team. </p>
     
 </div>
 <div className='text-center'><button className='w-[250px] py-4 rounded-full bg-btnBg font-light hover:bg-hoverBg cursor-pointer text-center'>Join our Platform</button></div>
