@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaTelegramPlane } from "react-icons/fa";
+import "../styles/Home.css"
 import logo from '../assets/newFinal.png';
 import glo from '../assets/footerLogo.png'
 import { FaFacebookF, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
@@ -14,7 +15,7 @@ const Footer = () => {
 
       <div className='w-full flex justify-center relative top-0 bg-card' style={{borderRadius:"70px 70px 0 0"}}>
       
-      <footer className='xl:w-[85%] md:w-[90%]  w-[95%] pt-24'>
+      <footer className='xl:w-[85%] width md:w-[90%]  w-[95%] pt-24'>
 {/* 1st section starts */}
         <div className='flex md:flex-row flex-col gap-5 md:gap-0 justify-center md:justify-between items-center bg-[#131B2C] border-[1px] border-[#29354D] w-full rounded-2xl p-5'>
 <div className='flex md:flex-row flex-col gap-5 items-center md:items-start '>

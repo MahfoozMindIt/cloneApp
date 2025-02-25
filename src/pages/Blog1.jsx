@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Blog1 = () => {
   return (
-    <div className='relative h-[3900px] md:h-[3850px] lg:h-[3600px] bg-black z-[-2]' >
+    <div className='relative h-[3900px] md:h-[3850px] lg:h-[3800px] bg-black z-[-2]' >
 
         <section className='bannerBg absolute left-0 z-0 -top-[80px] flex flex-col items-center justify-center h-[500px] w-full'>
 
@@ -19,7 +19,7 @@ const Blog1 = () => {
       <img src={blog1} alt="" className='w-full object-cover' />
       </div>
 
-      <div className='absolute flex justify-center  w-full top-[750px] md:top-[950px] lg:top-[1400px]'>
+      <div className='absolute flex justify-center  w-full top-[750px] md:top-[950px] lg:top-[1700px]'>
 <main className='w-[95%] md:w-[90%] xl:w-[85%]'>
 <p className='font-semibold lg:w-[65%]'>Organizations around the world are exploring new ways to incorporate and manage businesses, especially within the Web3 community. A DAO is a new type of organization becoming increasingly attractive, as it can easily have a democratized governance model that fits its intended purposes.</p>
 

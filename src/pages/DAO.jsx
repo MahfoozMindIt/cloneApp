@@ -6,12 +6,10 @@ import n2 from '../assets/n2.svg'
 import n3 from '../assets/n3.svg'
 import n4 from '../assets/n4.svg'
 import "../styles/UltraHigh.css"
-import dao from "../assets/dao.png"
-import n5 from '../assets/n5.svg'
+import dao from "../assets/dao.png";
 import { IoIosArrowDown, IoIosCard } from 'react-icons/io';
 import line from '../assets/download1.svg';
 import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from 'react-icons/md'
-import { FaFileInvoiceDollar } from 'react-icons/fa6'
 import { RiSecurePaymentLine } from 'react-icons/ri'
 import { BsPersonFill } from 'react-icons/bs'
 import { GiTwoCoins } from 'react-icons/gi'
@@ -20,13 +18,13 @@ import { AiOutlineGlobal } from 'react-icons/ai'
 const UltraHigh = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>
-      <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
+      <main className='md:w-[90%] width xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
     
-        <section className=' flex w-full justify-center flex-col items-center z-30  xl:pt-40'>
+        <section className=' flex w-full justify-center flex-col items-center z-30  '>
    <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-44'>
-            <h1 className='lg:text-7xl md:text-[55px] text-[35px] w-[90%] md:w-full text-center font-medium lg:w-[60%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
+            <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center font-medium lg:w-[75%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
             </h1>
-            <p className='text-center font-light text-[16px] w-[75%] md:w-full  leading-7 '>Pay for Goods, Services, Contractors and much more with Skyline Digital</p>
+            <p className='text-center font-light text-[16px] w-[90%] md:w-full  leading-7 '>Pay for Goods, Services, Contractors and much more with Skyline Digital</p>
             <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
             <div className=' animate-ping pt-8'>
             <IoIosArrowDown className='text-[13px]'/>
@@ -44,12 +42,12 @@ const UltraHigh = () => {
 <section className='pb-20 pt-80 w-full'>
         <div className='flex justify-center w-full'>
                 
-<h1 className='lg:text-7xl md:text-[55px] text-[35px] w-[90%] md:w-full text-center font-medium lg:w-[60%] lg:leading-24'>The ultimate solution for the decentralized world</h1>
+<h1 className=' md:text-[45px] lg:text-[55px]  text-[34px]  md:w-full text-center font-medium lg:w-[60%] '>The ultimate solution for the decentralized world</h1>
         </div>
 
 <div className='flex w-full justify-center'>
         
-<main className='grid grid-cols-1 md:w-[70%] w-[95%] lg:w-full gap-7'>
+<main className='grid grid-cols-1 md:w-[85%]  lg:w-full gap-7'>
     
     <div className='grid grid-cols-1 lg:grid-cols-3 gap-7 pt-20'>
             <main className='xl:h-[400px]  border-border border-[1px] bg-card rounded-2xl'>
@@ -131,11 +129,11 @@ const UltraHigh = () => {
 <section className='py-20 w-full'>
         <div className='flex justify-center text-center w-full'>
                 
-<h1 className='lg:text-[55px]  lg:w-[45%] text-center text-[35px] w-[90%] font-medium leading-12 md:leading-18 lg:leading-20 md:w-[80%]'>Empower Your Crypto Vision with Metax Digital</h1>
+<h1 className='lg:text-[55px] md:text-[48px]  lg:w-[45%] text-center text-[34px]  font-medium leading-12 md:leading-16  lg:leading-20 md:w-full'>Empower Your Crypto Vision with Metax Digital</h1>
         </div>
 <p className='opacity-[0.7] font-light md:leading-7  leading-8 text-center pt-7'>Metax Digital is the first regulated company licensed to process financial transactions on behalf of unincorporated DAOs</p>
 <main className='flex justify-center w-full'>
-<div className='md:grid hidden md:grid-cols-1 w-[70%] lg:w-full lg:grid-cols-3 gap-10 pt-20'>
+<div className='md:grid hidden md:grid-cols-1 w-[85%] lg:w-full lg:grid-cols-3 gap-10 pt-20'>
 <div className= 'p-7 bg-card border-border border-[1px] px-5 pt-3 rounded-2xl xl:h-[560px] relative lg:col-span-1'>
                 
                 <h1 className='text-2xl font-medium py-5 show'>Flat 1% Fee for Crypto to Fiat (C2F) and Fiat to Crypto (F2C) Transactions</h1>
@@ -182,11 +180,11 @@ const UltraHigh = () => {
 <section className='py-20 w-full'>
     <p className='text-center pb-5 gradientText text-[23px] font-medium'>Optimize Operations and Access Capital</p>
 <div className='flex justify-center w-full'>
-<h1 className='lg:text-[55px] text-[35px] text-center lg:w-[65%] font-medium md:leading-18 leading-12'>Crypto Transactions Made Simple: Pay invoices, Raise capital, Ensure payroll</h1>
+<h1 className='lg:text-[55px] md:text-[43px] text-[35px]  text-center lg:w-[65%] font-medium md:leading-16 leading-12'>Crypto Transactions Made Simple: Pay invoices, Raise capital, Ensure payroll</h1>
 </div>
 <div className='flex justify-center w-full'>
         
-<p className='opacity-[0.7] lg:w-[60%] font-light md:w-[90%]  md:leading-7 leading-8 w-[95%] text-center pt-5 lg:pt-10'>
+<p className='opacity-[0.7] lg:w-[75%] font-light md:w-[90%]  md:leading-7 leading-8 w-[95%] text-center pt-5 lg:pt-10'>
 Pay invoices for goods and services, raise capital from traditional investors, and streamline payroll. With our Crypto to Fiat feature, ensure smooth employee payments in their preferred currency or facilitate crypto to crypto transactions.</p>
 </div>
 <div className='md:grid md:grid-cols-1 hidden lg:grid-cols-3 gap-10 pt-20'>
@@ -223,7 +221,7 @@ Pay invoices for goods and services, raise capital from traditional investors, a
 
       </main>
       
-<div className='w-full flex justify-center flex-col xl:mb-[400px] mb-[500px] items-center relative'>
+<div className='w-full flex justify-center flex-col xl:mb-[550px] mb-[500px] items-center relative'>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
 <main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40 top-20 lg:top-50 z-30 '>
@@ -241,7 +239,7 @@ Pay invoices for goods and services, raise capital from traditional investors, a
 </main>
 
 </div>
-<main className='w-[95%] md:[90%] xl:[85%] pb-28'>
+<main className='w-[95%] md:[90%] xl:[85%] pb-28 xl:mb-32'>
 <div className='flex justify-center w-full'>
         
 <section className=' grid lg:grid-cols-3 w-[95%] md:w-[90%]  grid-cols-1 flex-wrap gap-10'>

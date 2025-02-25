@@ -11,8 +11,14 @@ font-size:13px
     font-size:13px
     }
 
-@media screen and (max-width:2000px) {
+@media screen and (min-width:2000px) {
     .width{
-        width: 75%;
+        width: 65%;
+    }
+    .mainHeading{
+        width: 50%;
+    }
+    .mainPara{
+        width: 43%;
     }
 }

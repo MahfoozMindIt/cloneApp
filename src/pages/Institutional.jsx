@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Home.css"
+import "../styles/UltraHigh.css"
 import BgImg from '../assets/bgImg.svg'
 import { Link } from 'react-router-dom'
 import section2 from '../assets/instSec1.svg'
@@ -14,29 +15,27 @@ import { IoIosArrowDown } from 'react-icons/io';
 const Institutional = () => {
   return (
   <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#060F26 30%,#010102 )"}}>
-        <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
-          {/* banner section..... */}
-  <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
-          <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-36'>
-  
-          <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10'>
-              <h1 className='xl:text-7xl md:text-5xl text-4xl text-center font-medium xl:leading-24'>Charting 
-              <span className='text-btnBg'> New In</span><span className='text-v3  '>vestment</span> <br className='hidden md:block'/> <span className='text-v4 '>Frontiers</span>   in Crypto </h1>
-              <p className='text-center md:text-[17px] text-[15px]'>Redefine the landscape of challenges and opportunities in the dynamic Web3 payment<br className='hidden lg:block'/> world with Metax Digital!</p>
-              <button className='w-[180px] py-3 rounded-full bg-btnBg font-semibold hover:bg-hoverBg cursor-pointer'>Join now</button>
+        <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
+          <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-10'>
+   <div className='flex flex-col backHero  items-center  gap-10 pt-24 '>
+              <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center font-medium lg:w-[75%] lg:leading-24'>Charting <span className='gradientText'>New Investment Frontiers</span> in Crypto
+              </h1>
+              <p className='text-center font-light text-[16px] w-[90%] md:w-full lg:w-[45%]  leading-7 '>Redefine the landscape of challenges and opportunities in the dynamic Web3 payment world with Metax Digital!</p>
+              <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
+              <div className=' animate-ping pt-8'>
+              <IoIosArrowDown className='text-[13px]'/>
+              <IoIosArrowDown className='text-[13px]'/>
           </div>
-          <div className='xl:pt-16 pt-10 text-md animate-ping '>
-              <IoIosArrowDown />
-              <IoIosArrowDown />
           </div>
+         
   
   
                {/* ......................... Enhanced Functionality    section   starts ................. */}
   <section className='flex flex-col gap-20 lg:flex-row justify-between items-center w-full py-20 pt-52 xl:pt-72'>
   
   <div className='lg:w-[48%] w-full'>
-  <span className='text-btnBg text-md md:text-2xl leading-18'>Choose yo</span><span className='text-v3 text-md md:text-2xl '>ur inve</span><span className='text-v4 text-md md:text-2xl'>stments</span> 
-          <h2 className='lg:text-7xl md:text-5xl text-4xl font-medium md:leading-18 leading-10'>
+  <span className='gradientText text-md md:text-2xl leading-18'>Choose your investments</span> 
+          <h2 className='lg:text-6xl md:text-5xl text-4xl font-medium lg:leading-19 md:leading-18 leading-10'>
           Crypto Custody <br className='hidden lg:block '/> Solutions
   
           </h2>
