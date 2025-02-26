@@ -29,23 +29,23 @@ const Footer = () => {
 {/* 2nd section starts here */}
 <section className='flex lg:flex-row flex-col lg:gap-14 xl:gap-0 gap-10 py-24'>
 {/* 1st mainDiv */}
-<div className='lg:w-[40%] w-full'>
+<div className='lg:w-[40%] w-full flex justify-center flex-col items-center md:items-start'>
 <img src={logo} alt="" className='w-44 object-contain'/>
-<h3 className='text-xl font-medium py-5'>The Future of Decentralized Banking</h3>
-<p className='font-light text-[grey] pb-10'>Bridging Web3 Innovation  with  ,<br />Traditional Finance</p>
+<h3 className='text-xl font-medium py-5 text-center md:text-start'>The Future of Decentralized Banking</h3>
+<p className='font-light text-[grey] pb-10 text-center md:text-start'>Bridging Web3 Innovation  with  ,<br />Traditional Finance</p>
 <img src={glo} alt="" className='w-52 object-contain'/>
 </div>
 
 {/* 2nd mainDiv */}
 
-<div className='lg:w-[50%] w-full flex gap-10 md:gap-0 md:justify-between'>
+<div className='lg:w-[50%] w-full md:flex-row flex-col items-center md:items-start flex gap-10 md:gap-0 md:justify-between'>
 
 
 {/* 2nd div */}
 <div className='flex flex-col gap-7'>
   <h6 className='font-medium text-[15px]'>Company info</h6>
   
-<ul className='opacity-[0.7] gap-4 flex flex-col text-sm md:text-[16px]'>
+<ul className='opacity-[0.7] gap-4 flex flex-col items-center md:items-start text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'><Link to='/'>Homepage</Link></li>
   <li className='cursor-pointer hover:text-[grey]'><Link to='/blog'>Our Blog</Link></li>
   <li className='cursor-pointer hover:text-[grey]'><Link to='/platform'>Platform</Link></li>
@@ -56,9 +56,9 @@ const Footer = () => {
 </div>
 {/* 3rd div */}
 <div className='flex flex-col gap-7'>
-  <h6 className='font-medium text-[15px]'>Use cases</h6>
+  <h6 className='font-medium text-center md:text-start text-[15px]'>Use cases</h6>
   
-<ul className='opacity-[0.7] gap-4 flex flex-col text-sm md:text-[16px]'>
+<ul className='opacity-[0.7] gap-4 flex flex-col items-center md:items-start text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'><Link to='/ultra-high-net-worth-individual'>U/HNWI</Link></li>
   <li className='cursor-pointer hover:text-[grey]'>
 <Link to='/daos-and-organizations'>DAOs & Organizations</Link></li>
@@ -78,7 +78,7 @@ const Footer = () => {
 <div className='flex flex-col gap-7'>
   <h6 className='font-medium text-[15px]'>Legal Information</h6>
   
-<ul className='opacity-[0.7] gap-4 flex flex-col text-sm md:text-[16px]'>
+<ul className='opacity-[0.7] gap-4 flex flex-col items-center md:items-start text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'>
 <Link to='/cookies'>Cookies</Link></li>
   <li className='cursor-pointer hover:text-[grey]'>
@@ -101,7 +101,7 @@ const Footer = () => {
 
 <section className='border-t-[1px] border-b-[1px] border-l-0 border-r-0 border-border w-full'>
 
-  <div  className='w-full flex justify-between items-center py-10'>
+  <div  className='w-full flex justify-between items-center py-10 flex-col gap-5 md:flex-row'>
     <h3 className='text-[grey] text-[13px] md:text-[16px]'>Copyright © Metax Digital AG</h3>
     <div className='flex gap-5'>
 <div className='bg-[#131B2C] text-white p-1 text-xl rounded-md border-[1px] border-border'>
