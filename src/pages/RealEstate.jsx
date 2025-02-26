@@ -42,7 +42,7 @@ const RealEstate = () => {
          </div>
   
 
-         <main className='md:w-[90%] xl:w-[85%] w-[95%] width-RealEstate z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
+         <main className='md:w-[90%] xl:w-[90%] w-[95%] width-RealEstate z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
     
     <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 '>
   
@@ -238,7 +238,7 @@ This feature is ideal for businesses and individuals looking to leverage liquidi
 </div>
 
 <div className='w-full flex justify-center'>
-<main className='md:w-[80%] lg:w-[90%] xl:w-[85%] width-RealEstate lastSec-realEstate w-[95%] flex justify-center'>
+<main className='md:w-[80%] lg:w-[90%]  width-RealEstate lastSec-realEstate w-[95%] flex justify-center'>
 <section className='  w-full py-28'>
 <div className='grid grid-cols-1 lg:grid-cols-2 w-full gap-16 pt-20'>
     

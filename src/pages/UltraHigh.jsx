@@ -17,7 +17,7 @@ const UltraHigh = () => {
         <section className=' flex w-full  justify-center flex-col items-center z-30'>
 
         <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-44'>
-            <h1 className='lg:text-7xl md:text-[55px] text-[40px] text-center w-[90%] md:w-full mainHeading-UltraHigh  font-medium lg:w-[90%] xl:w-[60%] lg:leading-24'>Bridging Traditional Finance & Crypto
+            <h1 className='lg:text-6xl md:text-[55px] text-[40px] text-center w-[90%] md:w-full mainHeading-UltraHigh  font-medium lg:w-[90%] xl:w-[60%] lg:leading-24'>Bridging Traditional Finance & Crypto
             </h1>
             <p className='text-center font-light md:text-[16px] w-[80%] lg:w-[50%] md:w-full mainPara leading-7 text-[15px]'>Metax Digital offers a solution that allows Ultra and High Net-Worth Individuals to manage their assets in a unique platform with Swiss banking-style service</p>
             <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
@@ -39,8 +39,8 @@ const UltraHigh = () => {
 
         </h2>
 
-<p className='opacity-[0.7] md:leading-7 font-light pt-5 text-center leading-8 lg:text-start' >
-Extend your financial horizon with traditional banking services such as <br className='hidden xl:block '/>worldwide payments, tokenized securities, loans, and cards.
+<p className='opacity-[0.7] md:leading-7 font-light pt-5 text-center lg:w-[90%] xl:w-[85%] leading-8 lg:text-start' >
+Extend your financial horizon with traditional banking services such as worldwide payments, tokenized securities, loans, and cards.
 </p>
 </div>
 
@@ -106,7 +106,7 @@ Extend your financial horizon with traditional banking services such as <br clas
 <img src={section5} alt="" />
 </div>
 
-<div className='xl:w-[35%] lg:w-[45%] md:w-[70%] flex flex-col lg:items-end w-full'>
+<div className='xl:w-[45%] lg:w-[45%] md:w-[70%] flex flex-col lg:items-end w-full'>
   <div>
   <div className='text-center lg:text-start'>
     <span className='text-btnBg text-md md:text-2xl text-[23px] gradientText font-medium leading-18'>Safety First</span></div> 
