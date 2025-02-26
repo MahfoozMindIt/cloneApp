@@ -24,7 +24,7 @@ const RealEstate = () => {
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
             <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
         </div>
-          <h1 className='lg:text-[60px] xl:text-7xl md:text-[55px] pt-10 xl:pt-0 text-[41px] lg:w-[74%] w-[75%] md:w-full text-center font-medium leading-14 xl:w-[65%] md:leading-20 lg:leading-24'>
+          <h1 className='lg:text-[60px] xl:text-7xl md:text-[55px] pt-10 xl:pt-0 text-[41px] lg:w-[74%] w-[75%] md:w-full text-center font-medium leading-14 xl:w-[55%] md:leading-20 lg:leading-24'>
           Buy <span className='gradientText'> your Next Property </span>With <span className='gradientText'> Crypto</span>
           </h1>
           <p className='text-center font-light text-[16px] w-[85%] md:w-full lg:w-[80%] xl:w-[44%] xl:leading-7 lg:leading-8  leading-7 pt-10'>Invest in real estate using Metax Digital's crypto payments platform
@@ -53,16 +53,16 @@ const RealEstate = () => {
          {/* ......................... Enhanced Functionality    section   starts ................. */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
-<div className='lg:w-[48%] w-full'>
+<div className='lg:w-[48%] xl:w-[40%] w-full'>
     <h2 className='lg:text-[50px] md:text-5xl text-[47px] font-medium lg:leading-16 md:leading-18 leading-16'>
     Buy real estate in +30 countries
     </h2>
  
 
-<p className='text-[silver] pt-5 xl:w-[70%] font-light  lg:w-[90%] leading-7  xl:leading-7'>
+<p className='text-[silver] pt-5 xl:w-[85%] font-light  lg:w-[90%]  leading-7  xl:leading-7'>
 The European Union market benefits from a strong financial infrastructure and growing crypto hubs, namely in Portugal, Estonia, and Germany, where progressive regulations support a crypto-friendly approach. This makes property investment more accessible for digital asset holders, positioning EU as a prime region for portfolio diversification.
 </p>
-<p className='text-[silver] pt-5 xl:w-[70%] font-light  lg:w-[90%] leading-7  xl:leading-7'>
+<p className='text-[silver] pt-5 xl:w-[85%] font-light  lg:w-[90%] leading-7  xl:leading-7'>
 Additionally, countries like Spain and Greece offer attractive Golden Visa programs, granting residency to investors. Spain's Golden Visa requires a minimum investment of €500,000, while Greece’s offers entry with €250,000, making these countries even more appealing to international investors looking for both real estate gains and residency benefits.
 </p>
 </div>
@@ -184,9 +184,9 @@ Additionally, countries like Spain and Greece offer attractive Golden Visa progr
     </h2>
  
 
-<p className='text-[white] opacity-[0.8] lg:text-start xl:w-[80%] py-10 md:w-full text-center leading-7 font-light'>Obtain aggregated DeFi loans through Metax's platform. Our streamlined KYC/KYB simplifies access to DeFi lending protocols, such as Aave and Spark.
+<p className='text-[white] opacity-[0.8] lg:text-start xl:w-[65%] py-10 md:w-full text-center leading-7 font-light'>Obtain aggregated DeFi loans through Metax's platform. Our streamlined KYC/KYB simplifies access to DeFi lending protocols, such as Aave and Spark.
 </p>
-<p className='text-[white] opacity-[0.8] lg:text-start  xl:w-[80%] md:w-full text-center leading-7 font-light'>
+<p className='text-[white] opacity-[0.8] lg:text-start  xl:w-[65%] md:w-full text-center leading-7 font-light'>
 This feature is ideal for businesses and individuals looking to leverage liquidity without having to spend their crypto. Benefit from lower interest rates, flexible terms and no intermediaries as you will directly interact with the DeFi protocols
 </p>
 </div>

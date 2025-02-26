@@ -23,7 +23,7 @@ const UltraHigh = () => {
     
         <section className=' flex w-full justify-center flex-col items-center z-30  '>
    <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-44'>
-            <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center widthMainContent-DAO font-medium lg:w-[75%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
+            <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center widthMainContent-DAO font-medium lg:w-[60%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
             </h1>
             <p className='text-center font-light text-[16px] w-[90%] md:w-full  leading-7 '>Pay for Goods, Services, Contractors and much more with Metax Digital</p>
             <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
@@ -43,7 +43,7 @@ const UltraHigh = () => {
 <section className='pb-20 pt-80 w-full'>
         <div className='flex justify-center w-full'>
                 
-<h1 className=' md:text-[45px] lg:text-[55px]  text-[34px]  md:w-full text-center font-medium lg:w-[60%] '>The ultimate solution for the decentralized world</h1>
+<h1 className=' md:text-[45px] lg:text-[55px]  text-[34px]  md:w-full text-center font-medium lg:w-[45%] '>The ultimate solution for the decentralized world</h1>
         </div>
 
 <div className='flex w-full justify-center'>
@@ -181,7 +181,7 @@ const UltraHigh = () => {
 <section className='py-20 w-full'>
     <p className='text-center pb-5 gradientText text-[23px] font-medium'>Optimize Operations and Access Capital</p>
 <div className='flex justify-center w-full'>
-<h1 className='lg:text-[55px] md:text-[43px] text-[35px]  text-center lg:w-[65%] font-medium md:leading-16 leading-12'>Crypto Transactions Made Simple: Pay invoices, Raise capital, Ensure payroll</h1>
+<h1 className='lg:text-[55px] md:text-[43px] text-[35px]  text-center xl:w-[60%] lg:w-[65%] font-medium md:leading-16 leading-12'>Crypto Transactions Made Simple: Pay invoices, Raise capital, Ensure payroll</h1>
 </div>
 <div className='flex justify-center w-full'>
         
