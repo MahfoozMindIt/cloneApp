@@ -2,7 +2,6 @@ import React from 'react'
 import "../styles/Home.css"
 import "../styles/UltraHigh.css"
 import BgImg from '../assets/bgImg.svg'
-import blue from "../assets/blue.svg";
 import { Link } from 'react-router-dom'
 import section2 from '../assets/section2.svg'
 import section4 from '../assets/section4.svg'
@@ -47,8 +46,7 @@ Extend your financial horizon with traditional banking services such as <br clas
 
 
 <div className='lg:w-[48%] flex md:w-[70%] lg:justify-center w-full justify-center'>
-<img src={section2} alt="" className='img1'/>
-
+<img src={section2} alt="" />
 </div>
 
 </section>
@@ -58,7 +56,7 @@ Extend your financial horizon with traditional banking services such as <br clas
              <section className='flex flex-col gap-20 lg:flex-row lg:gap-16 xl:gap-32 items-center w-full py-20 pt-28'>
 
              <div className='lg:w-[50%]  w-full'>
-<img src={section3} alt="" className='img1' />
+<img src={section3} alt="" />
 </div>
 
 <div className='xl:w-[35%] lg:w-[43%] md:w-[70%] flex flex-col lg:items-end w-full'>
@@ -94,7 +92,7 @@ Extend your financial horizon with traditional banking services such as <br clas
 
 
 <div className='lg:w-[48%] md:w-[70%] flex lg:justify-center w-full'>
-<img src={section4} alt="" className='img1' />
+<img src={section4} alt="" />
 </div>
 
 </section>
