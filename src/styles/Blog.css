@@ -6,3 +6,20 @@
     width: 100%;
     position: relative;
 }
+@media screen and (min-width:2000px) {
+   
+    .width-contact{
+        width: 65%;
+    }
+    .banner{
+        background-image: url(../assets/bgImg.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+    .formContact{
+        padding-bottom: 200px;
+    }
+}

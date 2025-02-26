@@ -1,0 +1,17 @@
+@media screen and (min-width:2000px) {
+    .lastSect-DAO{
+        padding-bottom: 150px;
+    }
+    .width-DAO{
+        width: 65%;
+    }
+    .mainHeading-DAO{
+        width: 50%;
+    }
+    .mainPara-DAO{
+        width: 43%;
+    }
+    .widthMainContent-DAO{
+        width: 70%;
+    }
+}

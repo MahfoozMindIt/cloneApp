@@ -12,7 +12,7 @@ import line from '../assets/download1.svg';
 const UltraHigh = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>
-      <main className='md:w-[90%] width xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
+      <main className='md:w-[90%] width xl:w-[85%] w-[95%] width-UltraHigh  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
        
         <section className=' flex w-full  justify-center flex-col items-center z-30'>
 
@@ -230,7 +230,7 @@ Elevate your financial game! Buy cars, invest in real estate, and cover legal fe
 
       </main>
       
-<div className='w-full flex justify-center flex-col xl:mb-[650px]  md:mb-[800px] mb-[850px] items-center relative'>
+<div className='w-full flex justify-center flex-col width-UltraHigh lastSect-UltraHigh xl:mb-[650px]  md:mb-[800px] mb-[850px] items-center relative'>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
 <main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40  top-20 lg:top-50 z-30 '>

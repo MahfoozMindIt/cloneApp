@@ -31,3 +31,17 @@
 .hide{
     z-index: 5;
 }
+@media screen and (min-width:2000px) {
+    .lastSect-UltraHigh{
+        padding-bottom: 150px;
+    }
+    .width-UltraHigh{
+        width: 65%;
+    }
+    .mainHeading-UltraHigh{
+        width: 50%;
+    }
+    .mainPara-UltraHigh{
+        width: 43%;
+    }
+}

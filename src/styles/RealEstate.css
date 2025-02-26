@@ -1,4 +1,15 @@
-
+@media screen and (min-width:2000px) {
+   
+    .width-RealEstate{
+        width: 65%;
+    }
+    .width-RealEstate-EndSec{
+        width: 81%;
+    }
+    .lastSec-realEstate{
+        padding-bottom: 150px;
+    }
+}
 .defi{
     background-image:url(../assets//bgImg.svg) ;
 }

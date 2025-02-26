@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Home.css"
+import "../styles/DAO.css"
 import BgImg from '../assets/bgImg.svg'
 import n1 from '../assets/n1.svg'
 import n2 from '../assets/n2.svg'
@@ -18,11 +19,11 @@ import { AiOutlineGlobal } from 'react-icons/ai'
 const UltraHigh = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>
-      <main className='md:w-[90%] width xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
+      <main className='md:w-[90%] xl:w-[85%] w-[95%] width-DAO  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
     
         <section className=' flex w-full justify-center flex-col items-center z-30  '>
    <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-44'>
-            <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center font-medium lg:w-[75%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
+            <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center widthMainContent-DAO font-medium lg:w-[75%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
             </h1>
             <p className='text-center font-light text-[16px] w-[90%] md:w-full  leading-7 '>Pay for Goods, Services, Contractors and much more with Skyline Digital</p>
             <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
@@ -224,7 +225,7 @@ Pay invoices for goods and services, raise capital from traditional investors, a
 <div className='w-full flex justify-center flex-col xl:mb-[550px] mb-[500px] items-center relative'>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
-<main className='md:w-[90%] xl:w-[85%] w-[95%]    absolute md:top-40 top-20 lg:top-50 z-30 '>
+<main className='md:w-[90%] xl:w-[85%] w-[95%]  width-DAO  absolute md:top-40 top-20 lg:top-50 z-30 '>
         <div className='w-full flex justify-center'>
                 
 <h1 className='text-5xl  lg:text-[55px] lg:w-[65%] font-medium text-center  leading-18  z-30'>Level up with Metax Digital</h1>
@@ -239,7 +240,7 @@ Pay invoices for goods and services, raise capital from traditional investors, a
 </main>
 
 </div>
-<main className='w-[95%] md:[90%] xl:[85%] pb-28 xl:mb-32'>
+<main className='w-[95%] md:[90%] width-DAO xl:[85%] pb-28 xl:mb-32'>
 <div className='flex justify-center w-full'>
         
 <section className=' grid lg:grid-cols-3 w-[95%] md:w-[90%]  grid-cols-1 flex-wrap gap-10'>

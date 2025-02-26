@@ -19,7 +19,7 @@ const RealEstate = () => {
     <div className=' w-full flex bg-[#000205] flex-col items-center justify-center '>
   
          <div className='bg-line custom-real-estate flex justify-center'>
-         <div className=' w-[90%] lg:[85%] h-screen flex justify-center flex-col items-center realEstateBanner z-30'>
+         <div className=' w-[90%] lg:[85%] width-RealEstate h-screen flex justify-center flex-col items-center realEstateBanner z-30'>
          <div className='w-fit items-center xl:hidden   gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
             <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
@@ -42,7 +42,7 @@ const RealEstate = () => {
          </div>
   
 
-         <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
+         <main className='md:w-[90%] xl:w-[85%] w-[95%] width-RealEstate z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
     
     <section className=' flex w-full justify-center flex-col items-center z-30 pt-28 '>
   
@@ -173,8 +173,8 @@ Additionally, countries like Spain and Greece offer attractive Golden Visa progr
 
   </main>
   
-<div className='w-full flex justify-center lg:justify-end'>
-<main className='md:w-[90%] xl:w-[93%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
+<div className='w-full flex justify-center  lg:justify-end'>
+<main className='md:w-[90%] xl:w-[93%] w-[95%] width-RealEstate-EndSec z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center defi w-full py-20'>
 
 <div className='lg:w-[48%] w-full md:w-full text-center lg:text-start'>
@@ -206,7 +206,7 @@ This feature is ideal for businesses and individuals looking to leverage liquidi
 
 
 <div className='w-full flex justify-center bg-white rounded-4xl'>
-<main className='md:w-[80%] lg:w-[85%] xl:w-[75%] w-[95%] flex justify-center'>
+<main className='md:w-[80%] lg:w-[85%] xl:w-[75%] width-RealEstate w-[95%] flex justify-center'>
 <section className='  w-full py-28'>
 
 <h1 className='text-center xl:text-6xl md:text-[45px] text-4xl font-medium text-black'>Why partner with us</h1>
@@ -238,7 +238,7 @@ This feature is ideal for businesses and individuals looking to leverage liquidi
 </div>
 
 <div className='w-full flex justify-center'>
-<main className='md:w-[80%] lg:w-[90%] xl:w-[85%] w-[95%] flex justify-center'>
+<main className='md:w-[80%] lg:w-[90%] xl:w-[85%] width-RealEstate lastSec-realEstate w-[95%] flex justify-center'>
 <section className='  w-full py-28'>
 <div className='grid grid-cols-1 lg:grid-cols-2 w-full gap-16 pt-20'>
     

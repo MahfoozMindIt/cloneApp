@@ -25,7 +25,7 @@ const Platform = () => {
   return (
     <div className='bg-white text-black'  style={{backgroundImage:" linear-gradient(top 70%,#fff,#00020500 )"}}>
          <div className=' w-full flex flex-col text-black items-center justify-center' style={{backgroundImage:" linear-gradient(top 70%,#fff,#00020500 )"}}>
-         <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
+         <main className='md:w-[90%] xl:w-[85%] w-[95%] width-Platform  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
            {/* banner section..... */}
    <img src={BgImg} alt="" className='absolute xl:top-50 top-72 rotate-180 z-10' />
            <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-40'>
@@ -147,7 +147,7 @@ const Platform = () => {
         
   <div className='w-full flex justify-center flex-col pb-[100px] bg-[whitesmoke] items-center relative' >
    <img src={line} alt="" className='w-full z-30'/>
-   <main className='md:w-[90%] lg:w-[65%] xl:w-[85%] w-[95%]    absolute md:top-40 top-20 lg:top-32 z-30 '>
+   <main className='md:w-[90%] lg:w-[65%] xl:w-[85%] w-[95%] width-Platform   absolute md:top-40 top-20 lg:top-32 z-30 '>
    <h1 className=' md:text-5xl xl:text-[50px] text-4xl font-medium text-center  z-30'>Revolutionize Payments</h1>
    <h2 className=' md:text-4xl lg:text-[30px]  text-2xl lg:leading-12 font-medium text-center  z-30 pt-10'>Now allowing 3rd Party Payments directly from your platform</h2>
    <div className='w-full flex flex-col items-center justify-center'>
@@ -164,7 +164,7 @@ const Platform = () => {
 
    
    </main>
-   <main className='md:w-[90%] xl:w-[85%] w-[95%] mt-[600px] lg:mt-[450px]'>
+   <main className='md:w-[90%] xl:w-[85%] w-[95%] width-Platform mt-[600px] lg:mt-[450px]'>
       
    {/* ........Create your (Ultra) High Net-Worth account now ................... */}
    <section className='py-20 w-full '>

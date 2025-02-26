@@ -5,3 +5,19 @@
     background-size: cover;
     z-index: -1;
 }
+@media screen and (min-width:2000px) {
+   
+    .width-blog{
+        width: 65%;
+    }
+    
+    .blogLastSec{
+        margin-bottom: 500px;
+    }
+    .blogStartSec{
+        padding-top: 450px;
+    }
+    .blogContent{
+        height: 4200px;
+    }
+}
