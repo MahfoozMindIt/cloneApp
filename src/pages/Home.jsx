@@ -317,7 +317,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
                 <h1 className='text-2xl font-medium py-5 pt-8'>For Organizations and DAOs</h1>
                 <p className='opacity-[0.8]  font-light text-sm pb-3'>Our platform allows companies and DAOs to pay for Goods, Services, Contractors, and much more.</p>
                 <span className='font-medium text-sm'>View more</span>
-                <img src={grid2} alt="" className='w-full object-cover pt-8'/>
+                <img src={grid2} alt="" className='w-full object-cover pt-[55px]'/>
         </div></Link>
         <Link className='hover:scale-[1.01] transition-all duration-500' to='/institutional'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
                 <span className='bg-[#1A2032] box rounded-xl font-medium'><span className='text-v3'>Institu</span><span className='text-v4'>tional</span> </span>
@@ -355,7 +355,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 </main>
 
 </div>
-<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px] xl:mb-[1870px]'>
+<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] mb-[3400px] md:mb-[3100px] lg:mb-[1600px] xl:mb-[1850px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
@@ -451,32 +451,39 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 {/* .............integrating with any crypto invoices section ends .............. */}
 
 {/* ......... Check latest news section start .......... */}
-<section className=' md:flex hidden bg-[#0C101A] w-full rounded-t-4xl py-2 border-border border-[1px] justify-between relative mb-5'>
-<div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 w-[50%] lg:w-full justify-center'>
-        <h2 className='xl:text-5xl lg:text-4xl md:text-xl font font-semibold'>Check latest news</h2>
-        <p className='md:text-sm text-[13px] lg:text-normal'>
-        Stay informed with the newest updates and news.
+<main >
+<section className='flex flex-col lg:flex-row px-5 py-20 gap-10 md:p-10  bg-[#0C101A] w-full rounded-t-4xl lg:p-10 xl:p-0 xl:py-2 border-border border-[1px] justify-between xl:relative mb-5'>
+<div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 lg:w-full justify-center text-center lg:text-start'>
+        <h2 className='xl:text-5xl md:text-[45px] text-[37px] font-medium'>Check latest news</h2>
+        <p className='font-light pt-5 md:pt-0 leading-7'>Stay informed with the newest updates and news.
         </p>
         
 
 </div>
-<img src={first} alt="" className='lg:w-full md:w-[50%] w-[38%] object-contain' />
-<Link to='/blog' className='bg-btnBg hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 rounded lg:rounded-full text-sm md:text-lg md:font-medium absolute lg:top-26 md:top-10 flex justify-center items-center top-5 right-5 md:right-14'>See our blog</Link>
+<img src={first} alt="" className='lg:w-full md:w-[50%] w-[38%] object-contain hidden xl:block' />
+<div className='flex justify-center items-center'>
+  
+<Link to='/blog' className='bg-btnBg flex justify-center items-center hover:bg-hoverBg md:py-3 lg:w-[220px] h-fit md:w-[180px] md:px-0 px-2 py-4 rounded-full text-sm md:text-lg font-light xl:absolute xl:top-32 xl:right-14 w-[330px] '>Check our blog</Link>
+</div>
          
 </section>
-<section className=' md:flex hidden w-full  rounded-b-4xl border-border border-[1px] justify-between relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
-<div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 lg:w-full w-[50%] justify-center'>
-        <h2 className='xl:text-5xl lg:text-4xl md:text-xl font font-semibold'>Have any questions?</h2>
-        <p className='md:text-sm text-[13px] lg:text-normal'>
+<section className=' flex flex-col lg:flex-row justify-center xl:p-0 xl:px-0  md:gap-10 md:p-10 py-20 items-center w-full rounded-b-4xl border-border border-[1px] lg:p-10 lg:pr-10 lg:px-5  xl:relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
+<div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 justify-center items-center lg:items-start md:w-full lg:pl-16 xl:pl-10 lg:pb-0  pb-10'>
+        <h2 className='xl:text-5xl md:text-[45px] text-[43px] text-center lg:text-start font-medium'>Have any questions?</h2>
+        <p className='font-light text-center lg:text-start pt-5 md:pt-0 leading-7'>
         Feel free to reach out to us anytime. We are here to help you!
         </p>
         
 
 </div>
-<img src={second} alt="" className='lg:w-full w-[50%]'/>
-<Link to='/contact' className='bg-white text-btnBg hover:text-white hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 lg:rounded-full rounded md:text-lg text-sm md:font-medium absolute flex justify-center items-center lg:top-26 md:top-10 top-5 right-5 md:right-14'>Contact us</Link>
+<img src={second} alt="" className='lg:w-full w-[50%] hidden xl:block'/>
+<div className='flex justify-between items-center'>
+  
+<Link to='/contact' className='bg-white text-btnBg hover:text-white hover:bg-hoverBg md:py-3 lg:w-[220px] h-fit md:w-[180px] md:px-0 px-2 py-4 rounded-full text-sm md:text-lg font-light xl:absolute xl:top-32 flex justify-center items-center xl:right-14 w-[330px]'>Contact us</Link>
          
+</div>
 </section>
+</main>
 {/* ......... Check latest news section end .......... */}
 </div>
 <main className='w-full text-white homeSecLast pb-28'>

@@ -45,3 +45,7 @@
         width: 43%;
     }
 }
+
+.img1{
+    filter: drop-shadow(10px 10px 10px #15326C);
+}
