@@ -194,7 +194,7 @@ This feature is ideal for businesses and individuals looking to leverage liquidi
 
 <div className='lg:w-[50%] w-full'>
 <div>
-<img src={rea} alt="" className=''/>
+<img src={rea} alt=""/>
 </div>
 </div>
 

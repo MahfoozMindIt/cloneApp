@@ -435,8 +435,8 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 <div>
 <div className='flex flex-col md:flex-row md:gap-3 gap-10 w-full  justify-center lg:justify-start'>
           
-          <button className='bg-btnBg hover:bg-hoverBg py-3 px-6 rounded-full text-lg font-medium'>See our docs</button>
-          <button className='bg-white hover:bg-hoverBg hover:text-white text-btnBg py-3 px-6 text-lg font-medium rounded-full'>See use case</button>
+          <button className='bg-btnBg hover:bg-hoverBg py-3 px-6 rounded-full text-lg font-light'>See our docs</button>
+          <button className='bg-white hover:bg-hoverBg hover:text-white text-btnBg py-3 px-6 text-lg font-light rounded-full'>See use case</button>
                   </div>
 </div>
 </div>

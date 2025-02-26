@@ -214,7 +214,7 @@ Elevate your financial game! Buy cars, invest in real estate, and cover legal fe
                 <div className='flex gap-5'>
                         <div className='bg-white text-[#161E3A] text-sm xl:h-6 xl:w-6 h-6 w-6 lg:h-6 lg:w-8 flex justify-center items-center font-semibold ' style={{borderRadius:"100%"}}>2</div>
                         
-                <p className='text-[rgba(243,243,243,0.)] text-sm font-light leading-6 pb-3'>Complete a brief profile to unlock a personalized experience</p>
+                <p className='text-[rgba(243,243,243,0.8)] text-sm font-light leading-6 pb-3'>Complete a brief profile to unlock a personalized experience.</p>
                 </div>
               </div>
               <button className='w-[150px] py-3 rounded-full bg-white text-btnBg hover:text-white font-light hover:bg-hoverBg cursor-pointer transition-all duration-300'>Sign Up</button>
