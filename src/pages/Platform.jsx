@@ -23,7 +23,7 @@ import { AiOutlineGlobal } from 'react-icons/ai'
 
 const Platform = () => {
   return (
-    <div className='bg-white text-black'  style={{backgroundImage:" linear-gradient(top 70%,#fff,#00020500 )"}}>
+    <div className='bg-white text-black'  style={{ backgroundImage: "linear-gradient(to top, whitesmoke 70%,white )" }}>
          <div className=' w-full flex flex-col text-black items-center justify-center' style={{backgroundImage:" linear-gradient(top 70%,#fff,#00020500 )"}}>
          <main className='md:w-[90%] xl:w-[85%] w-[95%] width-Platform  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
            {/* banner section..... */}

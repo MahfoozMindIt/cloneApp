@@ -36,7 +36,7 @@ const Institutional = () => {
   
   <div className='lg:w-[48%] w-full md:w-full text-center lg:text-start font-medium'>
   <span className='gradientText text-2xl font-medium  leading-18 '>Choose your investments</span> 
-          <h2 className='lg:text-[50px] md:text-5xl text-[47px] font-medium lg:leading-16 md:leading-18 leading-16'>
+          <h2 className='lg:text-[50px] md:text-5xl text-[47px] xl:w-[80%] xl:text-[60px] font-medium lg:leading-16 md:leading-18 leading-16'>
           Crypto Custody Solutions
   
           </h2>
@@ -110,7 +110,7 @@ const Institutional = () => {
   <img src={section5} alt="" />
   </div>
   
-  <div className='xl:w-[48%] lg:w-[50%] flex flex-col lg:items-end w-full md:w-full text-center lg:text-start font-medium'>
+  <div className='xl:w-[45%] lg:w-[50%] flex flex-col lg:items-end w-full md:w-full text-center lg:text-start font-medium'>
     <div>
     <div>
       <span className='gradientText text-2xl font-medium  leading-18'>Ensure Your safety</span></div> 

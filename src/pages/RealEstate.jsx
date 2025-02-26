@@ -179,7 +179,7 @@ Additionally, countries like Spain and Greece offer attractive Golden Visa progr
 
 <div className='lg:w-[48%] w-full md:w-full text-center lg:text-start'>
     <span className='gradientText font-medium text-xl ' >Coming Soon</span>
-    <h2 className='xl:text-6xl lg:text-[45px] lg:w-[80%] lg:leading-14 text-5xl font-medium leading-18 md:w-full text-center lg:text-start pt-5'>
+    <h2 className='xl:text-[55px] xl:leading-20 lg:text-[45px] lg:w-[80%] lg:leading-14 text-5xl font-medium leading-18 md:w-full xl:w-[65%] text-center lg:text-start pt-5'>
     Buy a property with  a DeFi Loan
     </h2>
  
@@ -278,14 +278,14 @@ className="h-1 w-full rounded border-0"
 style={{ backgroundImage: "linear-gradient(to right, #316BC7, #4FC0FF)" }} 
 />
 <h3 className='text-2xl pt-5 pb-3 font-medium'>As an Partner</h3>
-<main className='flex  flex-col gap-5 justify-between items-center pb-10'>
+<main className='flex xl:flex-row  flex-col gap-5 justify-between items-center pb-10'>
 <section className='flex flex-col gap-3'>
 <div className='flex items-center gap-5'>
     <span className='bg-white text-[#0c101aa6]  rounded-full font-semibold h-6 px-2 flex justify-center items-center'>1</span>
     <p className='text-[14px] text-[grey]'>Click <span className='text-white font-semibold'>“Book a call”</span> to get started, then select a date and time on the Calendly calendar to confirm your appointment.</p>
 </div>
 </section>
-<button className='md:w-[180px] w-full py-3 rounded-full bg-white text-btnBg  hover:bg-hoverBg hover:text-white cursor-pointer'>Book a call</button>
+<button className='md:w-[180px] xl:w-[330px] w-full py-3 rounded-full bg-white text-btnBg  hover:bg-hoverBg hover:text-white cursor-pointer'>Book a call</button>
     
     </main>
     </div>

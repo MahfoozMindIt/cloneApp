@@ -37,7 +37,7 @@ window.addEventListener('scroll',setFixed)
         <img src={logo} alt="" className='w-56 object-contain'/></Link>
 
         <div className=' gap-10 hidden lg:flex items-center'>
-        <ul className='flex gap-10 font-semibold text-[15px]'>
+        <ul className='flex gap-10 font-light text-[15px]'>
 <li><Link to='/'>Home</Link></li> 
  <li
               className="relative flex items-center gap-2 cursor-pointer"
@@ -127,8 +127,8 @@ window.addEventListener('scroll',setFixed)
         </ul>
         <div className='flex gap-3'>
           
-<button className='bg-hoverBg py-2 px-5 text-white rounded-full'>Sign up</button>
-<button className='bg-btnBg py-2 px-5 text-white rounded-full'>Sign in</button>
+<button className='bg-hoverBg py-2 px-5 font-light text-white rounded-full'>Sign up</button>
+<button className='bg-btnBg py-2 px-5 font-light text-white rounded-full'>Sign in</button>
         </div>
         </div>
         <button onClick={nav} className='p-3 text-2xl rounded-full bg-[whitesmoke]  text-black lg:hidden'>
