@@ -37,7 +37,7 @@ const Home = () => {
         </div>
         <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10 pt-10'>
             <h1 className='xl:text-7xl md:text-6xl text-4xl text-center font-medium'>
-            What can <span className='gradientText'>Metax offer you?</span>
+            What can <span className='gradientTextHome'>Metax offer you?</span>
             </h1>
             <p className='text-center'>A Non-Custodial Solution Opening the Doors of TradFi for <br className='hidden md:block'/> Web3 Businesses and Founders.</p>
             <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
@@ -347,7 +347,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
         <div  className= ' z-40 width w-[95%] md:w-[90%] absolute top-0  h-[61px]'></div>
 <img src={BgImg} alt="" className='rotate-180  z-10 absolute -top-14'/>
 <main className='md:w-[90%] xl:w-[85%] w-[95%]   absolute md:top-40 top-20 lg:top-10 z-30 '>
-<h1 className='text-5xl font-medium text-center  z-30'>Level up with <span className='gradientText'>Metax Digital</span></h1>
+<h1 className='text-5xl font-medium text-center  z-30'>Level up with <span className='gradientTextHome'>Metax Digital</span></h1>
 <div className='w-full flex justify-center'>
 <p className='opacity-[0.7] font-light text-center levelSecPara pt-7 pb-14 w-[80%]'>A hassle-free solution that sends your transactions to banking partners, and connects you to the TradFi world and network liquidity providers.</p>
 </div>
@@ -384,7 +384,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
         <div className='border-border border-[1px] xl:h-[480px] p-5 bg-card rounded-2xl'>
                 <div className='flex justify-between'>
                         
-<h2 className=' text-8xl font-bold'><span className='gradientText'>1%</span></h2>
+<h2 className=' text-8xl font-bold'><span className='gradientTextHome'>1%</span></h2>
 <span className='text-[#2E313A] text-5xl'>*</span>
                 </div>
                 <h3 className='text-2xl font-medium pt-7'>Crypto to Fiat</h3>
@@ -396,7 +396,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
         <div className='border-border border-[1px] xl:h-[480px] p-5 bg-card rounded-2xl'>
                 <div className='flex justify-between'>
                         
-<h2 className='text-8xl font-bold'><span className='gradientText'>0%</span></h2>
+<h2 className='text-8xl font-bold'><span className='gradientTextHome'>0%</span></h2>
                 </div>
                 <h3 className='text-2xl font-medium pt-7'>Crypto to Crypto</h3>
                 <p className='opacity-[0.6] font-light py-5 text-sm'>Streamline batch cryptocurrency transactions using our platform. Manage multiple payments with ease, precision, and reliability.</p>
@@ -425,7 +425,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20 mb-10'>
 
 <div className='lg:w-[45%] md:w-[80%] w-full'>
-        <h2 className='xl:text-6xl md:text-5xl text-3xl text-center lg:text-start font-medium xl:leading-18 md:leading-16 leading-12'>Integrating with <br className='hidden lg:block '/> <span className='gradientText'>any crypto invoicing</span> and <span className='gradientText'>Payment system</span>
+        <h2 className='xl:text-6xl md:text-5xl text-3xl text-center lg:text-start font-medium xl:leading-18 md:leading-16 leading-12'>Integrating with <br className='hidden lg:block '/> <span className='gradientTextHome'>any crypto invoicing</span> and <span className='gradientTextHome'>Payment system</span>
         </h2>
 
 <div className='w-full flex justify-center lg:justify-start'>
