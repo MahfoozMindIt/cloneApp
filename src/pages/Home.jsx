@@ -103,7 +103,7 @@ const Home = () => {
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><IoIosCard className='text-[25px] font-medium'/></div>
-     <p className='text-v3 text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '>Comin<span className='text-v4'>g soon</span></p>
+     <p className=' text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '><span className='gradientTextHome'>Coming soon</span></p>
                  </div>
      <h2 className='text-2xl font-medium'>
      Cards
@@ -139,7 +139,7 @@ const Home = () => {
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlinePrivacyTip className='text-[25px] font-medium'/></div>
-     <p className='text-v3 text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '>Comin<span className='text-v4'>g soon</span></p>
+     <p className='text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '><span className='gradientTextHome'>Coming soon</span></p>
                  </div>
      <h2 className='text-2xl font-medium'>
      Compliant Privacy
@@ -306,28 +306,28 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 <h1 className='text-center md:text-5xl text-5xl font-medium'>A solution for different cases</h1>
 <div className='grid grid-cols-1 lg:grid-cols-2 lg:w-full md:w-[80%] gap-10 pt-20'>
         <Link to='/ultra-high-net-worth-individual' className='hover:scale-[1.01] transition-all duration-500'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='text-v3'>UH</span><span className='text-v4'>NWI</span> </span>
+                <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>UHNWI </span></span>
                 <h1 className='text-2xl font-medium py-5 pt-8'>For Ultra High Net-Worth Individuals</h1>
                 <p className='opacity-[0.8]  font-light text-sm pb-3'>Metax Digital offers a solution that allows Ultra and High Net-Worth Individuals to manage their assets in a unique platform with Swiss banking-style service.</p>
                 <span className='font-medium text-sm'>View more</span>
                 <img src={grid1} alt="" className='w-full object-cover pt-8'/>
         </div></Link>
         <Link className='hover:scale-[1.01] transition-all duration-500' to='/daos-and-organizations'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-[#1A2032] box rounded-xl font-medium'><span className='text-v3'>Organi</span><span className='text-v4'>zations + DAOs</span> </span>
+        <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>Organizations + DAOs </span></span>
                 <h1 className='text-2xl font-medium py-5 pt-8'>For Organizations and DAOs</h1>
                 <p className='opacity-[0.8]  font-light text-sm pb-3'>Our platform allows companies and DAOs to pay for Goods, Services, Contractors, and much more.</p>
                 <span className='font-medium text-sm'>View more</span>
                 <img src={grid2} alt="" className='w-full object-cover pt-[55px]'/>
         </div></Link>
         <Link className='hover:scale-[1.01] transition-all duration-500' to='/institutional'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-[#1A2032] box rounded-xl font-medium'><span className='text-v3'>Institu</span><span className='text-v4'>tional</span> </span>
+        <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>Institutional </span></span>
                 <h1 className='text-2xl font-medium py-5 pt-8'>For Institutional Entities</h1>
                 <p className='opacity-[0.8]  font-light text-sm pb-3'>Metax Digital can help institutions redefine the landscape of challenges and opportunities in the dynamic Web3 payment world.</p>
                 <span className='font-medium text-sm'>View more</span>
                 <img src={grid3} alt="" className='w-full object-cover pt-8'/>
         </div></Link>
         <Link className='hover:scale-[1.01] transition-all duration-500' to='/platform'><div style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}} className=' border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-white font-semibold box1 rounded-xl  tracking-wider'><span className='text-btnBg'>Platf</span><span className='text-btnBg'>orms</span> </span>
+                <span className='bg-white font-semibold box1 rounded-xl  tracking-wider'><span className='text-btnBg'>Platforms</span> </span>
                 <h1 className='text-2xl font-medium py-5 pt-8'>For Platform Services</h1>
                 <p className='opacity-[0.8]  font-light text-sm pb-3'>Access more features and add more value to your customers through Metax Digital’s crypto to fiat and crypto to crypto payments.</p>
                 <span className='font-medium'>View more</span>
