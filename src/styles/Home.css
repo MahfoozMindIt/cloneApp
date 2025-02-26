@@ -12,6 +12,16 @@ font-size:13px
     }
 
 @media screen and (min-width:2000px) {
+    .homeSecLast{
+        padding-bottom: 200px;
+        padding-top: 200px;
+    }
+    .homeSec2{
+        padding-bottom: 300px;
+    }
+    .mainHome{
+        padding-bottom: 200px;
+    }
     .width{
         width: 65%;
     }
@@ -20,5 +30,20 @@ font-size:13px
     }
     .mainPara{
         width: 43%;
+    }
+}
+@media screen and (min-width:4000px) {
+    .homeSecLast{
+        padding-bottom: 300px;
+        padding-top: 300px;
+    }
+    .homeSec2{
+        padding-bottom: 500px;
+    }
+    .mainHome{
+        padding-bottom: 500px;
+    }
+    .width{
+        width: 60%;
     }
 }

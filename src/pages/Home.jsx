@@ -27,7 +27,7 @@ const Home = () => {
         
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
-      <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
+      <main className='md:w-[90%] xl:w-[85%] w-[95%] width mainHome  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
         <section className=' flex w-full justify-center flex-col items-center z-30 pt-10 md:pt-24 xl:pt-44'>
@@ -261,9 +261,9 @@ const Home = () => {
 
 
              {/* ......................... Enhanced Functionality    section   starts ................. */}
-<section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
+<section className='flex flex-col gap-10 lg:flex-row homeSec2 justify-between items-center w-full py-20'>
 
-<div className='lg:w-[48%] w-full md:w-[85%] flex-col items-center justify-center lg:justify-start lg:items-start'>
+<div className='lg:w-[48%] w-full md:w-[85%] flex-col  items-center justify-center lg:justify-start lg:items-start'>
         <h2 className='lg:text-6xl text-5xl text-center lg:text-start font-medium leading-18'>
                 Enhanced <br className='hidden lg:block '/> Functionality
         </h2>
@@ -342,7 +342,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 
       </main>
       
-<div className='w-full flex justify-center flex-col items-center relative'>
+<div className='w-full flex justify-center width flex-col items-center relative'>
         <div  className= ' z-40 bg-[] w-[90%] absolute top-0  h-[61px]'></div>
 <img src={line} alt="" className='w-full z-30'/>
 <img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
@@ -355,7 +355,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 </main>
 
 </div>
-<div className=' md:w-[90%] xl:w-[85%] w-[95%]  h-96 mt-[400px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px] xl:mb-[1870px]'>
+<div className=' md:w-[90%] xl:w-[85%] w-[95%] width  h-96 mt-[400px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px] xl:mb-[1870px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
@@ -464,7 +464,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 <Link to='/blog' className='bg-btnBg hover:bg-hoverBg md:py-3 lg:w-[220px] md:w-[150px] md:px-0 px-2 py-1 rounded lg:rounded-full text-sm md:text-lg md:font-medium absolute lg:top-26 md:top-10 flex justify-center items-center top-5 right-5 md:right-14'>See our blog</Link>
          
 </section>
-<section className=' md:flex hidden w-full rounded-b-4xl border-border border-[1px] justify-between relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
+<section className=' md:flex hidden w-full  rounded-b-4xl border-border border-[1px] justify-between relative' style={{backgroundImage:"linear-gradient(to top,#2B5ABC 10%,#161E3A   )"}}>
 <div className='flex flex-col gap-1 md:gap-5 md:pl-10 pl-5 lg:w-full w-[50%] justify-center'>
         <h2 className='xl:text-5xl lg:text-4xl md:text-xl font font-semibold'>Have any questions?</h2>
         <p className='md:text-sm text-[13px] lg:text-normal'>
@@ -479,7 +479,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 </section>
 {/* ......... Check latest news section end .......... */}
 </div>
-<main className='w-full text-white pt-10 xl:pt-0 pb-28'>
+<main className='w-full text-white pt-10 homeSecLast xl:pt-0 pb-28'>
 <Slider/>
 
 </main>
