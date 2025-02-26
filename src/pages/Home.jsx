@@ -27,10 +27,10 @@ const Home = () => {
         
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
-      <main className='md:w-[90%] xl:w-[85%] w-[95%] width mainHome  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
+      <main className='width  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
-<img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
-        <section className=' flex w-full justify-center flex-col items-center z-30 pt-10 md:pt-24 xl:pt-44'>
+<img src={BgImg} alt="" className='absolute w-full xl:top-50 top-50 z-10' />
+        <section className=' flex w-full justify-center flex-col items-center z-30 pt-10 md:pt-24 xl:pt-16'>
         <div className='w-fit items-center  gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
             <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
@@ -48,7 +48,7 @@ const Home = () => {
         
         {/* flex 1 */}
         <section className='flex gap-10 flex-col cards'>
-        <div className='p-7  rounded-2xl flex flex-col gap-5 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+        <div className='p-7  card card rounded-2xl flex flex-col gap-5 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><AiOutlineGlobal className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Crypto to Fiat Payments
@@ -58,7 +58,7 @@ const Home = () => {
      Or use our <span className='font-semibold text-white'>On-ramp feature</span> to convert fiat currencies into crypto.</p>
      
              </div>
-             <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7  card   rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdAccountTree className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Crypto Payments
@@ -67,7 +67,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+             <div className='p-7  card  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><GiTwoCoins className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Loans
@@ -82,7 +82,7 @@ const Home = () => {
      
         {/* flex 2 */}
         <section className='flex gap-10 mt-16  flex-col cards'>
-        <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+        <div className='p-7  card  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><BsPersonFill className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Virtual Accounts
@@ -90,7 +90,7 @@ const Home = () => {
      <p className='opacity-[0.7] font-thin text-sm leading-6'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
      
              </div>
-             <div className='p-7 pb-10  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7 card  pb-10  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlineCompareArrows className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      OTC Trades
@@ -99,7 +99,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7 pb-10   rounded-2xl border-border border-[1px] flex flex-col gap-3' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7 card  pb-10   rounded-2xl border-border border-[1px] flex flex-col gap-3' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><IoIosCard className='text-[25px] font-medium'/></div>
@@ -118,7 +118,7 @@ const Home = () => {
      
         {/* flex-3   */}
         <section className='flex gap-10 flex-col cards'>
-        <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+        <div className='p-7  card  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><RiSecurePaymentLine className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Tokenised Securities
@@ -126,7 +126,7 @@ const Home = () => {
      <p className='opacity-[0.7] font-thin text-sm leading-6'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
      
              </div>
-             <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7  card  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><FaFileInvoiceDollar className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Payables & Invoice Me
@@ -135,7 +135,7 @@ const Home = () => {
      
              </div>
       
-             <div className='p-7   rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7  card   rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlinePrivacyTip className='text-[25px] font-medium'/></div>
@@ -162,7 +162,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Crypto to Fiat Payments
      </h2>
-     <p className='text-[#A2AAC7] font-thin text-sm leading-6'>
+     <p className='text-[#A2AAC7] font-light text-sm leading-6'>
      Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin.
      Or use our <span className='font-semibold text-white'>On-ramp feature</span> to convert fiat currencies into crypto.</p>
      
@@ -172,7 +172,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Crypto Payments
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Process batched crypto payments hassle-free, perfect for payroll and more.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Process batched crypto payments hassle-free, perfect for payroll and more.</p>
      
              </div>
       
@@ -181,7 +181,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Loans
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
      
              </div>
       
@@ -195,7 +195,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Virtual Accounts
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
      
              </div>
              <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-5 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
@@ -203,7 +203,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      OTC Trades
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
      
              </div>
       
@@ -216,7 +216,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Cards
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Physical or virtual debit cards in either EUR or GBP that interact flawlessly with your non-custodial wallets.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Physical or virtual debit cards in either EUR or GBP that interact flawlessly with your non-custodial wallets.</p>
      
              </div>
       
@@ -229,7 +229,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Tokenised Securities
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
      
              </div>
              <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-5 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
@@ -237,7 +237,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Payables & Invoice Me
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Send custom invoice links, track and approve payables, batch payments, and upload or forward invoices for seamless financial management in crypto or fiat.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Send custom invoice links, track and approve payables, batch payments, and upload or forward invoices for seamless financial management in crypto or fiat.</p>
      
              </div>
       
@@ -250,7 +250,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Compliant Privacy
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
      
              </div> 
         
@@ -261,7 +261,7 @@ const Home = () => {
 
 
              {/* ......................... Enhanced Functionality    section   starts ................. */}
-<section className='flex flex-col gap-10 lg:flex-row homeSec2 justify-between items-center w-full py-20'>
+<section className='flex flex-col gap-10 lg:flex-row justify-between homeSec2 items-center w-full pt-20 md:mb-[200px]'>
 
 <div className='lg:w-[48%] w-full md:w-[85%] flex-col  items-center justify-center lg:justify-start lg:items-start'>
         <h2 className='lg:text-6xl text-5xl text-center lg:text-start font-medium leading-18'>
@@ -282,7 +282,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 
 
 <div className='lg:w-[48%] w-full'>
-<div className='w-full h-[550px]'>
+<div className='w-full md:h-[550px]'>
 
 <video 
   width="100%" 
@@ -342,20 +342,20 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 
       </main>
       
-<div className='w-full flex justify-center width flex-col items-center relative'>
-        <div  className= ' z-40 bg-[] w-[90%] absolute top-0  h-[61px]'></div>
 <img src={line} alt="" className='w-full z-30'/>
-<img src={BgImg} alt="" className='rotate-180 z-10 absolute top-0'/>
-<main className='md:w-[90%] xl:w-[85%] w-[95%]   absolute md:top-40 top-20 lg:top-50 z-30 '>
+<div className='w-full flex justify-center width flex-col items-center relative'>
+        <div  className= ' z-40 width w-[95%] md:w-[90%] absolute top-0  h-[61px]'></div>
+<img src={BgImg} alt="" className='rotate-180  z-10 absolute -top-14'/>
+<main className='md:w-[90%] xl:w-[85%] w-[95%]   absolute md:top-40 top-20 lg:top-10 z-30 '>
 <h1 className='text-5xl font-medium text-center  z-30'>Level up with <span className='text-btnBg'>Met</span><span className='text-v3'>ax </span><span className='text-v4'>Digital</span></h1>
 <div className='w-full flex justify-center'>
-<p className='opacity-[0.7] font-light text-center pt-7 pb-14 w-[80%]'>A hassle-free solution that sends your transactions to banking partners, and connects you to the TradFi world and network liquidity providers.</p>
+<p className='opacity-[0.7] font-light text-center levelSecPara pt-7 pb-14 w-[80%]'>A hassle-free solution that sends your transactions to banking partners, and connects you to the TradFi world and network liquidity providers.</p>
 </div>
 <div className='text-center'><button className='w-[240px] py-4 rounded-full bg-btnBg  hover:bg-hoverBg cursor-pointer text-center'>Join our Platform</button></div>
 </main>
 
 </div>
-<div className=' md:w-[90%] xl:w-[85%] w-[95%] width  h-96 mt-[400px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px] xl:mb-[1870px]'>
+<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] mb-[2400px] md:mb-[2650px] lg:mb-[1950px] xl:mb-[1870px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
@@ -479,7 +479,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 </section>
 {/* ......... Check latest news section end .......... */}
 </div>
-<main className='w-full text-white pt-10 homeSecLast xl:pt-0 pb-28'>
+<main className='w-full text-white homeSecLast pb-28'>
 <Slider/>
 
 </main>
