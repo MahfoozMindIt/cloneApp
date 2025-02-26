@@ -16,10 +16,10 @@ const Nav = () => {
             {drop && (<div className="w-full h-[200px] flow">
              <div className="flex flex-col gap-10">
               <Link to='/ultra-high-net-worth-individual'><div className="flex gap-5 items-start pb-3">
-                <img src={x} alt="" className="h-7 w-7 object-contain"/>
+              <div className="bg-white p-2 rounded-full"><img src={x} alt="" className="h-4 w-4 object-contain"/></div>
                 <div >
                   <h1 className="font-semibold text-md pb-2">UHNWI</h1>
-                  <p className="text-sm text-[grey]">
+                  <p className="text-sm opacity-[0.8]">
                     
                   Manage their assets in a unique platform with Swiss banking-style service.
                   </p>
@@ -27,10 +27,10 @@ const Nav = () => {
 
               </div></Link>
              <Link to='/daos-and-organizations'> <div className="flex gap-5 items-start pb-3">
-                <img src={x} alt="" className="h-7 w-7 object-contain"/>
+             <div className="bg-white p-2 rounded-full"><img src={x} alt="" className="h-4 w-4 object-contain"/></div>
                 <div >
-                  <h1 className="font-semibold text-md pb-2">DAO,s & Organizations</h1>
-                  <p className="text-sm text-[grey]">
+                  <h1 className="font-semibold text-md pb-1">DAO,s & Organizations</h1>
+                  <p className="text-sm opacity-[0.8]">
                     
                   Allow companies and DAOs to pay for Goods Services, Contractors, and more
                   </p>
@@ -39,10 +39,10 @@ const Nav = () => {
               </div></Link>
               <Link to='/institutional'>
               <div className="flex gap-5 items-start pb-3">
-                <img src={x} alt="" className="h-7 w-7 object-contain"/>
+              <div className="bg-white p-2 rounded-full"><img src={x} alt="" className="h-4 w-4 object-contain"/></div>
                 <div >
-                  <h1 className="font-semibold text-md pb-2">Institutional</h1>
-                  <p className="text-sm text-[grey]">
+                  <h1 className="font-semibold text-md pb-1">Institutional</h1>
+                  <p className="text-sm opacity-[0.8]">
                     
                   Help institutions redefine the landscape of challenges and opportunities
                   </p>
@@ -51,10 +51,10 @@ const Nav = () => {
               </div>
               </Link>
            <Link to='/real-estate'>   <div className="flex gap-5 items-start pb-3">
-                <img src={x} alt="" className="h-7 w-7 object-contain"/>
+           <div className="bg-white p-2 rounded-full"><img src={x} alt="" className="h-4 w-4 object-contain"/></div>
                 <div >
-                  <h1 className="font-semibold text-md pb-2">Real Estate</h1>
-                  <p className="text-sm text-[grey]">
+                  <h1 className="font-semibold text-md pb-1">Real Estate</h1>
+                  <p className="text-sm opacity-[0.8]">
                     
                  
                   Invest in real estate using Metax Digital's crypto payments platform
@@ -62,11 +62,11 @@ const Nav = () => {
                 </div>
 
               </div></Link>
-             <Link to='/platform'> <div className="flex gap-5 items-start pb-3">
-                <img src={x} alt="" className="h-7 w-7 object-contain"/>
+             <Link to='/platform'> <div className="flex gap-5 items-center pb-3">
+                <div className="bg-white p-2 rounded-full"><img src={x} alt="" className="h-4 w-4 object-contain"/></div>
                 <div >
-                  <h1 className="font-semibold text-md pb-2">Platform</h1>
-                  <p className="text-sm text-[grey]">
+                  <h1 className="font-semibold text-md pb-1">Platform</h1>
+                  <p className="text-sm opacity-[0.8]">
                     
                   Access more features and add more value to your customers
                   </p>
