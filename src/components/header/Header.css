@@ -7,11 +7,18 @@
     z-index: 100000;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
 }
-@media screen and (max-width:2560px) {
+@media screen and (min-width:2000px) {
     .width{
-        width: 80%;
+        width: 65%;
+    }
+    .mainHeading{
+        width: 50%;
+    }
+    .mainPara{
+        width: 43%;
     }
 }
+
 .mainHeader{
     background-color: transparent;
     background: transparent;

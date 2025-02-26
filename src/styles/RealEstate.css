@@ -2,16 +2,49 @@
 .defi{
     background-image:url(../assets//bgImg.svg) ;
 }
-.bgState{
+/* .bgState{
     
     background-image: url(../assets/blogBg.svg);
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+   
+} */
+.bg-line.custom-real-estate {
+    background-image: url(../assets/bgRealEstate.svg), url(../assets/realbg1.svg);
+    background-position: 50% 100%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%, cover;
+    /* z-index: -1; */
     height: 100vh;
+    position: relative;
     width: 100%;
+    top: 0;
 }
+
+
+.bg-line {
+    background-color: #00020500;
+    background-image: url(../assets/bgRealEstate.svg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    inset: auto 0% 0%;
+}
+/* .bg-line {
+    background-color: #00020500;
+    background-image: url(../assets/bgRealEstate.svg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: auto 0% 0%;
+} */
 .grid1{
     background-image: url(../assets/g1.svg), linear-gradient(165deg, #161e3a 20%, #2241ac 57%, #3473cd 80%, #4fc0ff);
     background-position: 100%, 0 0;
@@ -21,7 +54,7 @@
     border-radius: 24px;
     min-height: 480px;
     padding: 45px;
-    z-index: -1;
+    z-index: 1;
     position: relative;
 }
 .grid2{

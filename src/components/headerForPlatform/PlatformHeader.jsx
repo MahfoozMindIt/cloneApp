@@ -131,7 +131,7 @@ window.addEventListener('scroll',setFixed)
 <button className='bg-btnBg py-2 px-5 text-white rounded-full'>Sign in</button>
         </div>
         </div>
-        <button onClick={nav} className='p-3 text-xl rounded-full bg-black text-white lg:hidden'>
+        <button onClick={nav} className='p-3 text-2xl rounded-full bg-[whitesmoke]  text-black lg:hidden'>
 {myNav?<RxCross2 />:<IoMenuSharp/>}
         </button>
       </nav>
