@@ -78,7 +78,7 @@ const Platform = () => {
                    
                    <h1 className='text-2xl font-medium py-5 '>Integration Flexibility
                    </h1>
-                   <p className='opacity-[0.8] text-[14px] pb-3 font-light'>Skyline's payment tools blend into your platform, preserving the flow your customers love. Payments become a customizable feature, allowing you to tailor the experience based on your unique retail needs
+                   <p className='opacity-[0.8] text-[14px] pb-3 font-light'>Metax's payment tools blend into your platform, preserving the flow your customers love. Payments become a customizable feature, allowing you to tailor the experience based on your unique retail needs
    
    </p>
                    

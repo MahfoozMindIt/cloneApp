@@ -31,12 +31,12 @@ window.addEventListener('scroll',setFixed)
   return (
    <main>
      <section className={`${fix?'navbar fixed':'navbar'} z-[100] mainHeader  w-full  justify-center flex flex-col items-center py-5`}>
-      <nav className='flex w-[90%]  xl:w-[85%]  justify-between'>
+      <nav className='flex w-[90%] width xl:w-[85%]  justify-between'>
         <Link to='/'>
-        <img src={logo} alt="" className='w-56 object-contain'/></Link>
+        <img src={logo} alt="" className='w-48 object-contain'/></Link>
 
         <div className=' gap-10 hidden lg:flex items-center'>
-        <ul className='flex gap-10 font-semibold text-[15px]'>
+        <ul className='flex gap-10  text-[15px]'>
 <li><Link to='/'>Home</Link></li> 
  <li
               className="relative flex items-center gap-2 cursor-pointer"
@@ -126,8 +126,8 @@ window.addEventListener('scroll',setFixed)
         </ul>
         <div className='flex gap-3'>
           
-<button className='bg-hoverBg py-2 px-5 rounded-full'>Sign up</button>
-<button className='bg-btnBg py-2 px-5 rounded-full'>Sign in</button>
+<button className='bg-hoverBg py-2 px-5 font-light hover:bg-btnBg transition-all duration-200 cursor-pointer rounded-full'>Sign up</button>
+<button className='bg-btnBg py-2 px-5 font-light hover:bg-hoverBg transition-all duration-200 cursor-pointer rounded-full'>Sign in</button>
         </div>
         </div>
         <button onClick={nav} className='p-3 text-xl rounded-full bg-white text-black lg:hidden'>

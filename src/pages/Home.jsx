@@ -48,31 +48,31 @@ const Home = () => {
         
         {/* flex 1 */}
         <section className='flex gap-10 flex-col cards'>
-        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-5 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
-     <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><AiOutlineGlobal className='text-2xl'/></div>
+        <div className='p-7  rounded-2xl flex flex-col gap-5 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+     <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><AiOutlineGlobal className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Crypto to Fiat Payments
      </h2>
-     <p className='opacity-[0.8] text-sm'>
+     <p className='text-[#A2AAC7] font-thin text-sm leading-6'>
      Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin.
      Or use our <span className='font-semibold text-white'>On-ramp feature</span> to convert fiat currencies into crypto.</p>
      
              </div>
-             <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdAccountTree className='text-2xl'/></div>
+             <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdAccountTree className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Crypto Payments
      </h2>
-     <p className='opacity-[0.8] text-sm'>Process batched crypto payments hassle-free, perfect for payroll and more.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Process batched crypto payments hassle-free, perfect for payroll and more.</p>
      
              </div>
       
-             <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><GiTwoCoins className='text-2xl'/></div>
+             <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><GiTwoCoins className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Loans
      </h2>
-     <p className='opacity-[0.8] text-sm'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
      
              </div>
       
@@ -82,33 +82,33 @@ const Home = () => {
      
         {/* flex 2 */}
         <section className='flex gap-10 mt-16  flex-col cards'>
-        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><BsPersonFill className='text-2xl'/></div>
+        <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><BsPersonFill className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Virtual Accounts
      </h2>
-     <p className='opacity-[0.8] text-sm'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
      
              </div>
-             <div className='p-7 pb-10 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
-     <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlineCompareArrows className='text-3xl'/></div>
+             <div className='p-7 pb-10  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+     <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlineCompareArrows className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      OTC Trades
      </h2>
-     <p className='opacity-[0.8] text-sm'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
      
              </div>
       
-             <div className='p-7 pb-10 xl:h-[240px]  rounded-2xl border-[#1A2436] border-[1px] flex flex-col gap-3' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7 pb-10   rounded-2xl border-border border-[1px] flex flex-col gap-3' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><IoIosCard className='text-2xl'/></div>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><IoIosCard className='text-[25px] font-medium'/></div>
      <p className='text-v3 text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '>Comin<span className='text-v4'>g soon</span></p>
                  </div>
      <h2 className='text-2xl font-medium'>
      Cards
      </h2>
-     <p className='opacity-[0.8] text-sm'>Physical or virtual debit cards in either EUR or GBP that interact flawlessly with your non-custodial wallets.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Physical or virtual debit cards in either EUR or GBP that interact flawlessly with your non-custodial wallets.</p>
      
              </div>
       
@@ -118,33 +118,33 @@ const Home = () => {
      
         {/* flex-3   */}
         <section className='flex gap-10 flex-col cards'>
-        <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
-     <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><RiSecurePaymentLine className='text-2xl'/></div>
+        <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
+     <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><RiSecurePaymentLine className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Tokenised Securities
      </h2>
-     <p className='opacity-[0.8] text-sm'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
      
              </div>
-             <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><FaFileInvoiceDollar className='text-2xl'/></div>
+             <div className='p-7  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><FaFileInvoiceDollar className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
      Payables & Invoice Me
      </h2>
-     <p className='opacity-[0.8] text-sm'>Send custom invoice links, track and approve payables, batch payments, and upload or forward invoices for seamless financial management in crypto or fiat.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Send custom invoice links, track and approve payables, batch payments, and upload or forward invoices for seamless financial management in crypto or fiat.</p>
      
              </div>
       
-             <div className='p-7 xl:h-[240px]  rounded-2xl flex flex-col gap-3 border-[#1D212A] border-[1px]' style={{backgroundColor:"#0C101A"}}>
+             <div className='p-7   rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
                      
-     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlinePrivacyTip className='text-3xl'/></div>
+     <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlinePrivacyTip className='text-[25px] font-medium'/></div>
      <p className='text-v3 text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '>Comin<span className='text-v4'>g soon</span></p>
                  </div>
      <h2 className='text-2xl font-medium'>
      Compliant Privacy
      </h2>
-     <p className='opacity-[0.8] text-sm'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
      
              </div> 
         
@@ -162,7 +162,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Crypto to Fiat Payments
      </h2>
-     <p className='opacity-[0.8] text-sm'>
+     <p className='text-[#A2AAC7] font-thin text-sm leading-6'>
      Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin.
      Or use our <span className='font-semibold text-white'>On-ramp feature</span> to convert fiat currencies into crypto.</p>
      
@@ -172,7 +172,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Crypto Payments
      </h2>
-     <p className='opacity-[0.8] text-sm'>Process batched crypto payments hassle-free, perfect for payroll and more.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Process batched crypto payments hassle-free, perfect for payroll and more.</p>
      
              </div>
       
@@ -181,7 +181,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Loans
      </h2>
-     <p className='opacity-[0.8] text-sm'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
      
              </div>
       
@@ -195,7 +195,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Virtual Accounts
      </h2>
-     <p className='opacity-[0.8] text-sm'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Create named e-money accounts in GBP and EUR, and send and receive payments with SEPA, CHAPs, and Faster Payments.</p>
      
              </div>
              <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-5 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
@@ -203,7 +203,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      OTC Trades
      </h2>
-     <p className='opacity-[0.8] text-sm'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
      
              </div>
       
@@ -216,7 +216,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Cards
      </h2>
-     <p className='opacity-[0.8] text-sm'>Physical or virtual debit cards in either EUR or GBP that interact flawlessly with your non-custodial wallets.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Physical or virtual debit cards in either EUR or GBP that interact flawlessly with your non-custodial wallets.</p>
      
              </div>
       
@@ -229,7 +229,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Tokenised Securities
      </h2>
-     <p className='opacity-[0.8] text-sm'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
      
              </div>
              <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-5 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
@@ -237,7 +237,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Payables & Invoice Me
      </h2>
-     <p className='opacity-[0.8] text-sm'>Send custom invoice links, track and approve payables, batch payments, and upload or forward invoices for seamless financial management in crypto or fiat.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Send custom invoice links, track and approve payables, batch payments, and upload or forward invoices for seamless financial management in crypto or fiat.</p>
      
              </div>
       
@@ -250,7 +250,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Compliant Privacy
      </h2>
-     <p className='opacity-[0.8] text-sm'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
      
              </div> 
         
@@ -287,7 +287,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 <video 
   width="100%" 
   height="100%" 
-   
+   className='rounded-3xl'
   autoPlay 
   muted 
   loop

@@ -68,7 +68,7 @@ Extend your financial horizon with traditional banking services such as <br clas
 
         </h2>
 
-<p className='opacity-[0.7] font-light md:leading-7 lg:text-start leading-8 text-center pt-5'>Manage your crypto assets portfolio with no constraints! Our platform allows you to integrate with new technologies and DeFi tools while maintaining flexibility to liquidate, swap, or use your assets within the Skyline universe of banking top-notch features.
+<p className='opacity-[0.7] font-light md:leading-7 lg:text-start leading-8 text-center pt-5'>Manage your crypto assets portfolio with no constraints! Our platform allows you to integrate with new technologies and DeFi tools while maintaining flexibility to liquidate, swap, or use your assets within the Metax universe of banking top-notch features.
 </p>
   </div>
 </div>

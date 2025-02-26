@@ -25,7 +25,7 @@ const UltraHigh = () => {
    <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-44'>
             <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center widthMainContent-DAO font-medium lg:w-[75%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
             </h1>
-            <p className='text-center font-light text-[16px] w-[90%] md:w-full  leading-7 '>Pay for Goods, Services, Contractors and much more with Skyline Digital</p>
+            <p className='text-center font-light text-[16px] w-[90%] md:w-full  leading-7 '>Pay for Goods, Services, Contractors and much more with Metax Digital</p>
             <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
             <div className=' animate-ping pt-8'>
             <IoIosArrowDown className='text-[13px]'/>
@@ -249,7 +249,7 @@ Pay invoices for goods and services, raise capital from traditional investors, a
         <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-3 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><AiOutlineGlobal className='text-2xl'/></div>
      <h2 className='text-2xl font-medium'>
-    Buy your assets with Skyline Digital
+    Buy your assets with Metax Digital
      </h2>
      <p className='text-[rgba(243,243,243,0.8)] text-sm font-light w-[91%] pb-3'>
      Execute payments worldwide in EUR, USD, CHF, SGD, GBP, DKK or SEK with any major stablecoin.
