@@ -7,7 +7,7 @@ import { RiInstagramFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
-    <section className='bg-white'>
+    <section className='bg-[whitesmoke]'>
      
 
       <div className='w-full flex justify-center  bg-white text-black border-t-[1px] border-t-[grey]' style={{borderRadius:"70px 70px 0 0"}}>

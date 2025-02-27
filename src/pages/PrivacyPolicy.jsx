@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
     
       <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10'>
       <h1 className='lg:text-7xl md:text-5xl text-4xl text-center font-semibold'>
-          Priva<span className='text-btnBg'>cy </span><span className='text-v3'>Pol</span><span className='text-v4'>icy</span>
+          Privacy <span className='gradientTextHome'>Policy</span>
           </h1>
           <p className='text-[grey] text-center'>At MetaX, we recognize that our customers form the bedrock of our business. Consequently, we place a premium on transparently managing and safeguarding personal data and privacy. This Privacy Policy delineates our practices and policies in this regard and is applicable to individuals who are current, past, or prospective customers of MetaX.
 
@@ -30,7 +30,7 @@ It is imperative that you carefully read and comprehend the information below re
 
            {/* ......................... Enhanced Functionality    section   starts ................. */}
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>Types of Personal D</span><span className='text-v3'>ata We Collect and Handle</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientTextHome'>Types of Personal Data We Collect and Handle</span></span>
             
 <p className='text-[grey]'>At MetaX, we systematically collect and manage various forms of personal data provided by you or your representatives when utilizing our products and services. Additionally, we may acquire and process personal data obtained legally from other members of our organization, public authorities, client introducers, or publicly accessible sources, including but not limited to online databases (e.g., Registrars of Companies, Screening databases - sanctions/AML), websites, security searches, and social media.</p>
 
@@ -59,7 +59,7 @@ If you provide us with personal information belonging to others (such as your re
 
 {/* ........ A solution for different cases section starts ................... */}
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>Oth</span><span className='text-v3'>er Data:</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientTextHome'>Other data</span> </span>
             
 <p className='text-[grey]'>We may also gather non-identifying information about you. This non-personal information may include:
 
@@ -80,7 +80,7 @@ If you are not the intended recipient of this Privacy Policy, please review the 
 {/* ........ A solution for different cases section ends ...................  */}
 
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>Legal Basis for Processing Y</span><span className='text-v3'>our Personal Data</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientTextHome'>Legal Basis for Processing Your Personal Data</span> </span>
             
 <p className='text-[grey]'>
 We process your data with the fundamental principle of data minimization, ensuring that only the necessary amount and types of data are processed for lawful purposes. MetaX employs the data for various purposes, including:

@@ -10,11 +10,6 @@ import "../styles/UltraHigh.css"
 import dao from "../assets/dao.png";
 import { IoIosArrowDown, IoIosCard } from 'react-icons/io';
 import line from '../assets/download1.svg';
-import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from 'react-icons/md'
-import { RiSecurePaymentLine } from 'react-icons/ri'
-import { BsPersonFill } from 'react-icons/bs'
-import { GiTwoCoins } from 'react-icons/gi'
-import { AiOutlineGlobal } from 'react-icons/ai'
 
 const UltraHigh = () => {
   return (
@@ -22,7 +17,7 @@ const UltraHigh = () => {
       <main className='md:w-[90%] xl:w-[90%] w-[95%] width-DAO  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
     
         <section className=' flex w-full justify-center flex-col items-center z-30  '>
-   <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-44'>
+   <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-24'>
             <h1 className='lg:text-7xl md:text-[55px] text-[35px] md:w-full text-center widthMainContent-DAO font-medium lg:w-[60%] lg:leading-24'>Supercharging Crypto Companies and DAO’s
             </h1>
             <p className='text-center font-light text-[16px] w-[90%] md:w-full  leading-7 '>Pay for Goods, Services, Contractors and much more with Metax Digital</p>

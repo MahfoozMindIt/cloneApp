@@ -12,6 +12,7 @@ import { TbSunFilled } from 'react-icons/tb'
 import { PiBankFill, PiLightbulbFilamentFill } from 'react-icons/pi'
 import { GrCompliance } from 'react-icons/gr'
 import { Link } from 'react-router-dom'
+import polygon from '../assets/polygon.svg'
 
 
 const RealEstate = () => {
@@ -19,12 +20,12 @@ const RealEstate = () => {
     <div className=' w-full flex bg-[#000205] flex-col items-center justify-center '>
   
          <div className='bg-line custom-real-estate flex justify-center'>
-         <div className=' w-[90%] lg:[85%] width-RealEstate h-screen flex justify-center flex-col items-center realEstateBanner z-30'>
+         <div className=' w-[90%] lg:[85%] width-RealEstate h-screen flex mt-24 flex-col items-center realEstateBanner z-30'>
          <div className='w-fit items-center xl:hidden   gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
-            <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
+            <p className='xl:text-[15px] md:text-[13px] text-[10px] font-light flex lg:flex-row flex-col lg:items-center gap-3'><img src={polygon} alt="" className='lg:h-fit w-fit'/>  Our platform now supports Polygon, offering seamless transactions with lower fees.</p>
         </div>
-          <h1 className='lg:text-[60px] xl:text-7xl md:text-[55px] pt-10 xl:pt-0 text-[41px] lg:w-[74%] w-[75%] md:w-full text-center font-medium leading-14 xl:w-[55%] md:leading-20 lg:leading-24'>
+          <h1 className='lg:text-[60px] xl:text-7xl md:text-[55px] pt-10 xl:pt-0 text-[41px] lg:w-[74%] w-[75%] md:w-full text-center font-medium leading-14 xl:w-[65%] md:leading-20 lg:leading-24'>
           Buy <span className='gradientText'> your Next Property </span>With <span className='gradientText'> Crypto</span>
           </h1>
           <p className='text-center font-light text-[16px] w-[85%] md:w-full lg:w-[80%] xl:w-[44%] xl:leading-7 lg:leading-8  leading-7 pt-10'>Invest in real estate using Metax Digital's crypto payments platform

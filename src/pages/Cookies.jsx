@@ -1,14 +1,6 @@
 import React from 'react'
 import "../styles/Home.css"
 import BgImg from '../assets/bgImg.svg'
-import { Link } from 'react-router-dom'
-import gateway1 from '../assets/gateway1.svg'
-import gateway2 from '../assets/gateway2.svg'
-import gateway3 from '../assets/gateway3.svg'
-import grid1 from '../assets/grid1.svg';
-import grid2 from '../assets/grid2.svg';
-import grid3 from '../assets/grid3.png';
-import grid4 from '../assets/grid4.svg';
 const Cookies = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
@@ -32,7 +24,7 @@ For additional details about this policy, kindly reach out to us at <a href="mai
 
            {/* ......................... Enhanced Functionality    section   starts ................. */}
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>What i</span><span className='text-v3'>s a cookie?</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientTextHome'>What is a cookie?</span> </span>
             
 <p className='text-[grey]'>A cookie is a small file comprising information, letters, and numbers that we store on your browser, computer hard drive, mobile device, or tablet, subject to your agreement. These cookies carry information transferred to your computer's hard drive, mobile device, or tablet.</p>
 
@@ -46,7 +38,7 @@ For additional details about this policy, kindly reach out to us at <a href="mai
 
 {/* ........ A solution for different cases section starts ................... */}
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>Types of C</span><span className='text-v3'>ookies We Use</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientTextHome'>Types of Cookies We Use</span> </span>
             
 <p className='text-[grey]'>
     <span className='text-white font-medium'>Strictly Necessary Cookies: </span>
@@ -82,7 +74,7 @@ You have the option to set your browser to refuse some or all browser cookies or
 {/* ........ A solution for different cases section ends ...................  */}
 
 <section className='flex flex-col gap-10  w-full py-10'>
-<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='text-btnBg'>Managing and Disab</span><span className='text-v3'>ling Cookies: A User Guide</span> </span>
+<span className='bg-[#1A2032] py-2 px-5 rounded-xl text-xl font-semibold w-fit'><span className='gradientTextHome'>Managing and Disabling Cookies: A User Guide</span> </span>
             
 <p className='text-[grey]'>
     <span className='text-white font-medium text-xl'>Disabling Cookies </span> <br /><br />

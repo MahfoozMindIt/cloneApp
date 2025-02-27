@@ -28,7 +28,7 @@ const Platform = () => {
          <main className='md:w-[90%] xl:w-[90%] w-[95%] width-Platform  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
            {/* banner section..... */}
    <img src={BgImg} alt="" className='absolute xl:top-50 top-72 rotate-180 z-10' />
-           <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-40'>
+           <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-16'>
    
            <div className='flex flex-col  items-center pb-10 xl:pb-0 gap-10 pt-10'>
                <h1 className='lg:text-6xl xl:text-[75px] md:text-5xl text-4xl text-center xl:leading-24 lg:leading-20 font-medium'>Access new features<br className='hidden xl:block'/> for<br className='hidden lg:block xl:hidden'/> your Platform
@@ -36,7 +36,7 @@ const Platform = () => {
                <p className='text-center md:text-[17px] text-[15px] opacity-[0.7] font-light'>Add more value to your customers through Metax’s crypto to fiat payments</p>
                <button className=' md:w-[320px] w-[220px] py-4 rounded-full bg-btnBg text-white font-light hover:bg-hoverBg cursor-pointer'>Learn more</button>
                
-           <div className='xl:pt-16 pt-10 text-md animate-ping '>
+           <div className='xl:pt-9 pt-10 text-md animate-ping '>
                <IoIosArrowDown />
                <IoIosArrowDown />
            </div>

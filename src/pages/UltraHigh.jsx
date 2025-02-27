@@ -16,7 +16,7 @@ const UltraHigh = () => {
        
         <section className=' flex w-full  justify-center flex-col items-center z-30'>
 
-        <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-44'>
+        <div className='flex flex-col backHero  items-center  gap-10 pt-24 lg:pt-24'>
             <h1 className='lg:text-6xl xl:text-[70px] md:text-[55px] text-[40px] text-center w-[90%] md:w-full mainHeading-UltraHigh  font-medium lg:w-[90%] xl:w-[60%] lg:leading-24'>Bridging Traditional Finance & Crypto
             </h1>
             <p className='text-center font-light md:text-[16px] w-[80%] lg:w-[50%] md:w-full mainPara leading-7 text-[15px]'>Metax Digital offers a solution that allows Ultra and High Net-Worth Individuals to manage their assets in a unique platform with Swiss banking-style service</p>

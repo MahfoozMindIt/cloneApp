@@ -17,9 +17,9 @@ const Institutional = () => {
   return (
   <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#060F26 30%,#010102 )"}}>
         <main className='md:w-[90%] xl:w-[90%] w-[95%] widthInstitutional z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
-          <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-32'>
+          <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-24'>
    <div className='flex flex-col backHero  items-center  gap-10 pt-24 md:pt-2 lg:pt-10'>
-              <h1 className=' lg:text-[60px] xl:text-7xl md:text-[55px] text-[41px]  w-[75%] md:w-full text-center font-medium leading-14 xl:w-[55%] lg:leading-20'>Charting <span className='gradientText'>New Investment Frontiers</span> in Crypto
+              <h1 className=' lg:text-[60px] xl:text-7xl md:text-[55px] text-[41px]  w-[75%] md:w-full text-center font-medium leading-14 xl:w-[75%] lg:leading-20'>Charting <span className='gradientText'>New Investment Frontiers</span> in Crypto
               </h1>
               <p className='text-center font-light text-[16px] w-[85%] md:w-full lg:w-[80%] xl:w-[44%] xl:leading-7 lg:leading-8 md:leading-7 leading-7 '>Redefine the landscape of challenges and opportunities in the dynamic Web3 payment world with Metax Digital!</p>
               <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
