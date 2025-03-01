@@ -28,7 +28,7 @@ const Home = () => {
         
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
-        <MetaData metaData={'Metax Digital | Home'}/>
+        <MetaData metaData={'Metax Digital'}/>
       <main className='width  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute w-full xl:top-50 top-50 z-10' />
