@@ -9,9 +9,13 @@ import section3 from '../assets/section3.png'
 import section5 from '../assets/section5.svg'
 import { IoIosArrowDown } from 'react-icons/io';
 import line from '../assets/download1.svg';
+import MetaData from '../components/Metadata';
 const UltraHigh = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>
+     
+     
+     <MetaData metaData={'Metax Digital | UHNWI'}/>
       <main className='md:w-[90%] width xl:w-[85%] w-[95%] width-UltraHigh  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
        
         <section className=' flex w-full  justify-center flex-col items-center z-30'>

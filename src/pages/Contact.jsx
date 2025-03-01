@@ -1,11 +1,14 @@
 import React from 'react'
 import "../styles/Blog.css";;
 import Form from "../components/Form"
+import MetaData from '../components/Metadata';
 
 const Contact = () => {
   return (
     
           <div className='w-full flex justify-center '>
+            
+     <MetaData metaData={'Metax Digital | Contact'}/>
            <main className='md:w-[90%] xl:w-[85%] w-[95%] width-contact flex justify-center flex-col items-center'>
            <div className='w-full  py-20 banner'><h1 className='lg:text-6xl xl:text-7xl md:text-5xl text-4xl font-semibold text-center  z-30 pt-10'>
            Get <span className='gradientText'>in touch</span> </h1>

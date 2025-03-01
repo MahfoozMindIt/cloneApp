@@ -11,7 +11,7 @@ import { IoIosArrowDown, IoIosCard, IoMdCheckmark, IoMdLock } from 'react-icons/
 import { TbSunFilled } from 'react-icons/tb'
 import { PiBankFill, PiLightbulbFilamentFill } from 'react-icons/pi'
 import { GrCompliance } from 'react-icons/gr'
-import { Link } from 'react-router-dom'
+import MetaData from '../components/Metadata';
 import polygon from '../assets/polygon.svg'
 
 
@@ -19,6 +19,7 @@ const RealEstate = () => {
   return (
     <div className=' w-full flex bg-[#000205] flex-col items-center justify-center '>
   
+  <MetaData metaData={'Metax Digital | Real Estate'}/>
          <div className='bg-line custom-real-estate flex justify-center'>
          <div className=' w-[90%] lg:[85%] width-RealEstate h-screen flex mt-24 flex-col items-center realEstateBanner z-30'>
          <div className='w-fit items-center xl:hidden   gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>

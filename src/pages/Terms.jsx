@@ -10,9 +10,12 @@ import grid1 from '../assets/grid1.svg';
 import grid2 from '../assets/grid2.svg';
 import grid3 from '../assets/grid3.png';
 import grid4 from '../assets/grid4.svg';
+import MetaData from '../components/Metadata';
 const Terms = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
+      
+<MetaData metaData={'Metax Digital | Terms Of Use'}/>
     <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
       {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />
@@ -20,7 +23,7 @@ const Terms = () => {
     
       <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10'>
           <h1 className='lg:text-7xl md:text-5xl text-4xl gradientText text-center font-semibold'>
-          Terms of use
+          Terms Of Use
           </h1>
           <p className='text-[grey] text-center'>Welcome to MetaX Digital! Before you proceed, it's essential to carefully read and understand the following Terms & Conditions ("Terms") as they establish an agreement between MetaX and yourself. These Terms govern your use of the website ("Site"). By accessing or utilizing any aspect of the Site, you are confirming your acceptance of these Terms. If you do not agree with any part of these terms, we kindly ask that you refrain from accessing or using the Site.</p>
       </div>

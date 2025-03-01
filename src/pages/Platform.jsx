@@ -2,28 +2,19 @@ import React from 'react'
 import "../styles/Home.css"
 import "../styles/Platform.css"
 import BgImg from '../assets/bgImg.svg'
-import n1 from '../assets/n1.svg'
-import n2 from '../assets/n2.svg'
-import n3 from '../assets/n3.svg'
-import n4 from '../assets/n4.svg'
-import n5 from '../assets/n5.svg'
 import a1 from '../assets/a1.svg'
 import a2 from '../assets/a2.svg'
 import a3 from '../assets/a3.svg'
-import a4 from '../assets/a4.svg'
 import a5 from '../assets/a5.svg'
-import { IoIosArrowDown, IoIosCard } from 'react-icons/io';
+import { IoIosArrowDown } from 'react-icons/io';
+import MetaData from '../components/Metadata';
 import line from '../assets/download1.svg';
-import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from 'react-icons/md'
-import { FaFileInvoiceDollar } from 'react-icons/fa6'
-import { RiSecurePaymentLine } from 'react-icons/ri'
-import { BsPersonFill } from 'react-icons/bs'
-import { GiTwoCoins } from 'react-icons/gi'
-import { AiOutlineGlobal } from 'react-icons/ai'
 
 const Platform = () => {
   return (
     <div className='bg-white text-black'  style={{ backgroundImage: "linear-gradient(to top, whitesmoke 70%,white )" }}>
+       
+     <MetaData metaData={'Metax Digital | Platform'}/>
          <div className=' w-full flex flex-col text-black items-center justify-center' style={{backgroundImage:" linear-gradient(top 70%,#fff,#00020500 )"}}>
          <main className='md:w-[90%] xl:w-[90%] w-[95%] width-Platform  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
            {/* banner section..... */}

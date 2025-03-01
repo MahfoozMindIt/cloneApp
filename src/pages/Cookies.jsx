@@ -1,9 +1,11 @@
 import React from 'react'
 import "../styles/Home.css"
 import BgImg from '../assets/bgImg.svg'
+import MetaData from '../components/Metadata';
 const Cookies = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
+<MetaData metaData={'Metax Digital | Cookies'}/>
     <main className='md:w-[90%] xl:w-[85%] w-[95%]  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
       {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute xl:top-50 top-72 z-10' />

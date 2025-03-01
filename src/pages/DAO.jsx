@@ -10,10 +10,14 @@ import "../styles/UltraHigh.css"
 import dao from "../assets/dao.png";
 import { IoIosArrowDown, IoIosCard } from 'react-icons/io';
 import line from '../assets/download1.svg';
+import MetaData from '../components/Metadata';
 
 const UltraHigh = () => {
   return (
     <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#000205 30%,#010102 )"}}>
+     
+     <MetaData metaData={'Metax Digital | DAO'}/>
+     
       <main className='md:w-[90%] xl:w-[90%] w-[95%] width-DAO  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col '>
     
         <section className=' flex w-full justify-center flex-col items-center z-30  '>

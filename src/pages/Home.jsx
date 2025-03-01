@@ -22,11 +22,13 @@ import side from '../assets/side.svg';
 import first from '../assets/first.svg';
 import second from '../assets/second.svg';
 import Slider from '../components/slider/Slider';
+import MetaData from '../components/Metadata';
 
 const Home = () => {
         
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
+        <MetaData metaData={'Metax Digital | Home'}/>
       <main className='width  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute w-full xl:top-50 top-50 z-10' />

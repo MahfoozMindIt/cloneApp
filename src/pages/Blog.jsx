@@ -7,6 +7,7 @@ import blog4 from '../assets/blog4.png'
 import blog5 from '../assets/blog5.png'
 import blog6 from '../assets/blog6.png'
 import { CiCalendar } from 'react-icons/ci';
+import MetaData from '../components/Metadata';
 import { Link } from 'react-router-dom';
 
 const Blog = () => {
@@ -58,6 +59,7 @@ const Blog = () => {
 
 
 <div className='grid xl:grid-cols-3 grid-cols-1 gap-14 md:grid-cols-2 py-32'>
+<MetaData metaData={'Metax Digital | Blog'}/>
 {blog && blog.map((x)=>(
 <Link to={x.link} key={x.id}>
 <img src={x.img} alt="" className='border-[1px] border-border rounded-2xl mb-5'/>

@@ -12,10 +12,13 @@ import first from '../assets/first.svg';
 import ins from "../assets/image2.png"
 import second from '../assets/second.svg';
 import { IoIosArrowDown } from 'react-icons/io';
+import MetaData from '../components/Metadata';
 
 const Institutional = () => {
   return (
   <div className=' w-full flex flex-col items-center justify-center' style={{backgroundImage:" radial-gradient(#060F26 30%,#010102 )"}}>
+       
+       <MetaData metaData={'Metax Digital | Institutional'}/>
         <main className='md:w-[90%] xl:w-[90%] w-[95%] widthInstitutional z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col'>
           <section className=' flex w-full justify-center flex-col items-center z-30 pt-20 xl:pt-24'>
    <div className='flex flex-col backHero  items-center  gap-10 pt-24 md:pt-2 lg:pt-10'>
