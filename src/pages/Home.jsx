@@ -390,9 +390,9 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 <span className='text-[#2E313A] text-5xl'>*</span>
                 </div>
                 <h3 className='text-2xl font-medium pt-7'>Crypto to Fiat</h3>
-                <p className='opacity-[0.6] font-light py-5 text-sm'>Convert cryptocurrency to cash with our user-friendly platform, ensuring easy access the traditional financial system.</p>
+                <p className='opacity-[0.6] font-light py-5 text-sm'>Convert cryptocurrency to fiat with our user-friendly platform, ensuring easy access the traditional financial system.</p>
                 <p className='font-semibold pb-5 text-sm lg:pb-20'>
-                ℹ️   1% fee + $10 per payment <span className='opacity-[0.6] font-light'> for crypto-to-fiat transactions</span>
+                ℹ️ From  1% fee  <span className='opacity-[0.6] font-light'> for crypto-to-fiat transactions</span>
                 </p>
         </div>
         <div className='border-border border-[1px] xl:h-[480px] p-5 bg-card rounded-2xl'>
@@ -403,7 +403,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
                 <h3 className='text-2xl font-medium pt-7'>Crypto to Crypto</h3>
                 <p className='opacity-[0.6] font-light py-5 text-sm'>Streamline batch cryptocurrency transactions using our platform. Manage multiple payments with ease, precision, and reliability.</p>
                 <p className='font-semibold pb-5 xl:pb-20'>
-                ℹ️  0% fee <span className=' opacity-[0.6] font-light text-sm'>, no charge for crypto-to-crypto transactions</span>
+                ℹ️ From 0% fee <span className=' opacity-[0.6] font-light text-sm'>, no charge for crypto-to-crypto transactions</span>
                 </p>
         </div>
 </div>
