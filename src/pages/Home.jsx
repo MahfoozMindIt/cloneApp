@@ -72,7 +72,7 @@ const Home = () => {
              <div className='p-7  card  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><GiTwoCoins className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
-     Loans
+     xyz ?
      </h2>
      <p className='opacity-[0.7] font-thin text-sm leading-6'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
      
@@ -181,7 +181,7 @@ const Home = () => {
              <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-5 border-[#1D212A] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><GiTwoCoins className='text-2xl'/></div>
      <h2 className='text-2xl font-medium'>
-     Loans
+     xyz ?
      </h2>
      <p className='opacity-[0.7] font-light text-sm leading-6'>Providing web3 businesses and their founders access to specialized loan solutions and factoring</p>
      
