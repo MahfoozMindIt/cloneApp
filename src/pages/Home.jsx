@@ -308,7 +308,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 {/* ......................... Enhanced Functionality    section   ends ................. */}
 
 {/* ........ A solution for different cases section starts ................... */}
-<section className='py-20 flex flex-col items-center w-full'>
+{/* <section className='py-20 flex flex-col items-center w-full'>
 <h1 className='text-center md:text-5xl text-5xl font-medium'>A solution for different cases</h1>
 <div className='grid grid-cols-1 lg:grid-cols-2 lg:w-full md:w-[80%] gap-10 pt-20'>
         <Link to='/ultra-high-net-worth-individual' className='hover:scale-[1.01] transition-all duration-500'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
@@ -341,7 +341,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
         </div></Link>
 
 </div>
-</section>
+</section> */}
 {/* ........ A solution for different cases section ends ...................  */}
 
         </section>
@@ -361,7 +361,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 </main>
 
 </div>
-<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] lg:mt-[400px] mb-[3400px] md:mb-[3100px] lg:mb-[1600px] xl:mb-[1150px]'>
+<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] lg:mt-[400px] mb-[3400px] md:mb-[3100px] lg:mb-[1600px] xl:mb-[1100px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
