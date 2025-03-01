@@ -41,7 +41,7 @@ const Home = () => {
             <h1 className='xl:text-7xl md:text-6xl text-4xl text-center font-medium'>
             What can <span className='gradientTextHome'>Metax offer you?</span>
             </h1>
-            <p className='text-center'>A Non-Custodial Solution Opening the Doors of TradFi for <br className='hidden md:block'/> Web3 Businesses and Founders.</p>
+            {/* <p className='text-center'>A Non-Custodial Solution Opening the Doors of TradFi for <br className='hidden md:block'/> Web3 Businesses and Founders.</p> */}
             <button className='w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>Join now</button>
         </div>
         
@@ -123,7 +123,7 @@ const Home = () => {
         <div className='p-7  card  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><RiSecurePaymentLine className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
-     Tokenised Securities
+     Virtual Cards
      </h2>
      <p className='opacity-[0.7] font-thin text-sm leading-6'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
      
