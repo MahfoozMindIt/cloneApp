@@ -35,7 +35,7 @@ const Home = () => {
         <section className=' flex w-full justify-center flex-col items-center z-30 pt-10 md:pt-24 xl:pt-16'>
         <div className='w-fit items-center  gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
-            <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Introducing DeFi Loans</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
+            <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Cards</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
         </div>
         <div className='flex flex-col items-center pb-10 xl:pb-0 gap-10 pt-10'>
             <h1 className='xl:text-7xl md:text-6xl text-4xl text-center font-medium'>
