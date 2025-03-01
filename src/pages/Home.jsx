@@ -95,7 +95,7 @@ const Home = () => {
              <div className='p-7 card  pb-10  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlineCompareArrows className='text-[25px] font-medium'/></div>
      <h2 className='text-2xl font-medium'>
-     OTC Trades
+     xyz ?
      </h2>
      <p className='opacity-[0.7] font-thin text-sm leading-6'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
      
@@ -203,7 +203,7 @@ const Home = () => {
              <div className='p-7 xl:h-[240px] rounded-2xl flex flex-col gap-5 border-[#1A2436] border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
      <div className='text-btnBg bg-[whitesmoke] p-2 w-fit rounded-xl'><MdOutlineCompareArrows className='text-3xl'/></div>
      <h2 className='text-2xl font-medium'>
-     OTC Trades
+     xyz ?
      </h2>
      <p className='opacity-[0.7] font-light text-sm leading-6'>Access to trades and payments using any token and into any fiat currency or vice-versa.</p>
      
