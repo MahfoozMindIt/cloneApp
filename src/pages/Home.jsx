@@ -128,14 +128,18 @@ const Home = () => {
      <p className='opacity-[0.7] font-thin text-sm leading-6'>Aimed at treasury management, we aim to provide our clients with safe fix-income products like tokenised T-bills and money market funds.</p>
      
              </div>
-             <div className='p-7  card  rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundImage:"linear-gradient(to top,#1F3994 2%,#030713)"}}>
+             <div className='p-7  card   rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundColor:"#0C101A"}}>
+                 <div className='flex justify-between items-center'>
+                     
      <div className='text-[#2A334B] bg-[whitesmoke] p-2 w-fit rounded-xl'><FaFileInvoiceDollar className='text-[25px] font-medium'/></div>
+     <p className='text-[13px] font-semibold bg-[#161C29] py-2 px-3 rounded-lg '><span className='gradientTextHome'>Coming soon</span></p>
+                 </div>
      <h2 className='text-2xl font-medium'>
      Payables & Invoice Me
      </h2>
      <p className='opacity-[0.7] font-thin text-sm leading-6'>Send custom invoice links, track and approve payables, batch payments, and upload or forward invoices for seamless financial management in crypto or fiat.</p>
      
-             </div>
+             </div> 
       
              <div className='p-7  card   rounded-2xl flex flex-col gap-3 border-border border-[1px]' style={{backgroundColor:"#0C101A"}}>
                  <div className='flex justify-between items-center'>
@@ -314,10 +318,10 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
                 <span className='font-medium text-sm'>View more</span>
                 <img src={grid1} alt="" className='w-full object-cover pt-8'/>
         </div></Link>
-        <Link className='hover:scale-[1.01] transition-all duration-500' to='/daos-and-organizations'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-        <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>Organizations + DAOs </span></span>
-                <h1 className='text-2xl font-medium py-5 pt-8'>For Organizations and DAOs</h1>
-                <p className='opacity-[0.8]  font-light text-sm pb-3'>Our platform allows companies and DAOs to pay for Goods, Services, Contractors, and much more.</p>
+        <Link className='hover:scale-[1.01] transition-all duration-500' to=''><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
+        <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>Organizations </span></span>
+                <h1 className='text-2xl font-medium py-5 pt-8'>For Organizations</h1>
+                <p className='opacity-[0.8]  font-light text-sm pb-3'>Our platform allows companies to pay for Goods, Services, Contractors, and much more.</p>
                 <span className='font-medium text-sm'>View more</span>
                 <img src={grid2} alt="" className='w-full object-cover pt-[55px]'/>
         </div></Link>
@@ -357,7 +361,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 </main>
 
 </div>
-<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] lg:mt-[400px] mb-[3400px] md:mb-[3100px] lg:mb-[1600px] xl:mb-[1850px]'>
+<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] lg:mt-[400px] mb-[3400px] md:mb-[3100px] lg:mb-[1600px] xl:mb-[1150px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
@@ -424,7 +428,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 
 
 {/* .............integrating with any crypto invoices section starts .............. */}
-<section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20 mb-10'>
+{/* <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20 mb-10'>
 
 <div className='lg:w-[45%] md:w-[80%] w-full'>
         <h2 className='xl:text-6xl md:text-5xl text-3xl text-center lg:text-start font-medium xl:leading-18 md:leading-16 leading-12'>Integrating with <br className='hidden lg:block '/> <span className='gradientTextHome'>any crypto invoicing</span> and <span className='gradientTextHome'>Payment system</span>
@@ -448,7 +452,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 <img src={side} alt="" />
 </div>
 
-</section>
+</section> */}
 {/* .............integrating with any crypto invoices section ends .............. */}
 
 {/* ......... Check latest news section start .......... */}

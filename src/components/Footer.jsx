@@ -53,7 +53,7 @@ const Footer = () => {
   <li className='cursor-pointer hover:text-[grey]'><Link to='/blog'>Our Blog</Link></li>
   <li className='cursor-pointer hover:text-[grey]'><Link to='/platform'>Platform</Link></li>
   <li className='cursor-pointer hover:text-[grey]'><Link to='/contact'>Contact us</Link></li>
-  <li className='cursor-pointer hover:text-[grey]'><Link to='/platform'>API Docs</Link></li>
+  <li className='cursor-pointer hover:text-[grey]'><Link to=''>Cards</Link></li>
 
 </ul>
 </div>
@@ -64,10 +64,10 @@ const Footer = () => {
 <ul className='text-[silver] gap-4 flex flex-col items-center md:items-start text-sm md:text-[16px]'>
   <li className='cursor-pointer hover:text-[grey]'><Link to='/ultra-high-net-worth-individual'>U/HNWI</Link></li>
   <li className='cursor-pointer hover:text-[grey]'>
-<Link to='/daos-and-organizations'>DAOs & Organizations</Link></li>
-  <li className='cursor-pointer hover:text-[grey]'>
+<Link to='/daos-and-organizations'>Organizations</Link></li>
+  {/* <li className='cursor-pointer hover:text-[grey]'>
 
-<Link to='/institutional'>Institutional</Link></li>
+<Link to='/institutional'>Institutional</Link></li> */}
   <li className='cursor-pointer hover:text-[grey]'>
 
 <Link to='/real-estate'>Real Estate</Link></li>

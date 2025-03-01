@@ -36,8 +36,9 @@ window.addEventListener('scroll',setFixed)
         <img src={logo} alt="" className='w-48 object-contain'/></Link>
 
         <div className=' gap-10 hidden lg:flex items-center'>
-        <ul className='flex gap-10  text-[15px]'>
+        <ul className='flex gap-10 lg:text-[13px]  xl:text-[15px]'>
 <li><Link to='/'>Home</Link></li> 
+<li><Link to='/'>Cards</Link></li> 
  <li
               className="relative flex items-center gap-2 cursor-pointer"
               onMouseEnter={() => setIsOpen(true)}
@@ -59,7 +60,7 @@ window.addEventListener('scroll',setFixed)
                       <h2>Ultra High Net Worth Individual</h2>
                       </div>
                       <p className='text-[grey] text-[13px] font-light'>
-                        Manage their assets in a unique platform with Swiss banking-style service.
+                        Manage their assets in a unique platform with banking-style service.
                       </p>
                     </div></Link>
 

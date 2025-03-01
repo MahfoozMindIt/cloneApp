@@ -39,6 +39,7 @@ window.addEventListener('scroll',setFixed)
         <div className=' gap-10 hidden lg:flex items-center'>
         <ul className='flex gap-10 font-light text-[15px]'>
 <li><Link to='/'>Home</Link></li> 
+<li><Link to=''>Cards</Link></li> 
  <li
               className="relative flex items-center gap-2 cursor-pointer"
               onMouseEnter={() => setIsOpen(true)}
