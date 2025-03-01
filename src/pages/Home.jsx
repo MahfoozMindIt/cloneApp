@@ -261,7 +261,7 @@ const Home = () => {
 
 
              {/* ......................... Enhanced Functionality    section   starts ................. */}
-<section className='flex flex-col gap-10 lg:flex-row justify-between homeSec2 items-center w-full pt-20 md:mb-[200px]'>
+<section className='flex flex-col gap-10 lg:flex-row justify-between homeSec2 items-center w-full pt-20 md:mb-[80px]'>
 
 <div className='lg:w-[48%] w-full md:w-[85%] flex-col  items-center justify-center lg:justify-start lg:items-start'>
         <h2 className='xl:text-6xl text-5xl text-center lg:text-start font-medium leading-18'>
@@ -273,7 +273,7 @@ const Home = () => {
                 <img src={gateway3} alt="" />
         </div>
 <h3 className='text-4xl font-medium text-center lg:text-start pt-3 pb-5'>
-<span className='text-btnBg leading-18'>Eas</span><span className='text-v3'>y integra</span><span className='text-v4'>tion</span> with <br className='hidden lg:block '/> different wallets
+<span className='gradientTextHome leading-18'>Easy integration</span> with <br className='hidden lg:block '/> different wallets
 </h3>
 <p className='font-light text-[#A6ACB8] lg:w-[75%]  text-center lg:text-start'>
 Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with Metax to unlock a world of effortless transactions.
