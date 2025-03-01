@@ -146,7 +146,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Compliant Privacy
      </h2>
-     <p className='opacity-[0.7] font-thin text-sm leading-6'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
+     <p className='opacity-[0.7] font-thin text-sm leading-6'> Banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
      
              </div> 
         
@@ -252,7 +252,7 @@ const Home = () => {
      <h2 className='text-2xl font-medium'>
      Compliant Privacy
      </h2>
-     <p className='opacity-[0.7] font-light text-sm leading-6'>Swiss banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
+     <p className='opacity-[0.7] font-light text-sm leading-6'> Banking privacy applied to all your crypto and fiat transactions in a compliant manner.</p>
      
              </div> 
         
