@@ -115,7 +115,7 @@ font-size:13px
     -webkit-text-fill-color: transparent;
 }
 .calculator {
-    box-shadow: 0px 00px 30px #4fc1ff; 
+    box-shadow: 0px 00px 12px #4FC0FF; 
     border: 1px solid #525151; 
     backdrop-filter: blur(10px);
 }

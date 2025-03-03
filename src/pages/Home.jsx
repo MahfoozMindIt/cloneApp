@@ -14,12 +14,16 @@ import { FaFileInvoiceDollar } from 'react-icons/fa6';
 import gateway1 from '../assets/gateway1.svg'
 import gateway2 from '../assets/gateway2.svg'
 import gateway3 from '../assets/gateway3.svg'
-import grid1 from '../assets/grid1.svg';
-import grid2 from '../assets/grid2.svg';
-import grid3 from '../assets/grid3.png';
-import grid4 from '../assets/grid4.svg';
+import section1 from '../assets/section1.svg'
+import frame from '../assets/Frame.svg'
 import line from '../assets/download1.svg';
 import side from '../assets/side.svg';
+import z1 from '../assets/z1.svg';
+import z2 from '../assets/z2.svg';
+import z3 from '../assets/z3.svg';
+import z4 from '../assets/z4.svg';
+import z5 from '../assets/z5.svg';
+import z6 from '../assets/z6.svg';
 import first from '../assets/first.svg';
 import second from '../assets/second.svg';
 import Slider from '../components/slider/Slider';
@@ -55,15 +59,18 @@ const Home = () => {
                 Contact us
         </button>
 </div>
-<div className='xl:w-[40%] lg:w-[50%] w-full md:w-[70%] md:h-[500px] h-[450px] calculator rounded p-7'>
+<div className='xl:w-[40%] lg:w-[50%] w-full md:w-[70%] md:h-[500px] h-[450px] calculator rounded-3xl p-7'>
 
         <div className='flex border-b-[1px] border-[#525151] mb-10'>
                 <div className='w-[50%]  flex justify-center  flex-col items-center'>
                         <h3 className='md:text-[25px] text-[20px] '>Buy</h3>
                 </div>
+                <div className='text-4xl font-thin text-[#525151]'>
+                        |
+                </div>
                 <div className='w-[50%] text-[25px]  flex justify-center flex-col items-center'>
                        <h3 className='gradientTextHome font-medium md:text-[25px] text-[20px]'>Sell</h3>
-                       <div className='h-[3px] w-full sell rounded-full'></div>
+                       <div className='h-[2px] w-[90%] sell rounded-full'></div>
                 </div>
         </div>
 
@@ -411,40 +418,98 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 {/* ......................... Enhanced Functionality    section   ends ................. */}
 
 {/* ........ A solution for different cases section starts ................... */}
-{/* <section className='py-20 flex flex-col items-center w-full'>
-<h1 className='text-center md:text-5xl text-5xl font-medium'>A solution for different cases</h1>
-<div className='grid grid-cols-1 lg:grid-cols-2 lg:w-full md:w-[80%] gap-10 pt-20'>
-        <Link to='/ultra-high-net-worth-individual' className='hover:scale-[1.01] transition-all duration-500'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>UHNWI </span></span>
-                <h1 className='text-2xl font-medium py-5 pt-8'>For Ultra High Net-Worth Individuals</h1>
-                <p className='opacity-[0.8]  font-light text-sm pb-3'>Metax Digital offers a solution that allows Ultra and High Net-Worth Individuals to manage their assets in a unique platform with Swiss banking-style service.</p>
-                <span className='font-medium text-sm'>View more</span>
-                <img src={grid1} alt="" className='w-full object-cover pt-8'/>
-        </div></Link>
-        <Link className='hover:scale-[1.01] transition-all duration-500' to=''><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-        <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>Organizations </span></span>
-                <h1 className='text-2xl font-medium py-5 pt-8'>For Organizations</h1>
-                <p className='opacity-[0.8]  font-light text-sm pb-3'>Our platform allows companies to pay for Goods, Services, Contractors, and much more.</p>
-                <span className='font-medium text-sm'>View more</span>
-                <img src={grid2} alt="" className='w-full object-cover pt-[55px]'/>
-        </div></Link>
-        <Link className='hover:scale-[1.01] transition-all duration-500' to='/institutional'><div className='bg-card border-border border-[1px] px-5 pt-5 rounded-2xl'>
-        <span className='bg-[#1A2032]  box rounded-xl font-medium'><span className='gradientTextHome'>Institutional </span></span>
-                <h1 className='text-2xl font-medium py-5 pt-8'>For Institutional Entities</h1>
-                <p className='opacity-[0.8]  font-light text-sm pb-3'>Metax Digital can help institutions redefine the landscape of challenges and opportunities in the dynamic Web3 payment world.</p>
-                <span className='font-medium text-sm'>View more</span>
-                <img src={grid3} alt="" className='w-full object-cover pt-8'/>
-        </div></Link>
-        <Link className='hover:scale-[1.01] transition-all duration-500' to='/platform'><div style={{backgroundImage:"linear-gradient(to top,#1F3994 10%,#161E3A   )"}} className=' border-border border-[1px] px-5 pt-5 rounded-2xl'>
-                <span className='bg-white font-semibold box1 rounded-xl  tracking-wider'><span className='text-btnBg'>Platforms</span> </span>
-                <h1 className='text-2xl font-medium py-5 pt-8'>For Platform Services</h1>
-                <p className='opacity-[0.8]  font-light text-sm pb-3'>Access more features and add more value to your customers through Metax Digital’s crypto to fiat and crypto to crypto payments.</p>
-                <span className='font-medium'>View more</span>
-                <img src={grid4} alt="" className='w-full object-cover pt-8'/>
-        </div></Link>
+<section className='py-20 flex flex-col items-center w-full'>
+<h1 className='text-center md:text-5xl text-5xl font-medium'>Metax Digital offers USDT Services</h1>
+<p className='opacity-[0.8] font-light pt-10'>FiatXchange offers USDT Services to multiple industries across the globe. Here are some examples of industries we support.</p>
+<ul className='list-disc opacity-[0.7] flex gap-32 pt-10 font-light text-xl'>
+<li>
+<li>E-Commerce Industry</li>
+<li>Corporates Industry</li>
+<li>Travel & Tourism Industry</li>
+</li>
+<li>
+<li>Real Estate Industry</li>
+<li>Technology Industry</li>
+<li>Import & Export Industry</li>
+<li>Construction Industry</li>
+</li>
+</ul>
 
+<div className='grid grid-cols-3 gap-10'>
+        <div className='rounded-3xl'>
+                <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
+<img src={z1} alt="" />
+                </main>
+                <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
+<h3 className='text-xl pb-2'>Instant Transfers
+</h3>
+<p className='font-light opacity-[0.7]'>
+Immediate Payments Across Borders
+</p>
+                </main>
+        </div>
+        <div className='rounded-3xl'>
+                <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
+<img src={z1} alt="" />
+                </main>
+                <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
+<h3 className='text-xl pb-2'>Instant Transfers
+</h3>
+<p className='font-light opacity-[0.7]'>
+Immediate Payments Across Borders
+</p>
+                </main>
+        </div>
+        <div className='rounded-3xl'>
+                <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
+<img src={z1} alt="" />
+                </main>
+                <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
+<h3 className='text-xl pb-2'>Instant Transfers
+</h3>
+<p className='font-light opacity-[0.7]'>
+Immediate Payments Across Borders
+</p>
+                </main>
+        </div>
+        <div className='rounded-3xl'>
+                <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
+<img src={z1} alt="" />
+                </main>
+                <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
+<h3 className='text-xl pb-2'>Instant Transfers
+</h3>
+<p className='font-light opacity-[0.7]'>
+Immediate Payments Across Borders
+</p>
+                </main>
+        </div>
+        <div className='rounded-3xl'>
+                <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
+<img src={z1} alt="" />
+                </main>
+                <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
+<h3 className='text-xl pb-2'>Instant Transfers
+</h3>
+<p className='font-light opacity-[0.7]'>
+Immediate Payments Across Borders
+</p>
+                </main>
+        </div>
+        <div className='rounded-3xl'>
+                <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
+<img src={z1} alt="" />
+                </main>
+                <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
+<h3 className='text-xl pb-2'>Instant Transfers
+</h3>
+<p className='font-light opacity-[0.7]'>
+Immediate Payments Across Borders
+</p>
+                </main>
+        </div>
 </div>
-</section> */}
+</section>
 {/* ........ A solution for different cases section ends ...................  */}
 
         </section>
@@ -464,7 +529,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 </main>
 
 </div>
-<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] lg:mt-[400px] mb-[3400px] md:mb-[3100px] lg:mb-[1600px] xl:mb-[1100px]'>
+<div className=' md:w-[90%]  w-[95%] width  h-96 mt-[500px] lg:mt-[400px] mb-[3400px] md:mb-[3300px] lg:mb-[1600px] xl:mb-[1900px]'>
 {/*.......................... pricing section starts .......... */}
 <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20'>
 
@@ -531,32 +596,38 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 
 
 {/* .............integrating with any crypto invoices section starts .............. */}
-{/* <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20 mb-10'>
+ <section className='flex flex-col gap-10 lg:flex-row justify-between items-center w-full py-20 mb-10'>
 
 <div className='lg:w-[45%] md:w-[80%] w-full'>
-        <h2 className='xl:text-6xl md:text-5xl text-3xl text-center lg:text-start font-medium xl:leading-18 md:leading-16 leading-12'>Integrating with <br className='hidden lg:block '/> <span className='gradientTextHome'>any crypto invoicing</span> and <span className='gradientTextHome'>Payment system</span>
+       <div className='w-full flex justify-center lg:justify-start py-5'>
+       <span className=' font-medium  text-2xl lg:text-start text-center gradientTextHome'>
+        For business
+        </span>
+       </div>
+        <h2 className='xl:text-6xl md:text-5xl text-3xl text-center lg:text-start xl:w-[90%] font-medium xl:leading-18 md:leading-16 leading-12 pb-10'>A Digital Alternative to <span className='gradientTextHome'>Metax Digital</span> Currency
         </h2>
 
-<div className='w-full flex justify-center lg:justify-start'>
-<p className='opacity-[0.6] w-[90%] font-light text-center lg:text-start pt-5 pb-10 md:py-10 xl:w-[75%]'>The Payment API empowers our Partners to enable Blockchain Businesses to settle invoices using both Crypto and Fiat.
-</p>
-</div>
 <div>
-<div className='flex flex-col md:flex-row md:gap-3 gap-10 w-full  justify-center lg:justify-start'>
-          
-          <button className='bg-btnBg hover:bg-hoverBg py-3 px-6 rounded-full text-lg font-light'>See our docs</button>
-          <button className='bg-white hover:bg-hoverBg hover:text-white text-btnBg py-3 px-6 text-lg font-light rounded-full'>See use case</button>
+<div className=''>
+<div className='w-full  flex-col flex  gap-5 pb-10'>
+<p className='flex items-center gap-3 text-xl font-light'><span className=''><img src={frame} alt="" /></span>Convert GBP to USDT</p>
+        <p className='flex items-center gap-3 text-xl font-light'><span className=''><img src={frame} alt="" /></span>Convert EURO to USDT Conversion</p> <p className='flex items-center gap-3 text-xl font-light'><span className=''><img src={frame} alt="" /></span>
+        Convert USD to USDT</p> <p className='flex items-center gap-3 text-xl font-light'><span className=''><img src={frame} alt="" /></span>Seamless Conversion</p> <p className='flex items-center gap-3 text-xl font-light'><span className=''><img src={frame} alt="" /></span>Convert USDT to Fiat (£, €, $ )</p>
+</div>
+         <div className='w-full flex justify-center lg:justify-start'>
+         <button className='bg-btnBg hover:bg-hoverBg py-3 px-6 rounded-full text-lg font-light'>Get the app</button>
+       
+         </div>
                   </div>
 </div>
 </div>
 
 
 <div className='lg:w-[48%] md:w-[80%] flex justify-center pt-10 lg:pt-0  w-full'>
-<img src={side} alt="" />
+<img src={section1} alt="" />
 </div>
 
-</section> */}
-{/* .............integrating with any crypto invoices section ends .............. */}
+</section> 
 
 {/* ......... Check latest news section start .......... */}
 <main >
