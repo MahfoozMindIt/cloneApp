@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Home.css"
 import BgImg from '../assets/bgImg.svg'
+import { Fieldset } from 'primereact/fieldset';
 import { Link } from 'react-router-dom'
 import { AiOutlineGlobal } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
@@ -25,14 +26,116 @@ import Slider from '../components/slider/Slider';
 import MetaData from '../components/Metadata';
 
 const Home = () => {
-        
+        const legendTemplate = (
+                <div className="bg-transparent px-2 ">
+                    <span className="font-railway font-light text-xl">You Send</span>
+                </div>
+            );
+            const legendTemplate2 = (
+                <div className="bg-transparent px-2 ">
+                    <span className="font-railway font-light text-xl">You Get</span>
+                </div>
+            );
   return (
     <div className=' w-full flex flex-col items-center justify-center'>
         <MetaData metaData={'Metax Digital'}/>
       <main className='width  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
-<img src={BgImg} alt="" className='absolute w-full xl:top-50 top-50 z-10' />
-        <section className=' flex w-full justify-center flex-col items-center z-30 pt-10 md:pt-24 xl:pt-16'>
+<img src={BgImg} alt="" className='absolute w-full xl:top-110 top-50 z-10' />
+<section className='flex w-full items-center lg:flex-row flex-col justify-between gap-20 z-30 pt-10 md:pt-24 xl:pt-16'>
+<div className='lg:w-[45%] flex flex-col justify-center items-center lg:justify-start lg:items-start'>
+        <h3 className='xl:text-[25px] text-[18px] font-medium gradientText3 pb-3'>USDT Business Accounts Simplified.</h3>
+        <h1 className='xl:text-6xl text-4xl md:text-5xl text-center lg:text-start font-medium xl:leading-18 xl:w-[90%] pb-7  leading-12'>
+        One Solution for All Your <span className='gradientTextHome '>Business</span> Needs.
+        </h1>
+        <p className='opacity-[0.8] font-light text-center lg:text-start leading-7 md:w-[70%] lg:w-fit pb-10'>
+        A one-of-a-kind solution integrating fiat accounts, cryptocurrency trading, and international payments—all in a single account.
+        </p>
+        <button className=' w-[350px] lg:w-[220px] py-4 rounded-full bg-btnBg font-medium hover:bg-hoverBg cursor-pointer'>
+                Contact us
+        </button>
+</div>
+<div className='xl:w-[40%] lg:w-[50%] w-full md:w-[70%] md:h-[500px] h-[450px] calculator rounded p-7'>
+
+        <div className='flex border-b-[1px] border-[#525151] mb-10'>
+                <div className='w-[50%]  flex justify-center  flex-col items-center'>
+                        <h3 className='md:text-[25px] text-[20px] '>Buy</h3>
+                </div>
+                <div className='w-[50%] text-[25px]  flex justify-center flex-col items-center'>
+                       <h3 className='gradientTextHome font-medium md:text-[25px] text-[20px]'>Sell</h3>
+                       <div className='h-[3px] w-full sell rounded-full'></div>
+                </div>
+        </div>
+
+   <main className='flex mySec'>
+   <section className='w-full'>
+     <div className='flex flex-col gap-10'>
+      <div className='flex h-[80px]'>
+      <Fieldset legend={legendTemplate} className='border-[#525151] w-[75%] border-[1px] p-3 px-6 h-[80px]'>
+                <input type="text" name='from_name'
+             id="" className=' w-full text-xl outline-none font-roboto '/>
+            </Fieldset>
+            <select className='border-[#525151] border-l-0 w-[25%] p-5 font-light text-xl outline-0 border-[1px] h-[66px] mt-[14px]'>
+                <option value="" className='bg-black'>EUR</option>
+                <option value="" className='text-black '>EUR Euro</option>
+            </select>
+      </div>
+      <div className='flex h-[80px]'>
+      <Fieldset legend={legendTemplate2} className='border-[#525151] w-[75%] border-[1px] p-3 px-6 h-[80px]'>
+                <input type="text" name='from_name'
+             id="" className=' w-full text-xl outline-none font-roboto '/>
+            </Fieldset>
+            <select className='border-[#525151] border-l-0 w-[25%]  p-5 font-light text-xl outline-0 border-[1px] h-[66px] mt-[14px]'>
+                <option value="" className='text-black '>EUR</option>
+                <option value="" className='text-black '>EUR Euro</option>
+            </select>
+      </div>
+        </div>
+
+      <div className='flex justify-center items-center pt-10'>
+      <button className='w-full py-4 rounded-full bg-btnBg text-xl hover:bg-hoverBg cursor-pointer'>Sell</button>
+    
+      </div>
+
+
+
+
+     </section>
+
+     {/* <section>
+     <div className='flex flex-col gap-10'>
+      <div className='flex h-[80px]'>
+      <Fieldset legend={legendTemplate} className='border-[#525151] w-[75%] border-[1px] p-3 px-6 h-[80px]'>
+                <input type="text" name='from_name'
+             id="" className=' w-full text-xl outline-none font-roboto '/>
+            </Fieldset>
+            <select className='border-[#525151] border-l-0 w-[25%] p-5 font-light text-xl outline-0 border-[1px] h-[67px] mt-[13px]'>
+                <option value="" className='bg-black'>EUR</option>
+                <option value="" className='text-black '>EUR Euro</option>
+            </select>
+      </div>
+      <div className='flex h-[80px]'>
+      <Fieldset legend={legendTemplate2} className='border-[#525151] w-[75%] border-[1px] p-3 px-6 h-[80px]'>
+                <input type="text" name='from_name'
+             id="" className=' w-full text-xl outline-none font-roboto '/>
+            </Fieldset>
+            <select className='border-[#525151] border-l-0 w-[25%]  p-5 font-light text-xl outline-0 border-[1px] h-[67px] mt-[13px]'>
+                <option value="" className='text-black '>EUR</option>
+                <option value="" className='text-black '>EUR Euro</option>
+            </select>
+      </div>
+        </div>
+
+      <div className='flex justify-center items-center pt-10'>
+      <button className='w-full py-4 rounded-full bg-btnBg text-xl hover:bg-hoverBg cursor-pointer'>Sell</button>
+    
+      </div>
+     </section> */}
+   </main>
+
+</div>
+</section>
+        <section className=' flex w-full justify-center flex-col items-center z-30 pt-32'>
         <div className='w-fit items-center  gap-3 bg-[#0C193D] flex p-2 border-btnBg border-[1px] rounded-xl'>
             <p className='bg-btnBg w-14 py-1 font-semibold xl:text-[15px] md:text-[13px] text-[10px] flex items-center justify-center rounded-full '>New</p>
             <p className='xl:text-[15px] md:text-[13px] text-[10px]'><span className='font-semibold'>Cards</span> - Access Fiat liquidity without selling your assets. <Link to='/blog' className='text-v4'>Learn more</Link></p>
