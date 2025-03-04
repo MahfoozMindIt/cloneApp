@@ -1,0 +1,36 @@
+.slider {
+  overflow-x: hidden; /* No need for multiple overflow properties */
+  width: 100%;
+  overflow:  hidden !important;
+}
+
+
+.slider-track {
+  display: flex;
+  min-width: 90vw !important; /* Ensures track is at least full screen width */
+  max-width: 97vw !important; /* Ensures track is at least full screen width */
+  width: calc(10 * (your-image-width + gap)); 
+  animation: scrollTrack 40s linear infinite;
+  gap: 100px;
+}
+
+
+
+  
+@keyframes scrollTrack {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-50% - 50px)); /* Adjusted for smooth loop */
+  }
+}
+
+  
+.item {
+  flex: 0 0 auto;
+  width: auto; /* Ensures images don’t expand beyond their natural size */
+  max-width: 100vw; /* Prevents overflowing on smaller screens */
+}
+
+  

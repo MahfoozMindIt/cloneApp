@@ -1,0 +1,99 @@
+.bgsec4{
+        background: url('../../../assets/bgsec4.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+        
+        
+}
+.progress1{
+    background: linear-gradient(150deg,#2241AC, #4FC0FF,#4FC0FF );
+    height: 3px;
+    width: 190px;
+}
+.progress2{
+    background: linear-gradient(150deg,#2241AC, #4FC0FF,#4FC0FF );
+    height: 3px;
+    width: 80px;
+}
+.bgSec4Card{
+    background: linear-gradient(150deg,#2241AC, #2240acda,#4FC0FF );
+}
+
+
+
+@media (max-width:1090px) {
+       
+    .widthCard4{
+        width: 90% !important;
+    }
+    .bgsec4 {
+        background: url("../../../assets/bgsec4.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /* Makes it stretch and cover the full area */
+        width: 100%;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .name{
+        height: 370px;
+    }
+}
+@media screen and (min-width:1500px) {
+   
+    .widthCard4{
+        width: 85% !important;
+    }
+    .name{
+        height: 370px;
+    }
+    
+}
+@media screen and (min-width:1600px){.cardSec3{
+    width: 51.45% !important;
+  }
+
+  .bgsec4 {
+    background: url("../../../assets/bgsec4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Makes it stretch and cover the full area */
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+
+@media screen and (min-width:2000px) {
+    .name{
+        height: 500px;
+    }
+
+.bgsec4{
+    background: url('../../../assets/bgsec4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    
+    }
+.cardSec3{
+width: 50% !important;
+}
+.widthCard4{
+    width: 65% !important;
+}
+}
+@media screen and (min-width:4000px) {
+
+.widthCard4{
+    width: 60%;
+}
+}

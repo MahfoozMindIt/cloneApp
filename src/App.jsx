@@ -17,6 +17,7 @@ const Cookies=lazy(()=>import('./pages/Cookies'));
 const Terms=lazy(()=>import('./pages/Terms'));
 const PrivacyPolicy=lazy(()=>import('./pages/PrivacyPolicy'));
 const Blog1=lazy(()=>import('./pages/Blog1'));
+const Cards=lazy(()=>import('./pages/Cards'));
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path='/terms-of-use' element={<Terms/>}/>
         <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
         <Route path='/how-to-manage-a-fully-decentralized-operation' element={<Blog1/>}/>
+        <Route path='/cards' element={<Cards/>}/>
        
         </Route>
       </Routes></ScrollToTop>

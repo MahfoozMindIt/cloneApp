@@ -1,0 +1,111 @@
+.banner{
+    background: url('../assets/bgCard.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
+    .cardBg{
+        background-image: url(../assets/Ellipse1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    /* .firstCard {
+        position: relative;
+         animation: example 2s; 
+         animation-delay: 5s; 
+        right: 700px;
+      }
+      
+      @keyframes example {
+        25%  { right:700px; top:0px;}
+        100% { right:1px; top:0px;}
+      }
+      .secondSection{
+        overflow-x: hidden;
+      }
+      .secondCard {
+        position: relative;
+        animation: example3 1s ease-in-out 0s forwards;
+        animation-delay: 5s; 
+        bottom: 470px;
+      }
+    
+      .secondcardBefore{
+        
+        position: relative;
+        
+        bottom: 470px; 
+      }
+      
+      @keyframes example3 { 
+      25%  { right:700px; top:0px;}
+      100% { right:0px; top:0px;}
+      } */
+
+      @media screen and (max-width:790px) {
+       
+        .widthCard{
+            width: 95% !important;
+        }
+        .banner{
+          background: url('../assets/bgCard.png');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          }
+    }
+    @media (max-width:1090px) {
+       
+        .widthCard{
+            width: 90% !important;
+        }
+        .banner{
+          background: url('../assets/bgCard.png');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 70vh;
+          }
+    }
+    @media screen and (min-width:1500px) {
+       
+        .widthCard{
+            width: 85% !important;
+        }
+        
+    }
+    @media screen and (min-width:1600px){
+      .cardSec3{
+        width: 51.45% !important;
+      }
+    
+     
+
+    }
+
+@media screen and (min-width:2000px) {
+
+  .banner{
+    background: url('../assets/bgCard.png') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 50vh;
+    }
+  .cardSec3{
+    width: 50% !important;
+  }
+    .widthCard{
+        width: 65% !important;
+    }
+}
+@media screen and (min-width:4000px) {
+  
+    .widthCard{
+        width: 60%;
+    }
+}

@@ -1,0 +1,76 @@
+.banner3 {
+    background: url("../../../assets/bgCard2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Makes it stretch and cover the full area */
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:1090px) {
+       
+    .widthCard3{
+        width: 90% !important;
+    }
+    .banner3 {
+        background: url("../../../assets/bgCard2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /* Makes it stretch and cover the full area */
+        width: 100%;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1500px) {
+   
+    .widthCard3{
+        width: 85% !important;
+    }
+    
+}
+@media screen and (min-width:1600px){.cardSec3{
+    width: 51.45% !important;
+  }
+
+  .banner3 {
+    background: url("../../../assets/bgCard2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Makes it stretch and cover the full area */
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+
+@media screen and (min-width:2000px) {
+
+.banner{
+    background: url('../assets/bgCard.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    }
+.cardSec3{
+width: 50% !important;
+}
+.widthCard3{
+    width: 65% !important;
+}
+}
+@media screen and (min-width:4000px) {
+
+.widthCard3{
+    width: 60%;
+}
+}
