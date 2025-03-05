@@ -17,6 +17,7 @@ import gateway3 from '../assets/gateway3.svg'
 import section1 from '../assets/section1.svg'
 import frame from '../assets/Frame.svg'
 import line from '../assets/download1.svg';
+import image from "../assets/Image.png"
 import side from '../assets/side.svg';
 import z1 from '../assets/z1.svg';
 import z2 from '../assets/z2.svg';
@@ -108,6 +109,7 @@ const Home = () => {
 
 
      </section>
+
 
      {/* <section>
      <div className='flex flex-col gap-10'>
@@ -420,22 +422,22 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 {/* ........ A solution for different cases section starts ................... */}
 <section className='py-20 flex flex-col items-center w-full'>
 <h1 className='text-center md:text-5xl text-5xl font-medium'>Metax Digital offers USDT Services</h1>
-<p className='opacity-[0.8] font-light pt-10'>FiatXchange offers USDT Services to multiple industries across the globe. Here are some examples of industries we support.</p>
-<ul className='list-disc opacity-[0.7] flex gap-32 pt-10 font-light text-xl'>
-<li>
+<p className='opacity-[0.8] font-light pt-10 text-center w-[80%]'>FiatXchange offers USDT Services to multiple industries across the globe. Here are some examples of industries we support.</p>
+<ul className='list-disc opacity-[0.7] text-[15px] flex md:flex-row flex-col gap-10 md:gap-32 pt-10 font-light text-xl'>
+<li className='flex flex-col gap-5  '>
 <li>E-Commerce Industry</li>
 <li>Corporates Industry</li>
 <li>Travel & Tourism Industry</li>
-</li>
-<li>
 <li>Real Estate Industry</li>
+</li>
+<li className='flex flex-col gap-10'>
 <li>Technology Industry</li>
 <li>Import & Export Industry</li>
 <li>Construction Industry</li>
 </li>
 </ul>
 
-<div className='grid grid-cols-3 gap-10'>
+<div className='grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-10 pt-20'>
         <div className='rounded-3xl'>
                 <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
 <img src={z1} alt="" />
@@ -509,6 +511,8 @@ Immediate Payments Across Borders
                 </main>
         </div>
 </div>
+
+{/* <img src={image} alt="" className='py-20 h-[700px]'/> */}
 </section>
 {/* ........ A solution for different cases section ends ...................  */}
 

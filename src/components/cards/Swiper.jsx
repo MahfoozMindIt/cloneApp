@@ -12,8 +12,8 @@ export default function App() {
   return (
     <Swiper
       effect="coverflow"
-      spaceBetween={10} // Adjust spacing between slides
-      slidesPerView={3} // Show exactly 3 slides at a time
+      spaceBetween={50} // Adjust spacing between slides
+      slidesPerView={2} // Show exactly 3 slides at a time
       centeredSlides={true} // Centers the active slide
       loop={true} // Infinite loop
       autoplay={{
@@ -22,10 +22,18 @@ export default function App() {
       }}
       coverflowEffect={{
         rotate: 0, // No rotation
-        stretch: 10, // Controls spacing between slides
+        stretch: 9, // Controls spacing between slides
         depth: 4, // Creates 3D depth effect
         modifier: 50, // Adjusts zoom strength
         slideShadows: false, // No shadow effect
+      }} 
+          breakpoints={{
+        320: { slidesPerView: 1, spaceBetween: 20 }, // Mobile devices
+        640: { slidesPerView: 1.5, spaceBetween: 30 }, // Small tablets
+        768: { slidesPerView: 2, spaceBetween: 40 }, // Tablets
+        1024: { slidesPerView: 3, spaceBetween: 50 }, // Laptops
+        1440: { slidesPerView: 2, spaceBetween: 60 }, // Large screens
+        2560:{ slidesPerView: 3, spaceBetween: 60 }, 
       }}
       onSlideChange={() => console.log("Slide changed")}
       modules={[Autoplay, EffectCoverflow]}

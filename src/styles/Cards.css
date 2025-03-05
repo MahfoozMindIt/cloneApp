@@ -71,13 +71,7 @@
           height: 70vh;
           }
     }
-    @media screen and (min-width:1500px) {
-       
-        .widthCard{
-            width: 85% !important;
-        }
-        
-    }
+   
     @media screen and (min-width:1600px){
       .cardSec3{
         width: 51.45% !important;
@@ -97,7 +91,7 @@
     height: 50vh;
     }
   .cardSec3{
-    width: 50% !important;
+    width: 90% !important;
   }
     .widthCard{
         width: 65% !important;

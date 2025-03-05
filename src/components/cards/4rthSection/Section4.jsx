@@ -16,16 +16,19 @@ const Section4 = () => {
          <h3 className='text-2xl text-center pt-10'>Split the bill with friends or send gifts in crypto with 0 transfer fees</h3>
    
    <main className='w-[60%] pt-20 relative'>
-   <div className='flex gap-5'>
-<img src={g1} alt="" className=' h-[378px] name object-contain'/>
-<div className='grid grid-cols-2  h-[378px] gap-5'>
-<img src={g2} alt="" className='object-contain'/>
-<img src={g3} alt="" className='object-contain'/>
-<img src={g4} alt="" className='col-span-2'/>
+   <div className='w-full flex flex-col gap-5'>
+<img src={g1} alt="" className=' h-[378px] w-full name object-cover rounded-3xl'/>
+<div className=' w-full  h-[378px] gap-5'>
+  <div className='flex w-full gap-5'>
+    
+<img src={g2} alt="" className='w-[50%] object-cover'/>
+<img src={g3} alt="" className='w-[50%] object-cover'/>
+  </div>
+<img src={g4} alt="" className='col-span-2 w-full pt-5'/>
 </div>
 </div>
 
-<div className='w-[55%] text-black flex flex-col gap-3 absolute left-50 top-96'>
+<div className='xl:w-[55%] w-[70%] text-black flex flex-col gap-3 absolute left-25 top-[780px] xl:left-50 xl:top-[900px]'>
     <div className='w-full h-[70px] bg-white flex justify-between p-5 rounded-3xl'>
 
      <div className='h-full flex-col justify-between'>

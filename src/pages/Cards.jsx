@@ -87,9 +87,9 @@ Accepted by 130M+ merchants worldwide
   </main>
 
     <main className='w-full flex justify-center pb-32'>
-       <div className='w-[60%] flex widthCard flex-col gap-20 items-center'>
+       <div className='w-[90%] flex widthCard flex-col gap-20 items-center'>
         <h2 className='text-5xl font-semibold'>PAY, SEND, TRANSFER with <span className='gradientTextHome'>Metax</span>Pay</h2>
-       <div className='w-[65%] cardSec3'>
+       <div className='w-[50%] cardSec3'>
        <Swiper/>
        </div>
        </div>
