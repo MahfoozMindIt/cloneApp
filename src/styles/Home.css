@@ -134,3 +134,29 @@ font-size:13px
 .mySec:hover{
     /* transform: rotateY(180deg); */
 }
+
+.custom-select {
+    position: relative !important;
+    /* width: 200px !important; */
+}
+
+select {
+    appearance: none !important; /* Removes default arrow */
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+}
+
+/* Custom dropdown arrow */
+.custom-select::after {
+    content: '▼'; /* Unicode arrow character */
+    position: absolute !important;
+    top: 50% !important;
+    right: 10px !important;
+    transform: translateY(10%) !important;
+    transform: translateX(-60%) !important;
+    pointer-events: none !important;
+    font-size: 14px !important;
+    color: white !important;
+}

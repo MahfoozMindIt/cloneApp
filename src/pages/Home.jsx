@@ -78,22 +78,22 @@ const Home = () => {
    <main className='flex mySec'>
    <section className='w-full'>
      <div className='flex flex-col gap-10'>
-      <div className='flex h-[80px]'>
+      <div className='flex h-[80px] custom-select'>
       <Fieldset legend={legendTemplate} className='border-[#525151] w-[75%] border-[1px] p-3 px-6 h-[80px]'>
                 <input type="text" name='from_name'
              id="" className=' w-full text-xl outline-none font-roboto '/>
             </Fieldset>
-            <select className='border-[#525151] border-l-0 w-[25%] p-5 font-light text-xl outline-0 border-[1px] h-[66px] mt-[14px]'>
+            <select className='border-[#525151] border-l-0 w-[25%] select p-5 font-light text-xl outline-0 border-[1px] h-[66px] mt-[14px]'>
                 <option value="" className='bg-black'>EUR</option>
                 <option value="" className='text-black '>EUR Euro</option>
             </select>
       </div>
-      <div className='flex h-[80px]'>
+      <div className='flex h-[80px] custom-select'>
       <Fieldset legend={legendTemplate2} className='border-[#525151] w-[75%] border-[1px] p-3 px-6 h-[80px]'>
                 <input type="text" name='from_name'
              id="" className=' w-full text-xl outline-none font-roboto '/>
             </Fieldset>
-            <select className='border-[#525151] border-l-0 w-[25%]  p-5 font-light text-xl outline-0 border-[1px] h-[66px] mt-[14px]'>
+            <select className='border-[#525151] border-l-0 w-[25%]   select  p-5 font-light text-xl outline-0 border-[1px] h-[66px] mt-[14px]'>
                 <option value="" className='text-black '>EUR</option>
                 <option value="" className='text-black '>EUR Euro</option>
             </select>
