@@ -49,7 +49,7 @@ const Home = () => {
 <img src={BgImg} alt="" className='absolute w-full xl:top-110 top-50 z-10' />
 <section className='flex w-full items-center lg:flex-row flex-col justify-between gap-20 z-30 pt-10 md:pt-24 xl:pt-16'>
 <div className='lg:w-[45%] flex flex-col justify-center items-center lg:justify-start lg:items-start'>
-        <h3 className='xl:text-[25px] text-[18px] font-medium gradientText3 pb-3'>USDT Business Accounts Simplified.</h3>
+        <h3 className='xl:text-[21px] text-[18px] font-medium gradientText3 pb-3'>USDT Business Accounts Simplified.</h3>
         <h1 className='xl:text-6xl text-4xl md:text-5xl text-center lg:text-start font-medium xl:leading-18 xl:w-[90%] pb-7  leading-12'>
         One Solution for All Your <span className='gradientTextHome '>Business</span> Needs.
         </h1>
@@ -421,95 +421,80 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 
 {/* ........ A solution for different cases section starts ................... */}
 <section className='py-20 flex flex-col items-center w-full'>
-<h1 className='text-center md:text-5xl text-5xl font-medium'>Metax Digital offers USDT Services</h1>
-<p className='opacity-[0.8] font-light pt-10 text-center w-[80%]'>FiatXchange offers USDT Services to multiple industries across the globe. Here are some examples of industries we support.</p>
-<ul className='list-disc opacity-[0.7] text-[15px] flex md:flex-row flex-col gap-10 md:gap-32 pt-10 font-light text-xl'>
-<li className='flex flex-col gap-5  '>
-<li>E-Commerce Industry</li>
-<li>Corporates Industry</li>
-<li>Travel & Tourism Industry</li>
-<li>Real Estate Industry</li>
-</li>
-<li className='flex flex-col gap-10'>
-<li>Technology Industry</li>
-<li>Import & Export Industry</li>
-<li>Construction Industry</li>
-</li>
-</ul>
+<h1 className='text-center md:text-5xl xl:text-6xl text-5xl font-medium leading-14'><span className='gradientTextHome'>Metax Digital</span> offers USDT Services</h1>
+<p className='opacity-[0.7] font-light pt-10 text-[17px] leading-7 w-[70%] text-center'>Metax Digital offers USDT Services to multiple industries across the globe. Here are some examples of industries we support.</p>
 
-<div className='grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-10 pt-20'>
-        <div className='rounded-3xl'>
+
+<div className='grid xl:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-10 pt-20'>
+<div className='rounded-2xl border-[1px] border-transparent hover:border-border transition-all duration-300'>
                 <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
 <img src={z1} alt="" />
                 </main>
                 <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
 <h3 className='text-xl pb-2'>Instant Transfers
 </h3>
-<p className='font-light opacity-[0.7]'>
+<p className='font-light opacity-[0.7] text-center'>
 Immediate Payments Across Borders
 </p>
                 </main>
         </div>
-        <div className='rounded-3xl'>
+        <div className='rounded-2xl border-[1px] border-transparent hover:border-border transition-all duration-300'>
                 <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
-<img src={z1} alt="" />
+<img src={z2} alt="" />
                 </main>
                 <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
-<h3 className='text-xl pb-2'>Instant Transfers
+<h3 className='text-xl text-center pb-2'>Affordable FX Rates
 </h3>
-<p className='font-light opacity-[0.7]'>
-Immediate Payments Across Borders
+<p className='font-light opacity-[0.7] text-center'>Minimized Foreign Exchange Costs
 </p>
                 </main>
         </div>
-        <div className='rounded-3xl'>
+        <div className='rounded-2xl border-[1px] border-transparent hover:border-border transition-all duration-300'>
                 <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
-<img src={z1} alt="" />
+<img src={z3} alt="" />
                 </main>
                 <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
-<h3 className='text-xl pb-2'>Instant Transfers
+<h3 className='text-xl pb-2'>Widely Accepted
 </h3>
-<p className='font-light opacity-[0.7]'>
-Immediate Payments Across Borders
+<p className='font-light opacity-[0.7] text-center'>USDT is widely acceptable
 </p>
                 </main>
         </div>
-        <div className='rounded-3xl'>
+        <div className='rounded-2xl border-[1px] border-transparent hover:border-border transition-all duration-300'>
                 <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
-<img src={z1} alt="" />
+<img src={z4} alt="" />
                 </main>
                 <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
-<h3 className='text-xl pb-2'>Instant Transfers
+<h3 className='text-xl pb-2'>Statements
 </h3>
-<p className='font-light opacity-[0.7]'>
-Immediate Payments Across Borders
+<p className='font-light opacity-[0.7] text-center'>
+Clear and Precise Monthly Reports
 </p>
                 </main>
         </div>
-        <div className='rounded-3xl'>
+        <div className='rounded-2xl border-[1px] border-transparent hover:border-border transition-all duration-300'>
                 <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
-<img src={z1} alt="" />
+<img src={z5} alt="" />
                 </main>
                 <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
-<h3 className='text-xl pb-2'>Instant Transfers
+<h3 className='text-xl pb-2'>Security
 </h3>
-<p className='font-light opacity-[0.7]'>
-Immediate Payments Across Borders
+<p className='font-light opacity-[0.7] text-center'>Premium Security Measures, Including 3D Secure
 </p>
                 </main>
         </div>
-        <div className='rounded-3xl'>
+        <div className='rounded-2xl border-[1px] border-transparent hover:border-border transition-all duration-300'>
                 <main className=' bg-[#131927] h-[100px] rounded-3xl rounded-b-none py-3 flex justify-center'>
-<img src={z1} alt="" />
+<img src={z6} alt="" />
                 </main>
                 <main className='bg-[#0B101B] h-[150px] rounded-3xl rounded-t-none flex justify-center items-center flex-col p-5'>
-<h3 className='text-xl pb-2'>Instant Transfers
+<h3 className='text-xl pb-2'>Notifications
 </h3>
-<p className='font-light opacity-[0.7]'>
-Immediate Payments Across Borders
+<p className='font-light opacity-[0.7] text-center'>Instant Transaction Alerts
 </p>
                 </main>
         </div>
+     
 </div>
 
 {/* <img src={image} alt="" className='py-20 h-[700px]'/> */}
