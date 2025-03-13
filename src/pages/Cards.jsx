@@ -12,9 +12,9 @@ import cardHome from "../assets/cardHome.png"
 const Cards = () => {
  
   return (
-    <section className=' '>
-    <div className=' banner flex justify-center items-center flex-col text-white '>
-   <main  className='flex widthCard  lg:flex-row flex-col items-center lg:items-start justify-center lg:justify-between gap-20 lg:gap-0'>
+    <section className=' bg-white'>
+    <div className=' banner  flex justify-center items-center flex-col text-white '>
+   <main  className='flex widthCard  lg:flex-row flex-col items-center lg:items-center xl:items-start justify-center lg:justify-between gap-20 lg:gap-0'>
    <div className=' flex flex-col   xl:pt-32'>
   <div className='xl:text-[90px] text-5xl lg:text-6xl  xl:leading-28 font-semibold'>
   <h1 className='text-center lg:text-start'>
@@ -66,13 +66,13 @@ Seamless payment with your cryptocurrencies</p>
 </div>
     </section>
 </div> */}
-<p className='lg:text-2xl text-xl mt-5'>
+<p className='lg:text-2xl text-xl mt-5 text-center lg:text-start'>
 Accepted by 130M+ merchants worldwide
 </p>
 
     </div>
-    <div className='xl:w-[55%] w-[40%] cardBg flex justify-center items-center'>
-        <img src={cardHome} alt="" />
+    <div className='xl:w-[55%] md:w-[70%] cardBg flex justify-center items-center'>
+        <img src={cardHome} alt=""/>
     </div>
    </main>
     <main className='mt-20'>
@@ -82,14 +82,16 @@ Accepted by 130M+ merchants worldwide
 
     </div>
 
-  <main className='pt-32'>
+  <div className='w-full flex justify-center'>
+  <main className='pt-32 widthCard'>
     <Section2/>
   </main>
+  </div>
 
-    <main className='w-full flex justify-center pb-32'>
-       <div className='w-[90%] flex widthCard flex-col gap-20 items-center'>
-        <h2 className='text-5xl font-semibold'>PAY, SEND, TRANSFER with <span className='gradientTextHome'>Metax</span>Pay</h2>
-       <div className='w-[50%] cardSec3'>
+    <main className='w-full lg:flex justify-center py-32 pb-44 hidden'>
+       <div className='w-[90%] flex widthCard  flex-col gap-20 items-center'>
+        <h2 className='text-5xl font-semibold text-center text-black'>PAY, SEND, TRANSFER with <span className='gradientTextHome'>Metax Digital</span></h2>
+       <div className='xl:w-[70%] lg:w-[70%] cardSec3'>
        <Swiper/>
        </div>
        </div>

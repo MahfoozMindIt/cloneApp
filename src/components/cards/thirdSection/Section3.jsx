@@ -12,14 +12,14 @@ const Section3 = () => {
   return (
     <div className='flex text-white  h-screen w-full flex-col items-center banner3'>
    <div className='widthCard3 flex justify-center items-center flex-col'>
-   <h1 className='text-[54px]  text-center leading-14 font-semibold'>
+   <h1 className='md:text-[54px] text-4xl text-center md:leading-14 font-semibold'>
         MAKE PAYMENT WITH CRYPTO ANYTIME, ANYWHERE
         </h1>
-      <h3 className='text-2xl text-center pt-10'>
+      <h3 className='md:text-2xl  text-center pt-10'>
 Accepted by 130M+ merchants globally | Apple Pay/Google Pay compatibility | No advance fiat conversion needed</h3>
 
 <section className='flex flex-col gap-3 mt-14'>
-<main  className='bg-[rgba(243,243,243,0.7)] flex items-center justify-between w-[450px] h-[55px] px-10 rounded-2xl'>
+<main  className='bg-[rgba(243,243,243,0.7)] flex items-center justify-between md:w-[450px] w-[400px] h-[55px] px-10 rounded-2xl'>
 <div className=' flex items-center gap-5 text-black'>
     <img src={r1} alt="" />
     <p className='font-bold opacity-[0.9] text-md'>
@@ -29,7 +29,7 @@ Accepted by 130M+ merchants globally | Apple Pay/Google Pay compatibility | No a
 <p className='opacity-[0.5] font-bold text-black'>- $550.00 USD</p>
 </main>
 
-<main  className='bg-[rgba(243,243,243,0.7)] flex items-center justify-between w-[450px] h-[55px] px-10 rounded-2xl'>
+<main  className='bg-[rgba(243,243,243,0.7)] flex items-center justify-between md:w-[450px] w-[400px] h-[55px] px-10 rounded-2xl'>
 <div className=' flex items-center gap-5 text-black'>
 <img src={r2} alt="" />
     <p className='font-bold opacity-[0.9] text-md'>
@@ -39,7 +39,7 @@ Accepted by 130M+ merchants globally | Apple Pay/Google Pay compatibility | No a
 <p className='opacity-[0.5] font-bold text-black'>- $550.00 USD</p>
 </main>
 
-<main  className='bg-[rgba(243,243,243,0.7)] flex items-center justify-between w-[450px] h-[55px] px-10 rounded-2xl'>
+<main  className='bg-[rgba(243,243,243,0.7)] flex items-center justify-between md:w-[450px] w-[400px] h-[55px] px-10 rounded-2xl'>
 <div className=' flex items-center gap-5 text-black'>
 <img src={r3} alt="" />
     <p className='font-bold opacity-[0.9] text-md'>
@@ -51,7 +51,7 @@ Accepted by 130M+ merchants globally | Apple Pay/Google Pay compatibility | No a
 </main>
 </section>
 
-<section className='pt-10 flex gap-32 items-center mt-32'>
+<section className='pt-10 flex flex-wrap  justify-center gap-10 xl:gap-32 items-center mt-32'>
 <div className='flex items-center gap-3 text-[18px] px-7 py-2 rounded-full bg-[rgba(243,243,243,0.3)] border-white border-[1px]'>
     <HiShoppingBag className='text-2xl'/>
     <p className='font-medium'>Online Shopping</p>

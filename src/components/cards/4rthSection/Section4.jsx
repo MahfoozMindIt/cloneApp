@@ -10,12 +10,12 @@ const Section4 = () => {
   return (
       <div className='  bgsec4  text-white flex justify-center items-center'>
    <div className='flex text-white w-[85%] h-screen flex-col items-center justify-center'>
-           <h1 className='text-[54px] text-center leading-14 font-semibold'>
+           <h1 className='md:text-[54px] text-4xl text-center md:leading-14 font-semibold'>
            SHARE HAPPY MOMENTS
            </h1>
          <h3 className='text-2xl text-center pt-10'>Split the bill with friends or send gifts in crypto with 0 transfer fees</h3>
    
-   <main className='w-[60%] pt-20 relative'>
+   <main className='lg:w-[60%] pt-20 relative'>
    <div className='w-full flex flex-col gap-5'>
 <img src={g1} alt="" className=' h-[378px] w-full name object-cover rounded-3xl'/>
 <div className=' w-full  h-[378px] gap-5'>
@@ -28,7 +28,7 @@ const Section4 = () => {
 </div>
 </div>
 
-<div className='xl:w-[55%] w-[70%] text-black flex flex-col gap-3 absolute left-25 top-[780px] xl:left-50 xl:top-[900px]'>
+<div className='lg:w-[55%] md:w-[60%] text-black flex flex-col gap-3 absolute left-25 top-[780px] section4Pos xl:left-50 xl:top-[900px]'>
     <div className='w-full h-[70px] bg-white flex justify-between p-5 rounded-3xl'>
 
      <div className='h-full flex-col justify-between'>

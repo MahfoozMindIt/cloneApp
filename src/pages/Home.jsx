@@ -17,8 +17,6 @@ import gateway3 from '../assets/gateway3.svg'
 import section1 from '../assets/section1.svg'
 import frame from '../assets/Frame.svg'
 import line from '../assets/download1.svg';
-import image from "../assets/Image.png"
-import side from '../assets/side.svg';
 import z1 from '../assets/z1.svg';
 import z2 from '../assets/z2.svg';
 import z3 from '../assets/z3.svg';
@@ -47,7 +45,7 @@ const Home = () => {
       <main className='width  z-30 flex pb-5 md:pb-15 lg:pb-20 items-center flex-col relative'>
         {/* banner section..... */}
 <img src={BgImg} alt="" className='absolute w-full xl:top-110 top-50 z-10' />
-<section className='flex w-full items-center lg:flex-row flex-col justify-between gap-20 z-30 pt-10 md:pt-24 xl:pt-16'>
+<section className=' hidden w-full items-center lg:flex-row flex-col justify-between gap-20 z-30 pt-10 md:pt-24 xl:pt-16'>
 <div className='lg:w-[45%] flex flex-col justify-center items-center lg:justify-start lg:items-start'>
         <h3 className='xl:text-[21px] text-[18px] font-medium gradientText3 pb-3'>USDT Business Accounts Simplified.</h3>
         <h1 className='xl:text-6xl text-4xl md:text-5xl text-center lg:text-start font-medium xl:leading-18 xl:w-[90%] pb-7  leading-12'>
@@ -71,7 +69,7 @@ const Home = () => {
                 </div>
                 <div className='w-[50%] text-[25px]  flex justify-center flex-col items-center'>
                        <h3 className='gradientTextHome font-medium md:text-[25px] text-[20px]'>Sell</h3>
-                       <div className='h-[2px] w-[90%] sell rounded-full'></div>
+                       <div className='h-[2px] w-[100%] sell rounded-full'></div>
                 </div>
         </div>
 
@@ -420,7 +418,7 @@ Seamlessly integrate your existing SAFE wallet, MetaMask or  WalletConnect with 
 {/* ......................... Enhanced Functionality    section   ends ................. */}
 
 {/* ........ A solution for different cases section starts ................... */}
-<section className='py-20 flex flex-col items-center w-full'>
+<section className='py-20  flex-col items-center hidden w-full'>
 <h1 className='text-center md:text-5xl xl:text-6xl text-5xl font-medium leading-14'><span className='gradientTextHome'>Metax Digital</span> offers USDT Services</h1>
 <p className='opacity-[0.7] font-light pt-10 text-[17px] leading-7 w-[70%] text-center'>Metax Digital offers USDT Services to multiple industries across the globe. Here are some examples of industries we support.</p>
 

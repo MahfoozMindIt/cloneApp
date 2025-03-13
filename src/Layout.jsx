@@ -8,7 +8,8 @@ import FooterPlatform from './components/FooterPlatform'
 
 const layout = () => {
   const location = useLocation();
-  const specialPage = location.pathname === '/platform'
+  const specialPage = location.pathname === '/platform' || location.pathname === '/cards';
+
   return (
     <div>
       {specialPage? <PlatformHeader></PlatformHeader>:<Header></Header>}

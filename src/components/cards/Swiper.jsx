@@ -11,32 +11,24 @@ import { FaWallet } from "react-icons/fa";
 export default function App() {
   return (
     <Swiper
-      effect="coverflow"
-      spaceBetween={50} // Adjust spacing between slides
-      slidesPerView={2} // Show exactly 3 slides at a time
+      spaceBetween={30} // Adjust spacing between slides
+      slidesPerView={2.5} // Show exactly 3 slides at a time
       centeredSlides={true} // Centers the active slide
       loop={true} // Infinite loop
       autoplay={{
         delay: 3000, // Auto-slide every 2 seconds
         disableOnInteraction: false,
-      }}
-      coverflowEffect={{
-        rotate: 0, // No rotation
-        stretch: 9, // Controls spacing between slides
-        depth: 4, // Creates 3D depth effect
-        modifier: 50, // Adjusts zoom strength
-        slideShadows: false, // No shadow effect
       }} 
-          breakpoints={{
-        320: { slidesPerView: 1, spaceBetween: 20 }, // Mobile devices
-        640: { slidesPerView: 1.5, spaceBetween: 30 }, // Small tablets
-        768: { slidesPerView: 2, spaceBetween: 40 }, // Tablets
-        1024: { slidesPerView: 3, spaceBetween: 50 }, // Laptops
-        1440: { slidesPerView: 2, spaceBetween: 60 }, // Large screens
-        2560:{ slidesPerView: 3, spaceBetween: 60 }, 
-      }}
+            breakpoints={{
+              320: { slidesPerView: 1, spaceBetween: 10 }, // Small screens
+              480: { slidesPerView: 1, spaceBetween: 10 }, // Slightly bigger screens
+              640: { slidesPerView: 1, spaceBetween: 10 }, 
+              768: { slidesPerView: 1, spaceBetween: 10 }, 
+              1024: { slidesPerView: 2, spaceBetween: 10 }, 
+              1280: { slidesPerView: 2.5, spaceBetween: 40 }, 
+            }}
       onSlideChange={() => console.log("Slide changed")}
-      modules={[Autoplay, EffectCoverflow]}
+      modules={[Autoplay]}
       className="mySwiper"
     >
       

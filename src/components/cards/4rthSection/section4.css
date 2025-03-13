@@ -20,8 +20,52 @@
 .bgSec4Card{
     background: linear-gradient(150deg,#2241AC, #2240acda,#4FC0FF );
 }
+@media screen and (min-width:320px){
+    .cardSec3{
+    width: 51.45% !important;
+  }
 
+  .bgsec4 {
+    background: url("../../../assets/bgsec4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Makes it stretch and cover the full area */
+    width: 100%;
+    height: 1700px !important; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 300px !important;
+}
+.section4Pos{
+    top: 650px;
+    left: 0;
+}
 
+}
+@media screen and (min-width:768px){
+    .cardSec3{
+    width: 51.45% !important;
+  }
+
+  .bgsec4 {
+    background: url("../../../assets/bgsec4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Makes it stretch and cover the full area */
+    width: 100%;
+    height: 1700px !important; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 300px !important;
+}
+.section4Pos{
+    top: 830px;
+    left: 130px;
+}
+
+}
 
 @media (max-width:1090px) {
        
@@ -101,13 +145,16 @@
     .name{
         height: 500px;
     }
-
+.section4Pos{
+    top: 1400px;
+    left: 290px;
+}
 .bgsec4{
     background: url('../../../assets/bgsec4.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 2500px !important;
+    height: 2900px !important;
     
     }
 .cardSec3{

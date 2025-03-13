@@ -53,15 +53,18 @@
 }
 
 @media screen and (min-width:2000px) {
-
-.banner{
-    background: url('../assets/bgCard.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+    .banner3 {
+        background: url("../../../assets/bgCard2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /* Makes it stretch and cover the full area */
+        width: 100%;
+        height: 40vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-.cardSec3{
+    .cardSec3{
 width: 50% !important;
 }
 .widthCard3{
