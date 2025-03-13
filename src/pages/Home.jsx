@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { AiOutlineGlobal } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { RiSecurePaymentLine } from "react-icons/ri";
-import animation from "../assets/animation1.mp4"
+import animation from "../assets/animation.mp4"
 import { MdAccountTree, MdOutlineCompareArrows, MdOutlinePrivacyTip } from "react-icons/md";
 import { IoIosCard, IoMdCheckmark } from 'react-icons/io';
 import { GiTwoCoins } from 'react-icons/gi';
@@ -533,10 +533,10 @@ Clear and Precise Monthly Reports
         <p className='flex items-center gap-3 text-2xl font-semibold'><span className='bg-[#00AD45] p-1 text-white rounded-full text-xl'><IoMdCheckmark /></span>No ongoing fees</p>
         <p className='flex items-center gap-3 text-2xl font-semibold'><span className='bg-[#00AD45] p-1 text-white rounded-full text-xl'><IoMdCheckmark /></span>Only pay if and when you use our services</p>
 </div>
-{/* <div className='hidden lg:block'>
+<div className='hidden lg:block'>
         <p className='text-[13px] text-[grey]'><span className='text-white font-semibold'>*Polygon</span> - Minimum charge: USD 30</p>
         <p className='text-[13px] text-[grey]'><span className='text-white font-semibold'>*Mainnet </span> - Minimum charge: USD 100</p>
-</div> */}
+</div>
 </div>
 
 
@@ -572,10 +572,10 @@ Clear and Precise Monthly Reports
         <p className='flex items-center gap-3 text-2xl font-semibold'><span className='bg-[#00AD45] p-1 text-white rounded-full text-xl'><IoMdCheckmark /></span>No ongoing fees</p>
         <p className='flex items-center gap-3 text-2xl font-semibold'><span className='bg-[#00AD45] p-1 text-white rounded-full text-xl'><IoMdCheckmark /></span>Only pay if and when you use our services</p>
 </div>
-{/* <div className='block lg:hidden'>
+<div className='block lg:hidden'>
         <p className='text-[13px] text-[grey]'><span className='text-white font-semibold'>*Polygon</span> - Minimum charge: USD 30</p>
         <p className='text-[13px] text-[grey]'><span className='text-white font-semibold'>*Mainnet </span> - Minimum charge: USD 100</p>
-</div> */}
+</div>
 </div>
 
 </section>
